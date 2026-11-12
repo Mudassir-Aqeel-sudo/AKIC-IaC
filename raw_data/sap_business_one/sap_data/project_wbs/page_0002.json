@@ -1,0 +1,386 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#PRJ",
+	"value" : 
+	[
+		{
+			"Code" : "0099",
+			"Name" : null,
+			"DocEntry" : 200,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-12-01T00:00:00Z",
+			"CreateTime" : "11:25:00",
+			"UpdateDate" : "2024-12-01T00:00:00Z",
+			"UpdateTime" : "11:25:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-PSGH-2412",
+			"U_PrjName" : "Prince Sultan Grand Hall and Omsiat Hall Renovation",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0099",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0100",
+			"Name" : null,
+			"DocEntry" : 201,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-12-01T00:00:00Z",
+			"CreateTime" : "11:32:00",
+			"UpdateDate" : "2024-12-01T00:00:00Z",
+			"UpdateTime" : "11:32:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-PSGH-2412",
+			"U_PrjName" : "Prince Sultan Grand Hall and Omsiat Hall Renovation",
+			"U_PrjBgt" : 28000000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0100",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PSGH-2412-01",
+					"U_WBS_Name" : "Design & Build",
+					"U_WBS_Amnt" : 22000000.0
+				},
+				{
+					"Code" : "0100",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PSGH-2412-04",
+					"U_WBS_Name" : "Soft Cost",
+					"U_WBS_Amnt" : 3500000.0
+				},
+				{
+					"Code" : "0100",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PSGH-2412-07",
+					"U_WBS_Name" : "Contingency",
+					"U_WBS_Amnt" : 2500000.0
+				}
+			]
+		},
+		{
+			"Code" : "0101",
+			"Name" : null,
+			"DocEntry" : 208,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2025-02-13T00:00:00Z",
+			"CreateTime" : "10:25:00",
+			"UpdateDate" : "2025-07-26T00:00:00Z",
+			"UpdateTime" : "14:15:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-SWLR-2411",
+			"U_PrjName" : "South Wing Lobby Renovation - MOHG",
+			"U_PrjBgt" : 1664000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0101",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-SWLR-2411-01",
+					"U_WBS_Name" : "South Wing Lobby Renovation Works - MOHG",
+					"U_WBS_Amnt" : 1664000.0
+				}
+			]
+		},
+		{
+			"Code" : "0102",
+			"Name" : null,
+			"DocEntry" : 210,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2025-02-13T00:00:00Z",
+			"CreateTime" : "10:45:00",
+			"UpdateDate" : "2025-07-26T00:00:00Z",
+			"UpdateTime" : "14:15:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-PMO-MR-2025",
+			"U_PrjName" : "PMO Projects - Management Reserve FY2025",
+			"U_PrjBgt" : 5750000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0102",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PMO-MR-08",
+					"U_WBS_Name" : "PMO Projects Management Reserve 2025 for Unkown-Unkown Risk",
+					"U_WBS_Amnt" : 5750000.0
+				}
+			]
+		},
+		{
+			"Code" : "0103",
+			"Name" : null,
+			"DocEntry" : 225,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2025-07-26T00:00:00Z",
+			"CreateTime" : "14:17:00",
+			"UpdateDate" : "2025-07-26T00:00:00Z",
+			"UpdateTime" : "14:19:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-IT-YARDI-2503",
+			"U_PrjName" : "YARDI SYSTEM IMPLEMENTATION",
+			"U_PrjBgt" : 725000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0103",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-IT-YARDI-2503-01",
+					"U_WBS_Name" : "Yardi System Implementation Cost",
+					"U_WBS_Amnt" : 650000.0
+				},
+				{
+					"Code" : "0103",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-IT-YARDI-2503-02",
+					"U_WBS_Name" : "Yardi Sysem Implementation - Related Expenses",
+					"U_WBS_Amnt" : 75000.0
+				}
+			]
+		},
+		{
+			"Code" : "0104",
+			"Name" : null,
+			"DocEntry" : 202,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-12-02T00:00:00Z",
+			"CreateTime" : "11:26:00",
+			"UpdateDate" : "2025-07-26T00:00:00Z",
+			"UpdateTime" : "14:23:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-SWLR-2412",
+			"U_PrjName" : "Southwing Lobby Renovation",
+			"U_PrjBgt" : 1664000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0104",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-SWLR-2412-01",
+					"U_WBS_Name" : "Design & Build Southwing Lobby Renovation",
+					"U_WBS_Amnt" : 1664000.0
+				}
+			]
+		},
+		{
+			"Code" : "0105",
+			"Name" : null,
+			"DocEntry" : 226,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2025-08-18T00:00:00Z",
+			"CreateTime" : "14:35:00",
+			"UpdateDate" : "2025-08-18T00:00:00Z",
+			"UpdateTime" : "14:35:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-IT-DOC-ARC-2508",
+			"U_PrjName" : "AK Document Archiving System",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0105",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-IT-DOC-ARC-2508-01",
+					"U_WBS_Name" : "Archiving System License Fee",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0105",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-IT-DOC-ARC-2508-02",
+					"U_WBS_Name" : "Implementation Fees",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0105",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-IT-DOC-ARC-2508-03",
+					"U_WBS_Name" : "Other Related Expenses",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "2404",
+			"Name" : null,
+			"DocEntry" : 253,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 146,
+			"Transfered" : "N",
+			"CreateDate" : "2026-02-19T00:00:00Z",
+			"CreateTime" : "15:52:00",
+			"UpdateDate" : "2026-02-19T00:00:00Z",
+			"UpdateTime" : "15:52:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "2404",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "AK-DUCASSE",
+			"Name" : null,
+			"DocEntry" : 252,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 146,
+			"Transfered" : "N",
+			"CreateDate" : "2026-02-19T00:00:00Z",
+			"CreateTime" : "15:52:00",
+			"UpdateDate" : "2026-02-19T00:00:00Z",
+			"UpdateTime" : "15:52:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "AK-DUCASSE",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "AK-DUCASSE-2404",
+			"Name" : null,
+			"DocEntry" : 250,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 146,
+			"Transfered" : "N",
+			"CreateDate" : "2026-02-19T00:00:00Z",
+			"CreateTime" : "15:52:00",
+			"UpdateDate" : "2026-02-19T00:00:00Z",
+			"UpdateTime" : "15:52:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : "AK-DUCASSE-2404",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "AK-DUCASSE-2404",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		}
+	]
+}

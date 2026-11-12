@@ -1,0 +1,3977 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#PRJ",
+	"value" : 
+	[
+		{
+			"Code" : "%",
+			"Name" : null,
+			"DocEntry" : 179,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 131,
+			"Transfered" : "N",
+			"CreateDate" : "2024-07-28T00:00:00Z",
+			"CreateTime" : "17:01:00",
+			"UpdateDate" : "2024-07-28T00:00:00Z",
+			"UpdateTime" : "17:01:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "%",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "*",
+			"Name" : null,
+			"DocEntry" : 91,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-11-22T00:00:00Z",
+			"CreateTime" : "13:44:00",
+			"UpdateDate" : "2023-11-22T00:00:00Z",
+			"UpdateTime" : "13:44:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "*",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0001",
+			"Name" : null,
+			"DocEntry" : 5,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-25T00:00:00Z",
+			"CreateTime" : "23:18:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:21:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AFT-RUP-HAK-1506",
+			"U_PrjName" : "Yauatcha Restaurant",
+			"U_PrjBgt" : 1700.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0001",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-HAK-1506-03",
+					"U_WBS_Name" : "Pre-opening Expenses (1)",
+					"U_WBS_Amnt" : 100.0
+				},
+				{
+					"Code" : "0001",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-HAK-1506-03-04",
+					"U_WBS_Name" : "Staff Costs",
+					"U_WBS_Amnt" : 200.0
+				},
+				{
+					"Code" : "0001",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-HAK-1506-07-04",
+					"U_WBS_Name" : "Contingency",
+					"U_WBS_Amnt" : 300.0
+				},
+				{
+					"Code" : "0001",
+					"LineId" : 4,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-HAK-1506-08",
+					"U_WBS_Name" : "Pre-opening Expenses (2)",
+					"U_WBS_Amnt" : 400.0
+				},
+				{
+					"Code" : "0001",
+					"LineId" : 5,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-HAK-1506-09",
+					"U_WBS_Name" : "PM & Supervision Consultant",
+					"U_WBS_Amnt" : 700.0
+				}
+			]
+		},
+		{
+			"Code" : "0002",
+			"Name" : null,
+			"DocEntry" : 7,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-25T00:00:00Z",
+			"CreateTime" : "23:26:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:22:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AFT-RUP-LPM-1509",
+			"U_PrjName" : "LPM Restaurant",
+			"U_PrjBgt" : 210.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0002",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-LPM-1509-01",
+					"U_WBS_Name" : "Construction",
+					"U_WBS_Amnt" : 10.0
+				},
+				{
+					"Code" : "0002",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-LPM-1509-03",
+					"U_WBS_Name" : "PM & SC",
+					"U_WBS_Amnt" : 20.0
+				},
+				{
+					"Code" : "0002",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-LPM-1509-07",
+					"U_WBS_Name" : "Technical Service fee - Flat Fee",
+					"U_WBS_Amnt" : 30.0
+				},
+				{
+					"Code" : "0002",
+					"LineId" : 4,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-LPM-1509-08",
+					"U_WBS_Name" : "Pre Opening",
+					"U_WBS_Amnt" : 40.0
+				},
+				{
+					"Code" : "0002",
+					"LineId" : 5,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-LPM-1509-09",
+					"U_WBS_Name" : "OS&E",
+					"U_WBS_Amnt" : 50.0
+				},
+				{
+					"Code" : "0002",
+					"LineId" : 6,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-LPM-1509-11",
+					"U_WBS_Name" : "Artwork (LPM Procurement Contract)",
+					"U_WBS_Amnt" : 60.0
+				}
+			]
+		},
+		{
+			"Code" : "0003",
+			"Name" : null,
+			"DocEntry" : 8,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "16:58:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:22:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AFT-RUP-MAM-1507",
+			"U_PrjName" : "MAMO Restaurant",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0003",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MAM-1507-01",
+					"U_WBS_Name" : "Construction",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0003",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MAM-1507-02",
+					"U_WBS_Name" : "FFE & OSE - MAMO",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0003",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MAM-1507-03",
+					"U_WBS_Name" : "PM & SC",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0003",
+					"LineId" : 4,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MAM-1507-08",
+					"U_WBS_Name" : "Pre Opening MAMO",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0003",
+					"LineId" : 5,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MER-1508-03",
+					"U_WBS_Name" : "PM & SC",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0003",
+					"LineId" : 6,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MER-1508-08",
+					"U_WBS_Name" : "Pre Opening Meraki",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0004",
+			"Name" : null,
+			"DocEntry" : 9,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "17:00:00",
+			"UpdateDate" : "2023-05-11T00:00:00Z",
+			"UpdateTime" : "14:34:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AFT-RUP-MOA-1510",
+			"U_PrjName" : "Al Moatasim Street Redevelopment Project",
+			"U_PrjBgt" : 300.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0004",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MOA-1510-01",
+					"U_WBS_Name" : "Construction",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0004",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MOA-1510-04",
+					"U_WBS_Name" : "Design",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0005",
+			"Name" : null,
+			"DocEntry" : 10,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "17:07:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:22:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AFT-RUP-MUL-1505",
+			"U_PrjName" : "ALF Redevelopment & Upgrading Project",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0005",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-01",
+					"U_WBS_Name" : "Design Works",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-02",
+					"U_WBS_Name" : "Construction Works",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-04",
+					"U_WBS_Name" : "OSE Works",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 4,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-05",
+					"U_WBS_Name" : "Al Syahya Building(Acquired&Development)",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 5,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-06",
+					"U_WBS_Name" : "Miscellaneous Works",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 6,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-07",
+					"U_WBS_Name" : "Project Management & Supervision",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 7,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-08",
+					"U_WBS_Name" : "Demolition Works",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 8,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-09",
+					"U_WBS_Name" : "ALF Retail Mall Phase 0 - Construction",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 9,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-10-01",
+					"U_WBS_Name" : "FF&E",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 10,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-10-02",
+					"U_WBS_Name" : "Wayfinding",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 11,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-10-03",
+					"U_WBS_Name" : "Marketing",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 12,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-10-04",
+					"U_WBS_Name" : "Contingency",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 13,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-10-05",
+					"U_WBS_Name" : "Operational items",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 14,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-11-01",
+					"U_WBS_Name" : "ALFA",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0005",
+					"LineId" : 15,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-MUL-1505-12",
+					"U_WBS_Name" : "Hording Phase1B",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0006",
+			"Name" : null,
+			"DocEntry" : 11,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "17:08:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:22:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKH-HOS-DAT-1701",
+			"U_PrjName" : "Al Khozama Hotel - Data Center Solution",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0006",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKH-HOS-DAT-1701-01",
+					"U_WBS_Name" : "Al Khozama Hotel - Data Center Solution",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0007",
+			"Name" : null,
+			"DocEntry" : 12,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "17:09:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:21:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-1N2-ALL-1509",
+			"U_PrjName" : "Al Khozama Head Office 1st & 2nd Floor",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0007",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-1N2-ALL-1509-03",
+					"U_WBS_Name" : "FFE Works",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0008",
+			"Name" : null,
+			"DocEntry" : 13,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "17:09:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:21:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-AFC-BRN-1601",
+			"U_PrjName" : "Capex-Al Faisaliah Center Branding Dev.",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0008",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-AFC-BRN-1601-01",
+					"U_WBS_Name" : "Capex-Al Faisaliah Center Branding Dev.",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0009",
+			"Name" : null,
+			"DocEntry" : 14,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "17:10:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:21:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-AFC-CPX-1702",
+			"U_PrjName" : "FC & KFF -Expansion Joint Water Leak Rep",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0009",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-AFC-CPX-1702-01",
+					"U_WBS_Name" : "FC & KFF -Expansion Joint Water Leak Rep",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0010",
+			"Name" : null,
+			"DocEntry" : 15,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "17:11:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:23:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-AFH-FIR-1601",
+			"U_PrjName" : "Capex-Fire Protection System - ALFH&KH",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0010",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-AFH-FIR-1601-01",
+					"U_WBS_Name" : "Capex-Fire Protection System - ALFH&KH",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0011",
+			"Name" : null,
+			"DocEntry" : 19,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "17:16:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:22:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-AFM-CHI-1701",
+			"U_PrjName" : "Faisaliah Mall Chiller Overhauling 2017",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0011",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-AFM-CHI-1701-01",
+					"U_WBS_Name" : "Faisaliah Mall Chiller Overhauling 2017",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0011",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-AFM-CHI-1701-02",
+					"U_WBS_Name" : "Faisaliah Mall chiller Overhauling-17-18",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0012",
+			"Name" : null,
+			"DocEntry" : 20,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "18:53:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:53:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-AFT-RM2-1801",
+			"U_PrjName" : "Capex-Richemont Office Extension",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0012",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-AFT-RM2-1801-01",
+					"U_WBS_Name" : "Capex-Richemont Office Extension",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0013",
+			"Name" : null,
+			"DocEntry" : 21,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "18:54:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:54:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-CPX-DDC-2125",
+			"U_PrjName" : "Mall Addition DDC Supply/Install",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0013",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-CPX-DDC-2125-01-01",
+					"U_WBS_Name" : "Mall Addition DDC Supply/Install",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0014",
+			"Name" : null,
+			"DocEntry" : 22,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "18:55:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:55:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-CPX-FMC-2021",
+			"U_PrjName" : "CAPEX-FT - Revolving Door (FMC-13)",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0014",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-CPX-FMC-2021-05-01",
+					"U_WBS_Name" : "CAPEX-FT - Revolving Door (FMC-13)",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0015",
+			"Name" : null,
+			"DocEntry" : 23,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "18:55:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:55:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-CPX-FSS-2103",
+			"U_PrjName" : "Fire Fighting Panels repair/replace",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0015",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-CPX-FSS-2103-01-03",
+					"U_WBS_Name" : "Fire Fighting Panels repair/replace",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0015",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-CPX-FSS-2103-01-04",
+					"U_WBS_Name" : "FF/FA & PA+Voice evacuation upgrade",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0016",
+			"Name" : null,
+			"DocEntry" : 24,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "18:56:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:56:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-CPX-KFE-2021",
+			"U_PrjName" : "KFF Elevators -2021",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0016",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-CPX-KFE-2021-01-01",
+					"U_WBS_Name" : "KFF Elevators -2021",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0017",
+			"Name" : null,
+			"DocEntry" : 25,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "18:57:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:57:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-CPX-KFR-2020",
+			"U_PrjName" : "KFCRIS Elevator Modernisation",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0017",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-CPX-KFR-2020-01",
+					"U_WBS_Name" : "KFCRIS Elevator Modernisation",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0018",
+			"Name" : null,
+			"DocEntry" : 26,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "18:58:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:58:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-CPX-PFI-2107",
+			"U_PrjName" : "RO PLANT HEADER PIPE/VALVE REPLACE",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0018",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-CPX-PFI-2107-01-01",
+					"U_WBS_Name" : "RO PLANT HEADER PIPE/VALVE REPLACE",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0019",
+			"Name" : null,
+			"DocEntry" : 27,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "18:58:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:58:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-CPX-SVP-2021",
+			"U_PrjName" : "Staff Villa Partition",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0019",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-CPX-SVP-2021-01-01",
+					"U_WBS_Name" : "Staff Villa Partition",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0020",
+			"Name" : null,
+			"DocEntry" : 28,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "18:59:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "18:59:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-CPX-UPL-2021",
+			"U_PrjName" : "CAPEX - KFF Tower & Plaza Upgrade",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0020",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-CPX-UPL-2021-02-02",
+					"U_WBS_Name" : "Marble Replacement Work",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0021",
+			"Name" : null,
+			"DocEntry" : 29,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:00:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:00:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-CPX-UPL-2021",
+			"U_PrjName" : "CAPEX - KFF Tower & Plaza Upgrade",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0021",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-CPX-UPL-2021-04-01",
+					"U_WBS_Name" : "The District Signage and Wayfinding",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0022",
+			"Name" : null,
+			"DocEntry" : 30,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:00:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:00:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-HOS-BDH-2100",
+			"U_PrjName" : "Hospitality Rebranding",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0022",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-BDH-2100-01",
+					"U_WBS_Name" : "Hospitality Rebranding",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0022",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-BDH-2100-02",
+					"U_WBS_Name" : "Al Khozama Hotel Rebrand",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0023",
+			"Name" : null,
+			"DocEntry" : 31,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:02:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:02:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-HOS-MAS-2100",
+			"U_PrjName" : "Mastro Al Bujairi Diriyah",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0023",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-MAS-2100-01",
+					"U_WBS_Name" : "Design Consultancy",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0023",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-MAS-2100-06",
+					"U_WBS_Name" : "Technical Service & License",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0023",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-MAS-2100-07",
+					"U_WBS_Name" : "Pre-Opening",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0023",
+					"LineId" : 4,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-MAS-2100-10",
+					"U_WBS_Name" : "Working Capital",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0024",
+			"Name" : null,
+			"DocEntry" : 32,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:06:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:06:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-HOS-SCR-2100",
+			"U_PrjName" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0024",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-01",
+					"U_WBS_Name" : "Design (Restaurant & Kitchen)",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0024",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-03",
+					"U_WBS_Name" : "Construction Cost",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0024",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-04",
+					"U_WBS_Name" : "Kitchen",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0024",
+					"LineId" : 4,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-05",
+					"U_WBS_Name" : "FF&E",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0024",
+					"LineId" : 5,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-06",
+					"U_WBS_Name" : "Contingency",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0024",
+					"LineId" : 6,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-07",
+					"U_WBS_Name" : "Saudi Cuisine OPEX budget",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0024",
+					"LineId" : 7,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-07-01",
+					"U_WBS_Name" : "OPEX - OS&E",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0024",
+					"LineId" : 8,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-07-02",
+					"U_WBS_Name" : "OPEX - Pre Opening",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0024",
+					"LineId" : 9,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-07-03",
+					"U_WBS_Name" : "Opex - Marketing",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0024",
+					"LineId" : 10,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-08",
+					"U_WBS_Name" : "Working Capital (Including Rent)",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0024",
+					"LineId" : 11,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SCR-2100-09",
+					"U_WBS_Name" : "Capital Contribution by DGDA",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0025",
+			"Name" : null,
+			"DocEntry" : 33,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:07:00",
+			"UpdateDate" : "2023-05-01T00:00:00Z",
+			"UpdateTime" : "11:35:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-HOS-SW3-2100",
+			"U_PrjName" : "Dining SW3 Restaurant",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0025",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SW3-2100-06",
+					"U_WBS_Name" : "Technical Service & License",
+					"U_WBS_Amnt" : 1000.0
+				},
+				{
+					"Code" : "0025",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-HOS-SW3-2100-07",
+					"U_WBS_Name" : "Pre-Opening",
+					"U_WBS_Amnt" : 2000.0
+				}
+			]
+		},
+		{
+			"Code" : "0026",
+			"Name" : null,
+			"DocEntry" : 34,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:08:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:08:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-KFF-ALL-1601",
+			"U_PrjName" : "FIRE PROTECTION & FA SYSTEM KFF- ETECHS",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0026",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-KFF-ALL-1601-01",
+					"U_WBS_Name" : "FIRE PROTECTION & FA SYSTEM KFF- ETECHS",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0027",
+			"Name" : null,
+			"DocEntry" : 35,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:09:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:09:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-KFF-ALL-1601",
+			"U_PrjName" : "FIRE PROTECTION & FA SYSTEM KFF- ETECHS",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0027",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-KFF-ALL-1601-02",
+					"U_WBS_Name" : "FF & Fire Pro System - Additional Work",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0028",
+			"Name" : null,
+			"DocEntry" : 36,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:10:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:10:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-KFR-CHL-1701",
+			"U_PrjName" : "KFCRIS - Centrifugal Chiller Replacement",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0028",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-KFR-CHL-1701-01",
+					"U_WBS_Name" : "KFCRIS - Centrifugal Chiller Replacement",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0029",
+			"Name" : null,
+			"DocEntry" : 37,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:10:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:10:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-KFR-ELE-2020",
+			"U_PrjName" : "KFCRIS - Upgrading Elevator 2020",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0029",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-KFR-ELE-2020-01",
+					"U_WBS_Name" : "KFCRIS - Upgrading Elevator 2020",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0030",
+			"Name" : null,
+			"DocEntry" : 38,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:11:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:11:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-KFS-MB1-1502",
+			"U_PrjName" : "AL KHOZAMA IT CENTER - KFF-ST- MB1",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0030",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-KFS-MB1-1502-02",
+					"U_WBS_Name" : "Construction - IT Center",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0030",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-KFS-MB1-1502-03",
+					"U_WBS_Name" : "FFE-Furniture/Fixture/Equipt - IT center",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0031",
+			"Name" : null,
+			"DocEntry" : 39,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:12:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:12:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-MOD-CPX-2202",
+			"U_PrjName" : "Mode - ShopperTrak Smart Head Count Syst",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0031",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-MOD-CPX-2202-01",
+					"U_WBS_Name" : "Mode - ShopperTrak Smart Head Count Syst",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0032",
+			"Name" : null,
+			"DocEntry" : 40,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:13:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:13:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "CPX-ALF-INV-2100",
+			"U_PrjName" : "Investment in Alfa - Valuation Service",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0032",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "CPX-ALF-INV-2100-01",
+					"U_WBS_Name" : "Investment in Alfa - Valuation Service",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0033",
+			"Name" : null,
+			"DocEntry" : 41,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:14:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:14:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "FHB-OMS-COR-1510",
+			"U_PrjName" : "Redevelopment of Omsiat Banquet Corridor",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0033",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FHB-OMS-COR-1510-01",
+					"U_WBS_Name" : "Design Works",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0034",
+			"Name" : null,
+			"DocEntry" : 42,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:15:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:15:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "FHN-GRR-ALL-1502",
+			"U_PrjName" : "Hotel North Wing Guest Rooms Renovations",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0034",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FHN-GRR-ALL-1502-01",
+					"U_WBS_Name" : "Design Works",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0034",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FHN-GRR-ALL-1502-02",
+					"U_WBS_Name" : "Construction Works",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0034",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FHN-GRR-ALL-1502-03",
+					"U_WBS_Name" : "FFE Works",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0034",
+					"LineId" : 4,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FHN-GRR-ALL-1502-04",
+					"U_WBS_Name" : "OSE Works",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0035",
+			"Name" : null,
+			"DocEntry" : 43,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-04-28T00:00:00Z",
+			"CreateTime" : "19:16:00",
+			"UpdateDate" : "2023-04-28T00:00:00Z",
+			"UpdateTime" : "19:16:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "FHN-LBR-ALL-1503",
+			"U_PrjName" : "Hotel North Wing La Brasserie Restaurant",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0035",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FHN-LBR-ALL-1503-02",
+					"U_WBS_Name" : "Construction Works",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0035",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FHN-LBR-ALL-1503-04",
+					"U_WBS_Name" : "OSE Works",
+					"U_WBS_Amnt" : 0.0
+				},
+				{
+					"Code" : "0035",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FHN-LBR-ALL-1503-05",
+					"U_WBS_Name" : "Michelangelo Mamo",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0036",
+			"Name" : null,
+			"DocEntry" : 48,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-05-11T00:00:00Z",
+			"CreateTime" : "17:19:00",
+			"UpdateDate" : "2023-05-11T00:00:00Z",
+			"UpdateTime" : "17:19:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "HIT-REP-AL-1512",
+			"U_PrjName" : "Hittin Palace - Redevelopment Project",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0036",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "HIT-REP-AL-1512-01",
+					"U_WBS_Name" : "Consultant",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0037",
+			"Name" : null,
+			"DocEntry" : 49,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-05-14T00:00:00Z",
+			"CreateTime" : "11:16:00",
+			"UpdateDate" : "2023-05-14T00:00:00Z",
+			"UpdateTime" : "11:16:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "HIT-REP-AL-1512",
+			"U_PrjName" : "Hittin Palace - Redevelopment Project",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0037",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0038",
+			"Name" : null,
+			"DocEntry" : 50,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 50,
+			"Transfered" : "N",
+			"CreateDate" : "2023-05-30T00:00:00Z",
+			"CreateTime" : "16:37:00",
+			"UpdateDate" : "2023-05-30T00:00:00Z",
+			"UpdateTime" : "16:37:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "REN-COP-1506",
+			"U_PrjName" : "CEO office renovation and upgrading",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0038",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "REN-COP-1506-01",
+					"U_WBS_Name" : "OS&E and FF&E",
+					"U_WBS_Amnt" : 250000.0
+				}
+			]
+		},
+		{
+			"Code" : "0039",
+			"Name" : null,
+			"DocEntry" : 51,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 50,
+			"Transfered" : "N",
+			"CreateDate" : "2023-06-18T00:00:00Z",
+			"CreateTime" : "14:28:00",
+			"UpdateDate" : "2023-06-18T00:00:00Z",
+			"UpdateTime" : "14:28:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "HIT-REP-AL-1512",
+			"U_PrjName" : "Hittin Palace - Redevelopment Project",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0039",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "HIT-REP-AL-1512",
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 90000.0
+				}
+			]
+		},
+		{
+			"Code" : "0040",
+			"Name" : null,
+			"DocEntry" : 57,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 116,
+			"Transfered" : "N",
+			"CreateDate" : "2023-10-18T00:00:00Z",
+			"CreateTime" : "10:18:00",
+			"UpdateDate" : "2023-10-29T00:00:00Z",
+			"UpdateTime" : "16:13:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0040",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0041",
+			"Name" : null,
+			"DocEntry" : 54,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 109,
+			"Transfered" : "N",
+			"CreateDate" : "2023-10-10T00:00:00Z",
+			"CreateTime" : "11:41:00",
+			"UpdateDate" : "2023-10-29T00:00:00Z",
+			"UpdateTime" : "16:14:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0041",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0042",
+			"Name" : null,
+			"DocEntry" : 55,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 109,
+			"Transfered" : "N",
+			"CreateDate" : "2023-10-10T00:00:00Z",
+			"CreateTime" : "11:41:00",
+			"UpdateDate" : "2023-10-29T00:00:00Z",
+			"UpdateTime" : "16:14:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "*AFT*",
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0042",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0043",
+			"Name" : null,
+			"DocEntry" : 53,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 109,
+			"Transfered" : "N",
+			"CreateDate" : "2023-10-10T00:00:00Z",
+			"CreateTime" : "11:40:00",
+			"UpdateDate" : "2023-10-29T00:00:00Z",
+			"UpdateTime" : "16:14:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0043",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0044",
+			"Name" : null,
+			"DocEntry" : 52,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 109,
+			"Transfered" : "N",
+			"CreateDate" : "2023-10-10T00:00:00Z",
+			"CreateTime" : "11:40:00",
+			"UpdateDate" : "2023-10-29T00:00:00Z",
+			"UpdateTime" : "16:15:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0044",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0045",
+			"Name" : null,
+			"DocEntry" : 58,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 116,
+			"Transfered" : "N",
+			"CreateDate" : "2023-10-19T00:00:00Z",
+			"CreateTime" : "10:41:00",
+			"UpdateDate" : "2023-10-29T00:00:00Z",
+			"UpdateTime" : "16:15:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0045",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0047",
+			"Name" : null,
+			"DocEntry" : 60,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-10-29T00:00:00Z",
+			"CreateTime" : "16:17:00",
+			"UpdateDate" : "2023-10-29T00:00:00Z",
+			"UpdateTime" : "16:18:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : null,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0047",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : null
+				}
+			]
+		},
+		{
+			"Code" : "0048",
+			"Name" : null,
+			"DocEntry" : 63,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2023-11-01T00:00:00Z",
+			"CreateTime" : "13:34:00",
+			"UpdateDate" : "2023-11-01T00:00:00Z",
+			"UpdateTime" : "13:46:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKFM-AUC-AKC-2311",
+			"U_PrjName" : "Al Khozama Center Land Parking Construciton",
+			"U_PrjBgt" : 183310.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0048",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKFM-AUC-AKC-2023-01",
+					"U_WBS_Name" : "Al Khozama Center Land Parking Construciton",
+					"U_WBS_Amnt" : 183310.0
+				}
+			]
+		},
+		{
+			"Code" : "0049",
+			"Name" : null,
+			"DocEntry" : 65,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2023-11-01T00:00:00Z",
+			"CreateTime" : "13:46:00",
+			"UpdateDate" : "2023-11-01T00:00:00Z",
+			"UpdateTime" : "13:46:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKFM-AUC-KFM-2311",
+			"U_PrjName" : "KFF Mosque Toilet Renovation Project",
+			"U_PrjBgt" : 299000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0049",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKFM-AUC-KFM-2311-01",
+					"U_WBS_Name" : "KFF Mosque Toilet Renovation Project",
+					"U_WBS_Amnt" : 299000.0
+				}
+			]
+		},
+		{
+			"Code" : "0051",
+			"Name" : null,
+			"DocEntry" : 68,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 45,
+			"Transfered" : "N",
+			"CreateDate" : "2023-11-01T00:00:00Z",
+			"CreateTime" : "14:45:00",
+			"UpdateDate" : "2023-11-06T00:00:00Z",
+			"UpdateTime" : "10:44:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0051",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0052",
+			"Name" : null,
+			"DocEntry" : 61,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 116,
+			"Transfered" : "N",
+			"CreateDate" : "2023-10-30T00:00:00Z",
+			"CreateTime" : "13:07:00",
+			"UpdateDate" : "2023-11-06T00:00:00Z",
+			"UpdateTime" : "10:44:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0052",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0053",
+			"Name" : null,
+			"DocEntry" : 62,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 116,
+			"Transfered" : "N",
+			"CreateDate" : "2023-10-31T00:00:00Z",
+			"CreateTime" : "12:25:00",
+			"UpdateDate" : "2023-11-06T00:00:00Z",
+			"UpdateTime" : "10:51:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-BD-GRH-1100",
+			"U_PrjName" : "Development Fee for F&B License",
+			"U_PrjBgt" : 4125000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0053",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-BD-GRH-1100-LC",
+					"U_WBS_Name" : "F&B - LC Concept",
+					"U_WBS_Amnt" : 1687500.0
+				},
+				{
+					"Code" : "0053",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-BD-GRH-1100-BSK",
+					"U_WBS_Name" : "F&B - BSK Concept",
+					"U_WBS_Amnt" : 1312500.0
+				},
+				{
+					"Code" : "0053",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-BD-GRH-1100-GRB",
+					"U_WBS_Name" : "F&B - GRB Concept",
+					"U_WBS_Amnt" : 750000.0
+				},
+				{
+					"Code" : "0053",
+					"LineId" : 4,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-BD-GRH-1100-GRS",
+					"U_WBS_Name" : "F&B - GRSP Concept",
+					"U_WBS_Amnt" : 375000.0
+				}
+			]
+		},
+		{
+			"Code" : "0054",
+			"Name" : null,
+			"DocEntry" : 88,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 45,
+			"Transfered" : "N",
+			"CreateDate" : "2023-11-20T00:00:00Z",
+			"CreateTime" : "16:01:00",
+			"UpdateDate" : "2023-11-21T00:00:00Z",
+			"UpdateTime" : "15:01:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0054",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0055",
+			"Name" : null,
+			"DocEntry" : 84,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-11-06T00:00:00Z",
+			"CreateTime" : "10:45:00",
+			"UpdateDate" : "2023-11-21T00:00:00Z",
+			"UpdateTime" : "15:01:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0055",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0056",
+			"Name" : null,
+			"DocEntry" : 90,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 99,
+			"Transfered" : "N",
+			"CreateDate" : "2023-11-21T00:00:00Z",
+			"CreateTime" : "16:26:00",
+			"UpdateDate" : "2023-11-22T00:00:00Z",
+			"UpdateTime" : "13:44:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0056",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0057",
+			"Name" : null,
+			"DocEntry" : 94,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-11-27T00:00:00Z",
+			"CreateTime" : "18:13:00",
+			"UpdateDate" : "2023-11-27T00:00:00Z",
+			"UpdateTime" : "18:13:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "ALF-RUP-AB-2311",
+			"U_PrjName" : "Airline Power Source Upgrading",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0057",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "ALF-RUP-AB-2311-01",
+					"U_WBS_Name" : "Hard Cost - Electrical Works",
+					"U_WBS_Amnt" : 395460.0
+				}
+			]
+		},
+		{
+			"Code" : "0058",
+			"Name" : null,
+			"DocEntry" : 95,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2023-11-30T00:00:00Z",
+			"CreateTime" : "17:30:00",
+			"UpdateDate" : "2023-11-30T00:00:00Z",
+			"UpdateTime" : "17:30:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "KFF-FACADE-MARB-1223",
+			"U_PrjName" : "KFF Facade Marble Replacement",
+			"U_PrjBgt" : 27000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0058",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "KFF-FACADE-MARB-1223-01",
+					"U_WBS_Name" : "KFF Facade Marble Replacement",
+					"U_WBS_Amnt" : 27000.0
+				}
+			]
+		},
+		{
+			"Code" : "0059",
+			"Name" : null,
+			"DocEntry" : 96,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2023-12-06T00:00:00Z",
+			"CreateTime" : "15:58:00",
+			"UpdateDate" : "2023-12-06T00:00:00Z",
+			"UpdateTime" : "15:58:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKFM-KFF-PARK-1223",
+			"U_PrjName" : "KFF Parking - Renovation Works",
+			"U_PrjBgt" : 400000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0059",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKFM-KFF-PARK-RENOVATION-1223-01",
+					"U_WBS_Name" : "KFF Parking area renovation project",
+					"U_WBS_Amnt" : 400000.0
+				}
+			]
+		},
+		{
+			"Code" : "006",
+			"Name" : null,
+			"DocEntry" : 227,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2025-09-09T00:00:00Z",
+			"CreateTime" : "15:35:00",
+			"UpdateDate" : "2025-09-09T00:00:00Z",
+			"UpdateTime" : "15:35:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-PMO-PHASE 1B-2509",
+			"U_PrjName" : "Phase 1B Development",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "006",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0060",
+			"Name" : null,
+			"DocEntry" : 97,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2023-12-06T00:00:00Z",
+			"CreateTime" : "16:01:00",
+			"UpdateDate" : "2023-12-06T00:00:00Z",
+			"UpdateTime" : "16:01:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKFM-TPL-STIK-1223",
+			"U_PrjName" : "Tower Plaza Glass Sticker Replace",
+			"U_PrjBgt" : 154151.75,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0060",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKFM-TPL-STIK-GLASS-1223-01",
+					"U_WBS_Name" : "Faisaliah Tower Plaza sand blast sticker replace",
+					"U_WBS_Amnt" : 154151.75
+				}
+			]
+		},
+		{
+			"Code" : "0061",
+			"Name" : null,
+			"DocEntry" : 98,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 57,
+			"Transfered" : "N",
+			"CreateDate" : "2023-12-18T00:00:00Z",
+			"CreateTime" : "13:48:00",
+			"UpdateDate" : "2023-12-18T00:00:00Z",
+			"UpdateTime" : "13:48:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "ALF-RUP-KFF-AUD",
+			"U_PrjName" : "KFF Auditorium Renovation",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0061",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "ALF-RUP-KFF-AUD-REN",
+					"U_WBS_Name" : "KFF Auditorium Renovation",
+					"U_WBS_Amnt" : 500000.0
+				}
+			]
+		},
+		{
+			"Code" : "0062",
+			"Name" : null,
+			"DocEntry" : 99,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 99,
+			"Transfered" : "N",
+			"CreateDate" : "2023-12-19T00:00:00Z",
+			"CreateTime" : "16:15:00",
+			"UpdateDate" : "2023-12-19T00:00:00Z",
+			"UpdateTime" : "16:15:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AFT-RUP-KFF-AUD-2312",
+			"U_PrjName" : "King Faisal Foundation Auditorium",
+			"U_PrjBgt" : 40000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0062",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AFT-RUP-KFF-AUD-2312-04",
+					"U_WBS_Name" : "Pre-Concept of Design",
+					"U_WBS_Amnt" : 40000.0
+				}
+			]
+		},
+		{
+			"Code" : "0063",
+			"Name" : null,
+			"DocEntry" : 100,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-01-10T00:00:00Z",
+			"CreateTime" : "11:26:00",
+			"UpdateDate" : "2024-01-10T00:00:00Z",
+			"UpdateTime" : "11:26:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "FM-DIST-LS-UPLIFT-24",
+			"U_PrjName" : "District Landscape Upgrade - Uplift Project 2024",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0063",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FM-DIST-LS-UPLIFT-2024-01",
+					"U_WBS_Name" : "District Landscape Upgrade Project",
+					"U_WBS_Amnt" : 1000000.0
+				}
+			]
+		},
+		{
+			"Code" : "0064",
+			"Name" : null,
+			"DocEntry" : 101,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-01-21T00:00:00Z",
+			"CreateTime" : "17:10:00",
+			"UpdateDate" : "2024-01-21T00:00:00Z",
+			"UpdateTime" : "17:10:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "ALF-RUP-CRUST-2401",
+			"U_PrjName" : "Al Faisaliah Mode Mall-Crust",
+			"U_PrjBgt" : 400000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0064",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "Al Faisaliah Model Mall - Crust",
+					"U_WBS_Name" : "Crust - Redesigning",
+					"U_WBS_Amnt" : 400000.0
+				}
+			]
+		},
+		{
+			"Code" : "0065",
+			"Name" : null,
+			"DocEntry" : 102,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 99,
+			"Transfered" : "N",
+			"CreateDate" : "2024-01-21T00:00:00Z",
+			"CreateTime" : "17:24:00",
+			"UpdateDate" : "2024-01-21T00:00:00Z",
+			"UpdateTime" : "17:24:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "ALF-MALL-CRUST-2401",
+			"U_PrjName" : "Al Faisaliah Mode Mall - Crust",
+			"U_PrjBgt" : 400000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0065",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "ALF-MALL-CRUST-2401-04",
+					"U_WBS_Name" : "Crust-Redesigning",
+					"U_WBS_Amnt" : 400000.0
+				}
+			]
+		},
+		{
+			"Code" : "0066",
+			"Name" : null,
+			"DocEntry" : 104,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 99,
+			"Transfered" : "N",
+			"CreateDate" : "2024-01-29T00:00:00Z",
+			"CreateTime" : "16:05:00",
+			"UpdateDate" : "2024-01-31T00:00:00Z",
+			"UpdateTime" : "14:27:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKM-MAIZ-RETAIL-2401",
+			"U_PrjName" : "Maiz Restaurant Retails",
+			"U_PrjBgt" : 100000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0066",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKM-MAIZ-RETAIL-2401-04",
+					"U_WBS_Name" : "Maiz Restaurant Retails",
+					"U_WBS_Amnt" : 100000.0
+				}
+			]
+		},
+		{
+			"Code" : "0067",
+			"Name" : null,
+			"DocEntry" : 103,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 99,
+			"Transfered" : "N",
+			"CreateDate" : "2024-01-29T00:00:00Z",
+			"CreateTime" : "16:04:00",
+			"UpdateDate" : "2024-01-29T00:00:00Z",
+			"UpdateTime" : "16:53:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0067",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0068",
+			"Name" : null,
+			"DocEntry" : 117,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 58,
+			"Transfered" : "N",
+			"CreateDate" : "2024-02-04T00:00:00Z",
+			"CreateTime" : "16:57:00",
+			"UpdateDate" : "2024-03-20T00:00:00Z",
+			"UpdateTime" : "16:07:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "UON-ALF-DIST-2402",
+			"U_PrjName" : "UON-ALF-DIST-2402-04",
+			"U_PrjBgt" : 1100000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0068",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "UON-ALF-DIST-2402-04",
+					"U_WBS_Name" : "Unification of Network for Al Faisaliah District",
+					"U_WBS_Amnt" : 1100000.0
+				},
+				{
+					"Code" : "0068",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "UON-ALF-DIST-2402-05",
+					"U_WBS_Name" : "UON - Electrical Items",
+					"U_WBS_Amnt" : 10000.0
+				}
+			]
+		},
+		{
+			"Code" : "0069",
+			"Name" : null,
+			"DocEntry" : 115,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 118,
+			"Transfered" : "N",
+			"CreateDate" : "2024-01-31T00:00:00Z",
+			"CreateTime" : "12:50:00",
+			"UpdateDate" : "2024-02-08T00:00:00Z",
+			"UpdateTime" : "14:14:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0069",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "007",
+			"Name" : null,
+			"DocEntry" : 231,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2025-09-10T00:00:00Z",
+			"CreateTime" : "09:58:00",
+			"UpdateDate" : "2025-09-10T00:00:00Z",
+			"UpdateTime" : "09:58:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-PMO-PHASE 1B-2509",
+			"U_PrjName" : "Phase 1B Development",
+			"U_PrjBgt" : 15000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "007",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PMO-PHASE 1B-2509-001",
+					"U_WBS_Name" : "LAND SURVEY",
+					"U_WBS_Amnt" : 15000.0
+				}
+			]
+		},
+		{
+			"Code" : "0070",
+			"Name" : null,
+			"DocEntry" : 131,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-02-08T00:00:00Z",
+			"CreateTime" : "15:15:00",
+			"UpdateDate" : "2024-02-08T00:00:00Z",
+			"UpdateTime" : "15:15:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "KFF-FM-UPVC-2309",
+			"U_PrjName" : "KFF Rain/Drain/Vent UPVC pipe replacement",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0070",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "KFF-FM-UPVC-2309-01",
+					"U_WBS_Name" : "KFF Rain/Drain/Vent UPVC pipe replacement",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0071",
+			"Name" : null,
+			"DocEntry" : 132,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 99,
+			"Transfered" : "N",
+			"CreateDate" : "2024-02-19T00:00:00Z",
+			"CreateTime" : "14:13:00",
+			"UpdateDate" : "2024-02-19T00:00:00Z",
+			"UpdateTime" : "14:13:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-DAPINO-2402",
+			"U_PrjName" : "Dapino Development",
+			"U_PrjBgt" : 500000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0071",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-DAPINO-2402-04",
+					"U_WBS_Name" : "Concept Development - Trade Mark",
+					"U_WBS_Amnt" : 500000.0
+				}
+			]
+		},
+		{
+			"Code" : "0072",
+			"Name" : null,
+			"DocEntry" : 133,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-02-26T00:00:00Z",
+			"CreateTime" : "10:41:00",
+			"UpdateDate" : "2024-02-26T00:00:00Z",
+			"UpdateTime" : "10:41:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "KFF-FACADE-MARB-1223",
+			"U_PrjName" : "KFF Facade Marble Replacement",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0072",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0073",
+			"Name" : null,
+			"DocEntry" : 134,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-02-26T00:00:00Z",
+			"CreateTime" : "10:42:00",
+			"UpdateDate" : "2024-02-26T00:00:00Z",
+			"UpdateTime" : "10:42:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "KFF-FACADE-MARB-1223",
+			"U_PrjName" : "KFF Facade Marble Replacement",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0073",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "KFF-FACADE-MARB-1223-01",
+					"U_WBS_Name" : "KFF Facade marble replacement",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0074",
+			"Name" : null,
+			"DocEntry" : 135,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-02-28T00:00:00Z",
+			"CreateTime" : "12:20:00",
+			"UpdateDate" : "2024-02-28T00:00:00Z",
+			"UpdateTime" : "12:21:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKFM-FTKT-SMOKE-ROOM",
+			"U_PrjName" : "Smoking Room Construction for FT/KFFNT/KFFST/HQ",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0074",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKFM-FTKT-SMOKE-ROOM-01",
+					"U_WBS_Name" : "Smoke Room Faisaliah Tower & KFF North & South Tower",
+					"U_WBS_Amnt" : 135000.0
+				}
+			]
+		},
+		{
+			"Code" : "0075",
+			"Name" : null,
+			"DocEntry" : 136,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-02-28T00:00:00Z",
+			"CreateTime" : "16:19:00",
+			"UpdateDate" : "2024-02-28T00:00:00Z",
+			"UpdateTime" : "16:19:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKFM-KFFT-C-TOWER",
+			"U_PrjName" : "Colling Tower KFF",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0075",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKFM-KFFT-C-TOWER-2024",
+					"U_WBS_Name" : "KFF Cooling Tower",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0076",
+			"Name" : null,
+			"DocEntry" : 137,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 99,
+			"Transfered" : "N",
+			"CreateDate" : "2024-03-05T00:00:00Z",
+			"CreateTime" : "11:51:00",
+			"UpdateDate" : "2024-03-05T00:00:00Z",
+			"UpdateTime" : "11:51:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-HQ-REN-2403",
+			"U_PrjName" : "Al Khozama Head Quarters Renovation",
+			"U_PrjBgt" : 65000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0076",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-HQ-REN-2403-01",
+					"U_WBS_Name" : "Al Khozama Head Quarters Renovation",
+					"U_WBS_Amnt" : 65000.0
+				}
+			]
+		},
+		{
+			"Code" : "0077",
+			"Name" : null,
+			"DocEntry" : 139,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 58,
+			"Transfered" : "N",
+			"CreateDate" : "2024-03-20T00:00:00Z",
+			"CreateTime" : "15:58:00",
+			"UpdateDate" : "2024-03-20T00:00:00Z",
+			"UpdateTime" : "15:58:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0077",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0078",
+			"Name" : null,
+			"DocEntry" : 143,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 58,
+			"Transfered" : "N",
+			"CreateDate" : "2024-03-20T00:00:00Z",
+			"CreateTime" : "16:00:00",
+			"UpdateDate" : "2024-03-20T00:00:00Z",
+			"UpdateTime" : "16:00:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0078",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0079",
+			"Name" : null,
+			"DocEntry" : 147,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-03-24T00:00:00Z",
+			"CreateTime" : "12:51:00",
+			"UpdateDate" : "2024-03-24T00:00:00Z",
+			"UpdateTime" : "12:51:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "FM-MALL-PARK-GUID-24",
+			"U_PrjName" : "Mall Carpark Guiding System",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0079",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FM-MALL-PARK-GUID-24-01",
+					"U_WBS_Name" : "Mall Parking Guidance System",
+					"U_WBS_Amnt" : 210000.0
+				}
+			]
+		},
+		{
+			"Code" : "0080",
+			"Name" : null,
+			"DocEntry" : 138,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 58,
+			"Transfered" : "N",
+			"CreateDate" : "2024-03-20T00:00:00Z",
+			"CreateTime" : "15:58:00",
+			"UpdateDate" : "2024-04-01T00:00:00Z",
+			"UpdateTime" : "14:32:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0080",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0081",
+			"Name" : null,
+			"DocEntry" : 149,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 58,
+			"Transfered" : "N",
+			"CreateDate" : "2024-04-01T00:00:00Z",
+			"CreateTime" : "14:35:00",
+			"UpdateDate" : "2024-04-01T00:00:00Z",
+			"UpdateTime" : "14:35:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "UOC-ALF-DIST-2404",
+			"U_PrjName" : "Unification of CCTV and IPTV",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0081",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "UOC-ALF-DIST-2404 -01",
+					"U_WBS_Name" : "Unification of CCTV for AFL",
+					"U_WBS_Amnt" : 4875693.22
+				},
+				{
+					"Code" : "0081",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "UOC-ALF-DIST-2404 -02",
+					"U_WBS_Name" : "IPTV for Kharia Apartments",
+					"U_WBS_Amnt" : 663879.83
+				}
+			]
+		},
+		{
+			"Code" : "0082",
+			"Name" : null,
+			"DocEntry" : 150,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 118,
+			"Transfered" : "N",
+			"CreateDate" : "2024-04-22T00:00:00Z",
+			"CreateTime" : "12:09:00",
+			"UpdateDate" : "2024-04-22T00:00:00Z",
+			"UpdateTime" : "22:15:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0082",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0083",
+			"Name" : null,
+			"DocEntry" : 151,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-04-23T00:00:00Z",
+			"CreateTime" : "10:26:00",
+			"UpdateDate" : "2025-07-20T00:00:00Z",
+			"UpdateTime" : "10:32:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-DUCASSE-2404",
+			"U_PrjName" : "Alain Ducasse Chocolate & Cafe Shop",
+			"U_PrjBgt" : 8050000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0083",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-DUCASSE-2404-04",
+					"U_WBS_Name" : "Design consultation works",
+					"U_WBS_Amnt" : 372600.0
+				},
+				{
+					"Code" : "0083",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-DUCASSE-2404-06",
+					"U_WBS_Name" : "Pre-Opening",
+					"U_WBS_Amnt" : 805000.0
+				},
+				{
+					"Code" : "0083",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-DUCASSE-2404-03",
+					"U_WBS_Name" : "OS&E",
+					"U_WBS_Amnt" : 575000.0
+				},
+				{
+					"Code" : "0083",
+					"LineId" : 4,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-DUCASSE-2404-01",
+					"U_WBS_Name" : "Fitout works",
+					"U_WBS_Amnt" : 3450000.0
+				},
+				{
+					"Code" : "0083",
+					"LineId" : 5,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-DUCASSE-2404-02",
+					"U_WBS_Name" : "Kitchen Equipments",
+					"U_WBS_Amnt" : 2499640.0
+				},
+				{
+					"Code" : "0083",
+					"LineId" : 6,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-DUCASSE-2404-07",
+					"U_WBS_Name" : "PMO Contingency",
+					"U_WBS_Amnt" : 347760.0
+				}
+			]
+		},
+		{
+			"Code" : "0084",
+			"Name" : null,
+			"DocEntry" : 152,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-04-23T00:00:00Z",
+			"CreateTime" : "10:31:00",
+			"UpdateDate" : "2024-04-23T00:00:00Z",
+			"UpdateTime" : "10:31:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-DUCASSE-2404",
+			"U_PrjName" : "Alain Ducasse Chocolate & Cafe Shop",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0084",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0085",
+			"Name" : null,
+			"DocEntry" : 156,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-05-27T00:00:00Z",
+			"CreateTime" : "13:56:00",
+			"UpdateDate" : "2024-05-27T00:00:00Z",
+			"UpdateTime" : "13:56:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKFM-KTNT-BPDF-2406",
+			"U_PrjName" : "KFF N/T Boosting Pump room New door",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0085",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKFM-KTNT-BPDF-2406-01",
+					"U_WBS_Name" : "KFF N/T Boosting pump room door",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0086",
+			"Name" : null,
+			"DocEntry" : 163,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-06-04T00:00:00Z",
+			"CreateTime" : "17:28:00",
+			"UpdateDate" : "2024-06-04T00:00:00Z",
+			"UpdateTime" : "17:28:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "0FM-KT-FWP-2405",
+			"U_PrjName" : "FM-KT-FWP-2405",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0086",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FM-KT-FWP-2405-01",
+					"U_WBS_Name" : "Supply & Installation of foul water pump in KFF",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0087",
+			"Name" : null,
+			"DocEntry" : 166,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-07-03T00:00:00Z",
+			"CreateTime" : "14:53:00",
+			"UpdateDate" : "2024-07-03T00:00:00Z",
+			"UpdateTime" : "14:53:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "FM-KT-EXT-MARB-2408",
+			"U_PrjName" : "External Marble Replacement - KFF Garden Wall",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0087",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "FM-KT-EXT-MARB-2408-01",
+					"U_WBS_Name" : "External Marble Replacement - KFF Garden Wall Marble",
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0088",
+			"Name" : null,
+			"DocEntry" : 170,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-07-08T00:00:00Z",
+			"CreateTime" : "09:44:00",
+			"UpdateDate" : "2024-07-08T00:00:00Z",
+			"UpdateTime" : "09:44:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-CRISIS-MGMT-2407",
+			"U_PrjName" : "Crisis Management",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0088",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-CRISIS-MGMT-2407-01",
+					"U_WBS_Name" : "Crisis Management, Crisis Assessment & BCM",
+					"U_WBS_Amnt" : 595000.0
+				}
+			]
+		},
+		{
+			"Code" : "0089",
+			"Name" : null,
+			"DocEntry" : 171,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-07-14T00:00:00Z",
+			"CreateTime" : "13:41:00",
+			"UpdateDate" : "2024-07-14T00:00:00Z",
+			"UpdateTime" : "13:41:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKFM-UPS-BATRY-2408",
+			"U_PrjName" : "UPS Batter replacement Tower",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0089",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKFM-UPS-BATRY-2408-01",
+					"U_WBS_Name" : "Faisaliah Tower UPS Battery replace & programming",
+					"U_WBS_Amnt" : 150000.0
+				}
+			]
+		},
+		{
+			"Code" : "0090",
+			"Name" : null,
+			"DocEntry" : 181,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-08-04T00:00:00Z",
+			"CreateTime" : "15:15:00",
+			"UpdateDate" : "2024-09-17T00:00:00Z",
+			"UpdateTime" : "11:19:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-MERAKI-2408",
+			"U_PrjName" : "Meraki Restaurant",
+			"U_PrjBgt" : 650000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0090",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-MERAKI-2408-01",
+					"U_WBS_Name" : "Meraki Resturant CAPEX",
+					"U_WBS_Amnt" : 500000.0
+				}
+			]
+		},
+		{
+			"Code" : "0091",
+			"Name" : null,
+			"DocEntry" : 184,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-08-04T00:00:00Z",
+			"CreateTime" : "15:16:00",
+			"UpdateDate" : "2024-09-17T00:00:00Z",
+			"UpdateTime" : "11:20:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-MERAKI-2408",
+			"U_PrjName" : "Meraki Restaurant",
+			"U_PrjBgt" : 650000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0091",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-MERAKI-2408-06",
+					"U_WBS_Name" : "AK-MERAKI-2408-06",
+					"U_WBS_Amnt" : 150000.0
+				}
+			]
+		},
+		{
+			"Code" : "0092",
+			"Name" : null,
+			"DocEntry" : 178,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 99,
+			"Transfered" : "N",
+			"CreateDate" : "2024-07-25T00:00:00Z",
+			"CreateTime" : "12:02:00",
+			"UpdateDate" : "2024-09-17T00:00:00Z",
+			"UpdateTime" : "11:20:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "ALF-MALL-WED-2407",
+			"U_PrjName" : "ALF-MALL-WED-2407-01",
+			"U_PrjBgt" : 1100000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0092",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "ALF-MALL-WED-2407",
+					"U_WBS_Name" : "Al Faisaliah Mall - Wedding Booth",
+					"U_WBS_Amnt" : 1100000.0
+				}
+			]
+		},
+		{
+			"Code" : "0093",
+			"Name" : null,
+			"DocEntry" : 153,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 118,
+			"Transfered" : "N",
+			"CreateDate" : "2024-05-19T00:00:00Z",
+			"CreateTime" : "08:30:00",
+			"UpdateDate" : "2024-09-17T00:00:00Z",
+			"UpdateTime" : "11:20:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : null,
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0093",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0094",
+			"Name" : null,
+			"DocEntry" : 194,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-09-18T00:00:00Z",
+			"CreateTime" : "14:37:00",
+			"UpdateDate" : "2024-09-18T00:00:00Z",
+			"UpdateTime" : "14:37:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-SW3-2409",
+			"U_PrjName" : "Dinings SW3 Restaurant",
+			"U_PrjBgt" : 15434495.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0094",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PMO-CAPEX-CC",
+					"U_WBS_Name" : "Construction Cost",
+					"U_WBS_Amnt" : 7429000.0
+				},
+				{
+					"Code" : "0094",
+					"LineId" : 2,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PMO-CAPEX-FC",
+					"U_WBS_Name" : "FF&E Cost",
+					"U_WBS_Amnt" : 1368500.0
+				},
+				{
+					"Code" : "0094",
+					"LineId" : 3,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PMO-CAPEX-OS",
+					"U_WBS_Name" : "OS&E Cost",
+					"U_WBS_Amnt" : 850650.0
+				},
+				{
+					"Code" : "0094",
+					"LineId" : 4,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PMO-CAPEX-SC",
+					"U_WBS_Name" : "Soft Cost",
+					"U_WBS_Amnt" : 2072300.0
+				},
+				{
+					"Code" : "0094",
+					"LineId" : 5,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PMO-CAPEX-PO",
+					"U_WBS_Name" : "Pre-Opening Cost",
+					"U_WBS_Amnt" : 1700850.0
+				},
+				{
+					"Code" : "0094",
+					"LineId" : 6,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-PMO-CAPEX-CO",
+					"U_WBS_Name" : "Continegency",
+					"U_WBS_Amnt" : 2013195.0
+				}
+			]
+		},
+		{
+			"Code" : "0095",
+			"Name" : null,
+			"DocEntry" : 195,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-09-25T00:00:00Z",
+			"CreateTime" : "09:51:00",
+			"UpdateDate" : "2024-09-25T00:00:00Z",
+			"UpdateTime" : "09:54:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-Catering-2409",
+			"U_PrjName" : "Al Khozama Catering Project - F&B 2024",
+			"U_PrjBgt" : 150000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0095",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AK-Catering-2409-03",
+					"U_WBS_Name" : "F&B Balance Budget - Catering Project 2024",
+					"U_WBS_Amnt" : 150000.0
+				}
+			]
+		},
+		{
+			"Code" : "0096",
+			"Name" : null,
+			"DocEntry" : 196,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 56,
+			"Transfered" : "N",
+			"CreateDate" : "2024-10-29T00:00:00Z",
+			"CreateTime" : "13:48:00",
+			"UpdateDate" : "2024-10-29T00:00:00Z",
+			"UpdateTime" : "13:48:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AKFM-FTEX-MTST-PARK",
+			"U_PrjName" : "Motesim Street Permenent Pakring Construction",
+			"U_PrjBgt" : 60000.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0096",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : "AKFM-FTEX-MTST-PARK",
+					"U_WBS_Name" : "AKFM-FTEX-MTST-PARK-01",
+					"U_WBS_Amnt" : 60000.0
+				}
+			]
+		},
+		{
+			"Code" : "0097",
+			"Name" : null,
+			"DocEntry" : 198,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 45,
+			"Transfered" : "N",
+			"CreateDate" : "2024-11-17T00:00:00Z",
+			"CreateTime" : "10:09:00",
+			"UpdateDate" : "2024-11-17T00:00:00Z",
+			"UpdateTime" : "10:09:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "*",
+			"U_PrjName" : null,
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0097",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		},
+		{
+			"Code" : "0098",
+			"Name" : null,
+			"DocEntry" : 199,
+			"Canceled" : "N",
+			"Object" : "PRJ",
+			"LogInst" : null,
+			"UserSign" : 122,
+			"Transfered" : "N",
+			"CreateDate" : "2024-12-01T00:00:00Z",
+			"CreateTime" : "11:25:00",
+			"UpdateDate" : "2024-12-01T00:00:00Z",
+			"UpdateTime" : "11:25:00",
+			"DataSource" : "I",
+			"NaturalPer" : "tNO",
+			"DPPStatus" : "dpp_None",
+			"U_PrjCode" : "AK-PSGH-2412",
+			"U_PrjName" : "Prince Sultan Grand Hall and Omsiat Hall Renovation",
+			"U_PrjBgt" : 0.0,
+			"PRJ1Collection" : 
+			[
+				{
+					"Code" : "0098",
+					"LineId" : 1,
+					"Object" : "PRJ",
+					"LogInst" : null,
+					"EncryptIV" : null,
+					"U_WBS_Code" : null,
+					"U_WBS_Name" : null,
+					"U_WBS_Amnt" : 0.0
+				}
+			]
+		}
+	],
+	"odata.nextLink" : "PRJ?$orderby=Code&$skip=100"
+}

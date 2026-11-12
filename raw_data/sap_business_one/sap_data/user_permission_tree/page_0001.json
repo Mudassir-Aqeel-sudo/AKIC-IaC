@@ -1,0 +1,53 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#UserPermissionTree",
+	"value" : 
+	[
+		{
+			"UserSignature" : 98,
+			"DisplayOrder" : 3,
+			"PermissionID" : "PWBS",
+			"Options" : "bou_FullReadNone",
+			"Name" : "Project And WBS",
+			"Levels" : 1,
+			"IsItem" : "tNO",
+			"ParentID" : null,
+			"UserPermissionForms" : 
+			[
+				{
+					"FormType" : "PRJ",
+					"DisplayOrder" : 1,
+					"PermissionID" : "PWBS"
+				}
+			]
+		},
+		{
+			"UserSignature" : 93,
+			"DisplayOrder" : 1,
+			"PermissionID" : "SRU",
+			"Options" : "bou_FullNone",
+			"Name" : "Quotations Comparison",
+			"Levels" : 1,
+			"IsItem" : "tNO",
+			"ParentID" : null,
+			"UserPermissionForms" : []
+		},
+		{
+			"UserSignature" : 93,
+			"DisplayOrder" : 2,
+			"PermissionID" : "SRU_OSRU",
+			"Options" : "bou_FullNone",
+			"Name" : "SRU",
+			"Levels" : 2,
+			"IsItem" : "tNO",
+			"ParentID" : "SRU",
+			"UserPermissionForms" : 
+			[
+				{
+					"FormType" : "frmReschedule",
+					"DisplayOrder" : 0,
+					"PermissionID" : "SRU_OSRU"
+				}
+			]
+		}
+	]
+}

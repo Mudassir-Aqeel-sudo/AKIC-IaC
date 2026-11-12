@@ -1,0 +1,24 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#Collection(SAPB1.PeriodCategoryParams)",
+	"value" : 
+	[
+		{
+			"AbsoluteEntry" : 2
+		},
+		{
+			"AbsoluteEntry" : 1
+		},
+		{
+			"AbsoluteEntry" : 3
+		},
+		{
+			"AbsoluteEntry" : 4
+		},
+		{
+			"AbsoluteEntry" : 5
+		},
+		{
+			"AbsoluteEntry" : 6
+		}
+	]
+}

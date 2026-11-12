@@ -1,0 +1,23 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#Collection(SAPB1.FinancePeriod)",
+	"value" : 
+	[
+		{
+			"AbsoluteEntry" : 27,
+			"PeriodCode" : "2006 - 2022",
+			"PeriodName" : "2006 - 2022",
+			"PostingDateFrom" : "2006-01-01T00:00:00Z",
+			"PostingDateTo" : "2022-11-30T00:00:00Z",
+			"ValueDateFrom" : "2006-01-01T00:00:00Z",
+			"ValueDateTo" : "2024-12-31T00:00:00Z",
+			"TaxDateFrom" : "2006-01-01T00:00:00Z",
+			"TaxDateTo" : "2024-12-31T00:00:00Z",
+			"ActiveforFeed" : "tYES",
+			"Locked" : "tNO",
+			"AdditionalSubPeriods" : "tNO",
+			"PeriodIndicator" : "Default",
+			"SubNum" : 1,
+			"PeriodStatus" : "ltLocked"
+		}
+	]
+}

@@ -1,0 +1,590 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#U_SKL_TECH",
+	"value" : 
+	[
+		{
+			"Code" : 142,
+			"Name" : "50000003",
+			"U_SK_Name" : "Pawan Kumar",
+			"U_Rate" : 0.0,
+			"U_Skil" : "Asst HVAC Supervisor",
+			"U_Dep" : 4
+		},
+		{
+			"Code" : 143,
+			"Name" : "50000006",
+			"U_SK_Name" : "Shaju Jose",
+			"U_Rate" : 0.0,
+			"U_Skil" : "Electrical Sueprvisor",
+			"U_Dep" : 1
+		},
+		{
+			"Code" : 144,
+			"Name" : "50000009",
+			"U_SK_Name" : "Shah Alam Shaikh",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 145,
+			"Name" : "50000012",
+			"U_SK_Name" : "Kaleemoddin Ahmed",
+			"U_Rate" : 0.0,
+			"U_Skil" : "Project Manager",
+			"U_Dep" : 9
+		},
+		{
+			"Code" : 146,
+			"Name" : "50000013",
+			"U_SK_Name" : "Payyamal Vareed Shaju",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 147,
+			"Name" : "50000017",
+			"U_SK_Name" : "Abdul Khadri",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 148,
+			"Name" : "50000019",
+			"U_SK_Name" : "Prasad Elpitiya Krishantha",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 149,
+			"Name" : "50000021",
+			"U_SK_Name" : "Biju Thottuppurathu",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 150,
+			"Name" : "50000022",
+			"U_SK_Name" : "Ahmed Sarfaraz",
+			"U_Rate" : 0.0,
+			"U_Skil" : "Mechanical Supervisor",
+			"U_Dep" : null
+		},
+		{
+			"Code" : 151,
+			"Name" : "50000049",
+			"U_SK_Name" : "Abubakar Nazeer Ahmed",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 152,
+			"Name" : "50000114",
+			"U_SK_Name" : "Ahsan Ahmed Riyasat",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 153,
+			"Name" : "50000116",
+			"U_SK_Name" : "Muthaleef Mohammed Saleem",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 154,
+			"Name" : "50000117",
+			"U_SK_Name" : "Rajaratnam Damodaran",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 155,
+			"Name" : "50000119",
+			"U_SK_Name" : "Sajithran Pilakkool",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 156,
+			"Name" : "50000132",
+			"U_SK_Name" : "Gopi Asari Suresh Kumar",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 157,
+			"Name" : "50000138",
+			"U_SK_Name" : "Anoop Thomas Varghese",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 158,
+			"Name" : "50000151",
+			"U_SK_Name" : "Jeyan Kumar",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 159,
+			"Name" : "50000152",
+			"U_SK_Name" : "Abraham  Elavummoottil Job",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 160,
+			"Name" : "50000161",
+			"U_SK_Name" : "Thankappan Joy",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 161,
+			"Name" : "50000172",
+			"U_SK_Name" : "Shajeer Mohamed Haneefa",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 162,
+			"Name" : "50000175",
+			"U_SK_Name" : "",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 163,
+			"Name" : "50000177",
+			"U_SK_Name" : "Mohamed Saleem Ali",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 164,
+			"Name" : "50000179",
+			"U_SK_Name" : "Mohammad Aftab",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 165,
+			"Name" : "50000180",
+			"U_SK_Name" : "Azad Abdul Salam",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 166,
+			"Name" : "50000183",
+			"U_SK_Name" : "Ismail Asharaf",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 167,
+			"Name" : "50000187",
+			"U_SK_Name" : "Prakash Sreedharan Nair",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 168,
+			"Name" : "50000189",
+			"U_SK_Name" : "",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 169,
+			"Name" : "50000191",
+			"U_SK_Name" : "P Ullery Vineesh",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 170,
+			"Name" : "50000195",
+			"U_SK_Name" : "",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 171,
+			"Name" : "50000199",
+			"U_SK_Name" : "",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 172,
+			"Name" : "50000200",
+			"U_SK_Name" : "Rajesh Kumar",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 173,
+			"Name" : "50000204",
+			"U_SK_Name" : "Arun George",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 174,
+			"Name" : "50000205",
+			"U_SK_Name" : "Vasudevan Nair Arun",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 175,
+			"Name" : "50000206",
+			"U_SK_Name" : "Mohammed Nasim",
+			"U_Rate" : 0.0,
+			"U_Skil" : "Helpdesk coordinator",
+			"U_Dep" : 5
+		},
+		{
+			"Code" : 176,
+			"Name" : "50000210",
+			"U_SK_Name" : "Mohammed Nizamuddin",
+			"U_Rate" : 0.0,
+			"U_Skil" : "Asst. LC supevisor",
+			"U_Dep" : 5
+		},
+		{
+			"Code" : 177,
+			"Name" : "50000225",
+			"U_SK_Name" : "Ponmanthodiyil Praseej",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 178,
+			"Name" : "50000226",
+			"U_SK_Name" : "Bahulayan Nair Sree Bagukumar",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 179,
+			"Name" : "50000243",
+			"U_SK_Name" : "Alexander Ramos Balite",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 180,
+			"Name" : "50000263",
+			"U_SK_Name" : "Tarun Chopra",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 181,
+			"Name" : "50000264",
+			"U_SK_Name" : "Gani Khan Rashid Khan Abdul",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 182,
+			"Name" : "50000265",
+			"U_SK_Name" : "Upendra Sharma",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 183,
+			"Name" : "50000266",
+			"U_SK_Name" : "Sakkeer Hussain Kuruppan Thodi",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 184,
+			"Name" : "50000267",
+			"U_SK_Name" : "Shekh  Sabir Ahmad",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 185,
+			"Name" : "50000271",
+			"U_SK_Name" : "Mohammad  Absar Khan",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 186,
+			"Name" : "50000281",
+			"U_SK_Name" : "Sajeev  Kunju Kunju",
+			"U_Rate" : 0.0,
+			"U_Skil" : "Asst. Mechanical Supervisor",
+			"U_Dep" : 2
+		},
+		{
+			"Code" : 187,
+			"Name" : "50000291",
+			"U_SK_Name" : "Faisal Hassan",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 188,
+			"Name" : "50000315",
+			"U_SK_Name" : "Mohamed Yunus Shaikh",
+			"U_Rate" : 0.0,
+			"U_Skil" : "Low Current Engineer",
+			"U_Dep" : 5
+		},
+		{
+			"Code" : 189,
+			"Name" : "50000317",
+			"U_SK_Name" : "Balindra Ray Jagadish",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 190,
+			"Name" : "50000318",
+			"U_SK_Name" : "Gautam Prasad  Dudh Nath",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 191,
+			"Name" : "50000319",
+			"U_SK_Name" : "Parwez Ahmad Asmul Haque",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 192,
+			"Name" : "50000358",
+			"U_SK_Name" : "Santhosh  Kadappalaril Thomas",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 193,
+			"Name" : "50000363",
+			"U_SK_Name" : "Amanat  Ali Tajdin",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 194,
+			"Name" : "50000365",
+			"U_SK_Name" : "Ahsan Ahmad Nazir Ahmad",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 195,
+			"Name" : "50000368",
+			"U_SK_Name" : "Mohammad Asif Mohammad Wahid",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 196,
+			"Name" : "50000490",
+			"U_SK_Name" : "Shaha Jahan Chowdhury Dhur",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 197,
+			"Name" : "50000679",
+			"U_SK_Name" : "",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 198,
+			"Name" : "50000738",
+			"U_SK_Name" : "",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 199,
+			"Name" : "50000739",
+			"U_SK_Name" : "Komburu Parambil Prosad",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 200,
+			"Name" : "50000868",
+			"U_SK_Name" : "Abdul Shameer Abdul Khadar",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 201,
+			"Name" : "50000882",
+			"U_SK_Name" : "",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 202,
+			"Name" : "50000897",
+			"U_SK_Name" : "",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 203,
+			"Name" : "50001103",
+			"U_SK_Name" : "Nabi Hossain",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 204,
+			"Name" : "50001115",
+			"U_SK_Name" : "Aswani Mohan Natarajan",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 205,
+			"Name" : "50001345",
+			"U_SK_Name" : "Ayub Khan",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 206,
+			"Name" : "50001346",
+			"U_SK_Name" : "Mohammad Haroon",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 207,
+			"Name" : "50001347",
+			"U_SK_Name" : "Shyam Qasim",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 208,
+			"Name" : "50001348",
+			"U_SK_Name" : "Akhter Hussain",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 209,
+			"Name" : "50001423",
+			"U_SK_Name" : "Abul Khair",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 210,
+			"Name" : "50001402",
+			"U_SK_Name" : "",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 211,
+			"Name" : "50001418",
+			"U_SK_Name" : "Mohammad Rustam Ali",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : null
+		},
+		{
+			"Code" : 212,
+			"Name" : "50000679",
+			"U_SK_Name" : "Labeeb Manjeri",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : 10
+		},
+		{
+			"Code" : 213,
+			"Name" : "50000246",
+			"U_SK_Name" : "Ronaldo Apdal",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : 7
+		},
+		{
+			"Code" : 214,
+			"Name" : "50000275",
+			"U_SK_Name" : "Francis Perera",
+			"U_Rate" : 0.0,
+			"U_Skil" : null,
+			"U_Dep" : 11
+		}
+	]
+}

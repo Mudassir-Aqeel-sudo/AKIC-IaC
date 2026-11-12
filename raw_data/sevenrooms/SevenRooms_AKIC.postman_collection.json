@@ -1,0 +1,1531 @@
+{
+  "info": {
+    "_postman_id": "b2e8c441-7d91-4c0a-9f11-8c3d21a90e44",
+    "name": "SevenRooms AKIC \u2014 RAW + ANALYTICS (GET only)",
+    "description": "US production https://api.sevenrooms.com/2_4.\n\n**Write operations are not in this collection.** The only POST is `/auth` (login). Everything else is GET.\n\nHow to use:\n1. Select environment **SevenRooms AKIC (local)**.\n2. Run **0 Auth**.\n3. **1 RAW** \u2014 Body tab = full vendor JSON (schema work). Do not email reservation/client bodies.\n4. **2 ANALYTICS** \u2014 same GET, open **Visualize**. That table is the keep-list for Gold (covers, status, shift, spend, POS tickets). Guest PII is stripped from Visualize.\n5. **3 PROBES** \u2014 200/401/404 is the answer. Clients probe is PII; do not share.\n\nAfter RAW venues, `venue_id` is set from the first site for charges.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "https://api.sevenrooms.com/2_4"
+    },
+    {
+      "key": "token",
+      "value": ""
+    },
+    {
+      "key": "venue_id",
+      "value": ""
+    }
+  ],
+  "event": [
+    {
+      "listen": "prerequest",
+      "script": {
+        "type": "text/javascript",
+        "exec": [
+          "",
+          "const method = pm.request.method;",
+          "const url = pm.request.url.toString();",
+          "const authOk = method === \"POST\" && url.indexOf(\"/auth\") !== -1;",
+          "if (method !== \"GET\" && !authOk) {",
+          "  throw new Error(\"Blocked: collection is GET-only except POST /auth. Refusing \" + method + \" \" + url);",
+          "}",
+          ""
+        ]
+      }
+    }
+  ],
+  "item": [
+    {
+      "name": "0 Auth (login POST only \u2014 not a booking write)",
+      "item": [
+        {
+          "name": "0.1 Auth \u2014 save token",
+          "request": {
+            "method": "POST",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Content-Type",
+                "value": "application/x-www-form-urlencoded"
+              }
+            ],
+            "url": "{{baseUrl}}/auth",
+            "description": "Login only. Form body. Not a reservation write.",
+            "body": {
+              "mode": "urlencoded",
+              "urlencoded": [
+                {
+                  "key": "client_id",
+                  "value": "{{client_id}}",
+                  "type": "text"
+                },
+                {
+                  "key": "client_secret",
+                  "value": "{{client_secret}}",
+                  "type": "text"
+                },
+                {
+                  "key": "venue_group_id",
+                  "value": "{{venue_group_id}}",
+                  "type": "text"
+                }
+              ]
+            }
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "pm.test(\"auth 200\", function () { pm.response.to.have.status(200); });",
+                  "const json = pm.response.json();",
+                  "const token = json && json.data && json.data.token;",
+                  "pm.test(\"token present\", function () { pm.expect(token).to.be.a(\"string\").and.have.lengthOf.at.least(20); });",
+                  "if (token) {",
+                  "  pm.collectionVariables.set(\"token\", token);",
+                  "  pm.environment.set(\"token\", token);",
+                  "  const exp = json.data.token_expiration_datetime;",
+                  "  if (exp) pm.environment.set(\"token_expiration_datetime\", exp);",
+                  "}",
+                  ""
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "1 RAW \u2014 full JSON (do not email)",
+      "item": [
+        {
+          "name": "1.1 GET venues",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/venues",
+            "description": "Full venue objects."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "pm.test(\"read-only GET\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "const code = pm.response.code;",
+                  "pm.test(\"responded\", function () { pm.expect(code).to.be.a(\"number\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) { json = null; }",
+                  "const keys = json && json.data ? Object.keys(json.data) : (json ? Object.keys(json) : []);",
+                  "const d = json && json.data;",
+                  "let n = 0;",
+                  "if (d && Array.isArray(d.results)) n = d.results.length;",
+                  "else if (Array.isArray(d)) n = d.length;",
+                  "else if (d && Array.isArray(d.charges)) n = d.charges.length;",
+                  "console.log(\"RAW_META\", JSON.stringify({",
+                  "  url: pm.request.url.toString(),",
+                  "  code: code,",
+                  "  msg: json && json.msg,",
+                  "  data_keys: keys,",
+                  "  row_count: n,",
+                  "  cursor: d && d.cursor",
+                  "}));",
+                  "if (d && d.cursor) pm.environment.set(\"cursor\", String(d.cursor));",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "1.2 GET reservations (page)",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/reservations?limit={{limit}}",
+            "description": "Contains guest PII."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "pm.test(\"read-only GET\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "const code = pm.response.code;",
+                  "pm.test(\"responded\", function () { pm.expect(code).to.be.a(\"number\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) { json = null; }",
+                  "const keys = json && json.data ? Object.keys(json.data) : (json ? Object.keys(json) : []);",
+                  "const d = json && json.data;",
+                  "let n = 0;",
+                  "if (d && Array.isArray(d.results)) n = d.results.length;",
+                  "else if (Array.isArray(d)) n = d.length;",
+                  "else if (d && Array.isArray(d.charges)) n = d.charges.length;",
+                  "console.log(\"RAW_META\", JSON.stringify({",
+                  "  url: pm.request.url.toString(),",
+                  "  code: code,",
+                  "  msg: json && json.msg,",
+                  "  data_keys: keys,",
+                  "  row_count: n,",
+                  "  cursor: d && d.cursor",
+                  "}));",
+                  "if (d && d.cursor) pm.environment.set(\"cursor\", String(d.cursor));",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "1.3 GET reservations updated_since",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/reservations?limit={{limit}}&updated_since={{updated_since}}",
+            "description": "Incremental watermark."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "pm.test(\"read-only GET\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "const code = pm.response.code;",
+                  "pm.test(\"responded\", function () { pm.expect(code).to.be.a(\"number\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) { json = null; }",
+                  "const keys = json && json.data ? Object.keys(json.data) : (json ? Object.keys(json) : []);",
+                  "const d = json && json.data;",
+                  "let n = 0;",
+                  "if (d && Array.isArray(d.results)) n = d.results.length;",
+                  "else if (Array.isArray(d)) n = d.length;",
+                  "else if (d && Array.isArray(d.charges)) n = d.charges.length;",
+                  "console.log(\"RAW_META\", JSON.stringify({",
+                  "  url: pm.request.url.toString(),",
+                  "  code: code,",
+                  "  msg: json && json.msg,",
+                  "  data_keys: keys,",
+                  "  row_count: n,",
+                  "  cursor: d && d.cursor",
+                  "}));",
+                  "if (d && d.cursor) pm.environment.set(\"cursor\", String(d.cursor));",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "1.4 GET reservations next cursor",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/reservations?limit={{limit}}&cursor={{cursor}}",
+            "description": "Paste cursor from previous data.cursor."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "pm.test(\"read-only GET\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "const code = pm.response.code;",
+                  "pm.test(\"responded\", function () { pm.expect(code).to.be.a(\"number\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) { json = null; }",
+                  "const keys = json && json.data ? Object.keys(json.data) : (json ? Object.keys(json) : []);",
+                  "const d = json && json.data;",
+                  "let n = 0;",
+                  "if (d && Array.isArray(d.results)) n = d.results.length;",
+                  "else if (Array.isArray(d)) n = d.length;",
+                  "else if (d && Array.isArray(d.charges)) n = d.charges.length;",
+                  "console.log(\"RAW_META\", JSON.stringify({",
+                  "  url: pm.request.url.toString(),",
+                  "  code: code,",
+                  "  msg: json && json.msg,",
+                  "  data_keys: keys,",
+                  "  row_count: n,",
+                  "  cursor: d && d.cursor",
+                  "}));",
+                  "if (d && d.cursor) pm.environment.set(\"cursor\", String(d.cursor));",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "1.5 GET reservations/export",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/reservations/export?venue_group_id={{venue_group_id}}&updated_since={{updated_since}}",
+            "description": "Historic/backfill pattern used by warehouse taps. May 404."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "pm.test(\"read-only GET\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "const code = pm.response.code;",
+                  "pm.test(\"responded\", function () { pm.expect(code).to.be.a(\"number\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) { json = null; }",
+                  "const keys = json && json.data ? Object.keys(json.data) : (json ? Object.keys(json) : []);",
+                  "const d = json && json.data;",
+                  "let n = 0;",
+                  "if (d && Array.isArray(d.results)) n = d.results.length;",
+                  "else if (Array.isArray(d)) n = d.length;",
+                  "else if (d && Array.isArray(d.charges)) n = d.charges.length;",
+                  "console.log(\"RAW_META\", JSON.stringify({",
+                  "  url: pm.request.url.toString(),",
+                  "  code: code,",
+                  "  msg: json && json.msg,",
+                  "  data_keys: keys,",
+                  "  row_count: n,",
+                  "  cursor: d && d.cursor",
+                  "}));",
+                  "if (d && d.cursor) pm.environment.set(\"cursor\", String(d.cursor));",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "1.6 GET venues/{id}/charges",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/venues/{{venue_id}}/charges",
+            "description": "Run 1.1 first so venue_id is set. Booking payments vs POS."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "pm.test(\"read-only GET\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "const code = pm.response.code;",
+                  "pm.test(\"responded\", function () { pm.expect(code).to.be.a(\"number\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) { json = null; }",
+                  "const keys = json && json.data ? Object.keys(json.data) : (json ? Object.keys(json) : []);",
+                  "const d = json && json.data;",
+                  "let n = 0;",
+                  "if (d && Array.isArray(d.results)) n = d.results.length;",
+                  "else if (Array.isArray(d)) n = d.length;",
+                  "else if (d && Array.isArray(d.charges)) n = d.charges.length;",
+                  "console.log(\"RAW_META\", JSON.stringify({",
+                  "  url: pm.request.url.toString(),",
+                  "  code: code,",
+                  "  msg: json && json.msg,",
+                  "  data_keys: keys,",
+                  "  row_count: n,",
+                  "  cursor: d && d.cursor",
+                  "}));",
+                  "if (d && d.cursor) pm.environment.set(\"cursor\", String(d.cursor));",
+                  ""
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "2 ANALYTICS \u2014 Visualize keep-list (same GETs)",
+      "item": [
+        {
+          "name": "2.1 ANALYTICS venues",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/venues",
+            "description": "Open Visualize. dim_venue keep-list. Sets venue_id."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "const json = pm.response.json();",
+                  "const keep = [\"id\", \"name\", \"internal_name\", \"venue_group_id\", \"venue_group_name\", \"timezone\", \"currency_code\", \"pos_activated\", \"pos_integration_type\", \"venue_class\", \"external_venue_id\", \"municipality\"];",
+                  "const rowsRaw = resultsOf(json);",
+                  "const rows = rowsRaw.map(r => pick(r, keep));",
+                  "if (rows[0] && rows[0].id) pm.environment.set(\"venue_id\", rows[0].id);",
+                  "const columns = keep;",
+                  "const table = rows.map(r => columns.map(c => cell(r[c])));",
+                  "show({",
+                  "  title: \"ANALYTICS \u2014 venues (keep list only)\",",
+                  "  note: \"Body tab is still full JSON. This table is dim_venue. First venue_id saved to environment.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"venues\", value: String(rows.length) }",
+                  "  ],",
+                  "  columns: columns,",
+                  "  rows: table,",
+                  "  analytics: { http_status: pm.response.code, row_count: rows.length, rows: rows }",
+                  "});",
+                  "pm.test(\"at least 1 venue\", function () { pm.expect(rows.length).to.be.at.least(1); });",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "2.2 ANALYTICS reservations page",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/reservations?limit={{limit}}",
+            "description": "Open Visualize for covers / status / spend. Body still has PII."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "const json = pm.response.json();",
+                  "const keep = [\"id\", \"reference_code\", \"venue_id\", \"venue_group_id\", \"date\", \"real_datetime_of_slot\", \"time_slot_iso\", \"duration\", \"created\", \"updated\", \"status\", \"status_display\", \"status_simple\", \"deleted\", \"max_guests\", \"arrived_guests\", \"shift_persistent_id\", \"shift_category\", \"table_numbers\", \"venue_seating_area_id\", \"venue_seating_area_name\", \"booked_by\", \"served_by\", \"reservation_type\", \"tags\", \"is_vip\", \"arrival_time\", \"seated_time\", \"left_time\", \"total_payment\", \"total_net_payment\", \"total_gross_payment\", \"onsite_payment\", \"onsite_payment_net\", \"onsite_payment_tax\", \"onsite_payment_total\", \"prepayment\", \"prepayment_net\", \"prepayment_tax\", \"prepayment_total\", \"pos_tickets\", \"check_numbers\", \"comps\", \"event\", \"rating\", \"user\"];",
+                  "const pii = [\"first_name\", \"last_name\", \"email\", \"phone_number\", \"address\", \"address_2\", \"city\", \"state\", \"country\", \"postal_code\", \"client_id\", \"venue_group_client_id\", \"source_client_id\", \"external_client_id\", \"client_reference_code\", \"notes\", \"client_requests\", \"loyalty_id\", \"loyalty_rank\", \"loyalty_tier\", \"hotel_room\", \"hotel_confirmation\", \"paid_by\"];",
+                  "const rowsRaw = resultsOf(json);",
+                  "const rows = rowsRaw.map(r => pick(r, keep));",
+                  "const leaked = [];",
+                  "rows.forEach(r => pii.forEach(p => { if (Object.prototype.hasOwnProperty.call(r, p)) leaked.push(p); }));",
+                  "pm.test(\"analytics view has no PII keys\", function () { pm.expect(leaked).to.eql([]); });",
+                  "const statusCounts = {};",
+                  "let covers = 0;",
+                  "const venues = {};",
+                  "rows.forEach(r => {",
+                  "  const s = r.status || \"(blank)\";",
+                  "  statusCounts[s] = (statusCounts[s] || 0) + 1;",
+                  "  covers += Number(r.max_guests || 0);",
+                  "  if (r.venue_id) venues[r.venue_id] = true;",
+                  "});",
+                  "const d = json && json.data;",
+                  "if (d && d.cursor) pm.environment.set(\"cursor\", String(d.cursor));",
+                  "const columns = [\"date\",\"status\",\"max_guests\",\"shift_category\",\"reservation_type\",\"booked_by\",\"table_numbers\",\"total_payment\",\"pos_tickets\",\"venue_id\",\"reference_code\"];",
+                  "const table = rows.map(r => columns.map(c => cell(r[c])));",
+                  "show({",
+                  "  title: \"ANALYTICS \u2014 reservations (ops only)\",",
+                  "  note: \"Body = full vendor JSON including guest PII. This table is what we keep. Channel is not a top-level field \u2014 inspect reservation_type / tags / booked_by.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"rows\", value: String(rows.length) },",
+                  "    { label: \"covers (max_guests sum)\", value: String(covers) },",
+                  "    { label: \"venues on page\", value: String(Object.keys(venues).length) },",
+                  "    { label: \"COMPLETE\", value: String(statusCounts.COMPLETE || 0) },",
+                  "    { label: \"NO_SHOW\", value: String(statusCounts.NO_SHOW || 0) },",
+                  "    { label: \"CANCELED\", value: String(statusCounts.CANCELED || 0) },",
+                  "    { label: \"cursor\", value: d && d.cursor ? String(d.cursor) : \"(none)\" }",
+                  "  ],",
+                  "  columns: columns,",
+                  "  rows: table,",
+                  "  analytics: {",
+                  "    http_status: pm.response.code,",
+                  "    row_count: rows.length,",
+                  "    cursor: d && d.cursor,",
+                  "    status_counts: statusCounts,",
+                  "    covers_booked_sum: covers,",
+                  "    venues_on_page: Object.keys(venues).length,",
+                  "    rows: rows",
+                  "  }",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "2.3 ANALYTICS reservations updated_since",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/reservations?limit={{limit}}&updated_since={{updated_since}}",
+            "description": "Same keep-list, date-filtered."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "const json = pm.response.json();",
+                  "const keep = [\"id\", \"reference_code\", \"venue_id\", \"venue_group_id\", \"date\", \"real_datetime_of_slot\", \"time_slot_iso\", \"duration\", \"created\", \"updated\", \"status\", \"status_display\", \"status_simple\", \"deleted\", \"max_guests\", \"arrived_guests\", \"shift_persistent_id\", \"shift_category\", \"table_numbers\", \"venue_seating_area_id\", \"venue_seating_area_name\", \"booked_by\", \"served_by\", \"reservation_type\", \"tags\", \"is_vip\", \"arrival_time\", \"seated_time\", \"left_time\", \"total_payment\", \"total_net_payment\", \"total_gross_payment\", \"onsite_payment\", \"onsite_payment_net\", \"onsite_payment_tax\", \"onsite_payment_total\", \"prepayment\", \"prepayment_net\", \"prepayment_tax\", \"prepayment_total\", \"pos_tickets\", \"check_numbers\", \"comps\", \"event\", \"rating\", \"user\"];",
+                  "const pii = [\"first_name\", \"last_name\", \"email\", \"phone_number\", \"address\", \"address_2\", \"city\", \"state\", \"country\", \"postal_code\", \"client_id\", \"venue_group_client_id\", \"source_client_id\", \"external_client_id\", \"client_reference_code\", \"notes\", \"client_requests\", \"loyalty_id\", \"loyalty_rank\", \"loyalty_tier\", \"hotel_room\", \"hotel_confirmation\", \"paid_by\"];",
+                  "const rowsRaw = resultsOf(json);",
+                  "const rows = rowsRaw.map(r => pick(r, keep));",
+                  "const leaked = [];",
+                  "rows.forEach(r => pii.forEach(p => { if (Object.prototype.hasOwnProperty.call(r, p)) leaked.push(p); }));",
+                  "pm.test(\"analytics view has no PII keys\", function () { pm.expect(leaked).to.eql([]); });",
+                  "const statusCounts = {};",
+                  "let covers = 0;",
+                  "const venues = {};",
+                  "rows.forEach(r => {",
+                  "  const s = r.status || \"(blank)\";",
+                  "  statusCounts[s] = (statusCounts[s] || 0) + 1;",
+                  "  covers += Number(r.max_guests || 0);",
+                  "  if (r.venue_id) venues[r.venue_id] = true;",
+                  "});",
+                  "const d = json && json.data;",
+                  "if (d && d.cursor) pm.environment.set(\"cursor\", String(d.cursor));",
+                  "const columns = [\"date\",\"status\",\"max_guests\",\"shift_category\",\"reservation_type\",\"booked_by\",\"table_numbers\",\"total_payment\",\"pos_tickets\",\"venue_id\",\"reference_code\"];",
+                  "const table = rows.map(r => columns.map(c => cell(r[c])));",
+                  "show({",
+                  "  title: \"ANALYTICS \u2014 reservations (ops only)\",",
+                  "  note: \"Body = full vendor JSON including guest PII. This table is what we keep. Channel is not a top-level field \u2014 inspect reservation_type / tags / booked_by.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"rows\", value: String(rows.length) },",
+                  "    { label: \"covers (max_guests sum)\", value: String(covers) },",
+                  "    { label: \"venues on page\", value: String(Object.keys(venues).length) },",
+                  "    { label: \"COMPLETE\", value: String(statusCounts.COMPLETE || 0) },",
+                  "    { label: \"NO_SHOW\", value: String(statusCounts.NO_SHOW || 0) },",
+                  "    { label: \"CANCELED\", value: String(statusCounts.CANCELED || 0) },",
+                  "    { label: \"cursor\", value: d && d.cursor ? String(d.cursor) : \"(none)\" }",
+                  "  ],",
+                  "  columns: columns,",
+                  "  rows: table,",
+                  "  analytics: {",
+                  "    http_status: pm.response.code,",
+                  "    row_count: rows.length,",
+                  "    cursor: d && d.cursor,",
+                  "    status_counts: statusCounts,",
+                  "    covers_booked_sum: covers,",
+                  "    venues_on_page: Object.keys(venues).length,",
+                  "    rows: rows",
+                  "  }",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "2.4 ANALYTICS charges",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/venues/{{venue_id}}/charges",
+            "description": "Open Visualize. 404 means not on this tenant."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "const json = pm.response.json();",
+                  "const keep = [\"id\", \"venue_id\", \"reservation_id\", \"amount\", \"net\", \"tax\", \"total\", \"currency\", \"status\", \"type\", \"tender\", \"payment_type\", \"updated\", \"created\", \"date\"];",
+                  "const piiHint = [\"email\",\"phone\",\"name\",\"first_name\",\"last_name\",\"card\",\"guest\"];",
+                  "const rowsRaw = resultsOf(json);",
+                  "const rows = rowsRaw.map(function (r) {",
+                  "  const picked = pick(r, keep);",
+                  "  Object.keys(r || {}).forEach(function (k) {",
+                  "    if (picked[k] !== undefined) return;",
+                  "    const lk = k.toLowerCase();",
+                  "    if (piiHint.some(function (p) { return lk.indexOf(p) >= 0; })) return;",
+                  "    if (typeof r[k] !== \"object\") picked[k] = r[k];",
+                  "  });",
+                  "  return picked;",
+                  "});",
+                  "const columns = rows[0] ? Object.keys(rows[0]).slice(0, 12) : [\"(no rows or 404)\"];",
+                  "const table = rows.map(r => columns.map(c => cell(r[c])));",
+                  "show({",
+                  "  title: \"ANALYTICS \u2014 charges (best-effort keep)\",",
+                  "  note: \"If HTTP is not 200, this tenant does not expose charges on this path. Schema is not documented publicly; extra non-PII scalars are included for the first decision.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"rows\", value: String(rows.length) },",
+                  "    { label: \"msg\", value: (json && json.msg) ? String(json.msg) : \"\" }",
+                  "  ],",
+                  "  columns: columns,",
+                  "  rows: table,",
+                  "  analytics: { http_status: pm.response.code, row_count: rows.length, rows: rows.slice(0, 20) }",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "3 PROBES \u2014 GET capability (200 / 401 / 404)",
+      "item": [
+        {
+          "name": "3.1 GET clients/export  \u2014 PII do not share",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/clients/export?venue_group_id={{venue_group_id}}",
+            "description": "CRM capability check only. Not Gold."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) {}",
+                  "const rows = resultsOf(json);",
+                  "const keys = rows[0] ? Object.keys(rows[0]).slice(0, 15) : [];",
+                  "show({",
+                  "  title: \"PROBE \u2014 \" + pm.info.requestName,",
+                  "  note: \"200 = exists. 401/403 = credential scope. 404 = path not on this tenant. Do not share if this is clients.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"rows\", value: String(rows.length) },",
+                  "    { label: \"msg\", value: json && json.msg ? String(json.msg) : \"\" }",
+                  "  ],",
+                  "  columns: keys.length ? keys : [\"(no row keys)\"],",
+                  "  rows: rows.slice(0, 5).map(r => keys.map(k => cell(r[k]))),",
+                  "  analytics: { http_status: pm.response.code, path: pm.request.url.toString(), row_count: rows.length, sample_keys: keys }",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3.2 GET clients",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/clients",
+            "description": "Alternate CRM path. PII."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) {}",
+                  "const rows = resultsOf(json);",
+                  "const keys = rows[0] ? Object.keys(rows[0]).slice(0, 15) : [];",
+                  "show({",
+                  "  title: \"PROBE \u2014 \" + pm.info.requestName,",
+                  "  note: \"200 = exists. 401/403 = credential scope. 404 = path not on this tenant. Do not share if this is clients.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"rows\", value: String(rows.length) },",
+                  "    { label: \"msg\", value: json && json.msg ? String(json.msg) : \"\" }",
+                  "  ],",
+                  "  columns: keys.length ? keys : [\"(no row keys)\"],",
+                  "  rows: rows.slice(0, 5).map(r => keys.map(k => cell(r[k]))),",
+                  "  analytics: { http_status: pm.response.code, path: pm.request.url.toString(), row_count: rows.length, sample_keys: keys }",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3.3 GET events",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/events",
+            "description": "Private dining / events if exposed."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) {}",
+                  "const rows = resultsOf(json);",
+                  "const keys = rows[0] ? Object.keys(rows[0]).slice(0, 15) : [];",
+                  "show({",
+                  "  title: \"PROBE \u2014 \" + pm.info.requestName,",
+                  "  note: \"200 = exists. 401/403 = credential scope. 404 = path not on this tenant. Do not share if this is clients.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"rows\", value: String(rows.length) },",
+                  "    { label: \"msg\", value: json && json.msg ? String(json.msg) : \"\" }",
+                  "  ],",
+                  "  columns: keys.length ? keys : [\"(no row keys)\"],",
+                  "  rows: rows.slice(0, 5).map(r => keys.map(k => cell(r[k]))),",
+                  "  analytics: { http_status: pm.response.code, path: pm.request.url.toString(), row_count: rows.length, sample_keys: keys }",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3.4 GET reservation-requests",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/reservation-requests",
+            "description": "Waitlist/requests if exposed."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) {}",
+                  "const rows = resultsOf(json);",
+                  "const keys = rows[0] ? Object.keys(rows[0]).slice(0, 15) : [];",
+                  "show({",
+                  "  title: \"PROBE \u2014 \" + pm.info.requestName,",
+                  "  note: \"200 = exists. 401/403 = credential scope. 404 = path not on this tenant. Do not share if this is clients.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"rows\", value: String(rows.length) },",
+                  "    { label: \"msg\", value: json && json.msg ? String(json.msg) : \"\" }",
+                  "  ],",
+                  "  columns: keys.length ? keys : [\"(no row keys)\"],",
+                  "  rows: rows.slice(0, 5).map(r => keys.map(k => cell(r[k]))),",
+                  "  analytics: { http_status: pm.response.code, path: pm.request.url.toString(), row_count: rows.length, sample_keys: keys }",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3.5 GET programs",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/programs",
+            "description": "Marketing programs if exposed."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) {}",
+                  "const rows = resultsOf(json);",
+                  "const keys = rows[0] ? Object.keys(rows[0]).slice(0, 15) : [];",
+                  "show({",
+                  "  title: \"PROBE \u2014 \" + pm.info.requestName,",
+                  "  note: \"200 = exists. 401/403 = credential scope. 404 = path not on this tenant. Do not share if this is clients.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"rows\", value: String(rows.length) },",
+                  "    { label: \"msg\", value: json && json.msg ? String(json.msg) : \"\" }",
+                  "  ],",
+                  "  columns: keys.length ? keys : [\"(no row keys)\"],",
+                  "  rows: rows.slice(0, 5).map(r => keys.map(k => cell(r[k]))),",
+                  "  analytics: { http_status: pm.response.code, path: pm.request.url.toString(), row_count: rows.length, sample_keys: keys }",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3.6 GET payout-profiles",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/payout-profiles",
+            "description": "Payout config if exposed."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) {}",
+                  "const rows = resultsOf(json);",
+                  "const keys = rows[0] ? Object.keys(rows[0]).slice(0, 15) : [];",
+                  "show({",
+                  "  title: \"PROBE \u2014 \" + pm.info.requestName,",
+                  "  note: \"200 = exists. 401/403 = credential scope. 404 = path not on this tenant. Do not share if this is clients.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"rows\", value: String(rows.length) },",
+                  "    { label: \"msg\", value: json && json.msg ? String(json.msg) : \"\" }",
+                  "  ],",
+                  "  columns: keys.length ? keys : [\"(no row keys)\"],",
+                  "  rows: rows.slice(0, 5).map(r => keys.map(k => cell(r[k]))),",
+                  "  analytics: { http_status: pm.response.code, path: pm.request.url.toString(), row_count: rows.length, sample_keys: keys }",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "name": "3.7 GET feedback",
+          "request": {
+            "method": "GET",
+            "header": [
+              {
+                "key": "Accept",
+                "value": "application/json"
+              },
+              {
+                "key": "Authorization",
+                "value": "{{token}}"
+              }
+            ],
+            "url": "{{baseUrl}}/feedback",
+            "description": "Guest feedback if exposed."
+          },
+          "event": [
+            {
+              "listen": "test",
+              "script": {
+                "type": "text/javascript",
+                "exec": [
+                  "",
+                  "const VIZ = [",
+                  "  \"<style>\",",
+                  "  \"body{font-family:-apple-system,Segoe UI,sans-serif;font-size:12px;margin:12px;}\",",
+                  "  \".kpis{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px;}\",",
+                  "  \".kpi{background:#f3f4f6;padding:8px 10px;border-radius:4px;min-width:90px;}\",",
+                  "  \".kpi b{display:block;font-size:11px;color:#555;}\",",
+                  "  \".warn{color:#b45309;margin-bottom:8px;}\",",
+                  "  \"table{border-collapse:collapse;width:100%;}\",",
+                  "  \"th,td{border:1px solid #ddd;padding:4px 6px;text-align:left;vertical-align:top;}\",",
+                  "  \"th{background:#111827;color:#fff;position:sticky;top:0;}\",",
+                  "  \"tr:nth-child(even){background:#fafafa;}\",",
+                  "  \"</style>\",",
+                  "  \"<h3>{{title}}</h3>\",",
+                  "  \"{{#if note}}<div class='warn'>{{note}}</div>{{/if}}\",",
+                  "  \"<div class='kpis'>{{#each kpis}}<div class='kpi'><b>{{label}}</b>{{value}}</div>{{/each}}</div>\",",
+                  "  \"<table><thead><tr>{{#each columns}}<th>{{this}}</th>{{/each}}</tr></thead><tbody>\",",
+                  "  \"{{#each rows}}<tr>{{#each this}}<td>{{this}}</td>{{/each}}</tr>{{/each}}\",",
+                  "  \"</tbody></table>\"",
+                  "].join(\"\");",
+                  "",
+                  "function show(payload) {",
+                  "  pm.visualizer.set(VIZ, payload);",
+                  "  console.log(\"ANALYTICS_VIEW\", JSON.stringify(payload.analytics || payload, null, 2).slice(0, 8000));",
+                  "}",
+                  "",
+                  "function resultsOf(json) {",
+                  "  if (!json) return [];",
+                  "  const d = json.data;",
+                  "  if (Array.isArray(d)) return d;",
+                  "  if (d && Array.isArray(d.results)) return d.results;",
+                  "  if (d && Array.isArray(d.charges)) return d.charges;",
+                  "  if (Array.isArray(json.results)) return json.results;",
+                  "  return [];",
+                  "}",
+                  "",
+                  "function pick(obj, keys) {",
+                  "  const out = {};",
+                  "  keys.forEach(k => { if (obj && Object.prototype.hasOwnProperty.call(obj, k)) out[k] = obj[k]; });",
+                  "  return out;",
+                  "}",
+                  "",
+                  "function cell(v) {",
+                  "  if (v === null || v === undefined) return \"\";",
+                  "  if (typeof v === \"object\") return JSON.stringify(v);",
+                  "  return String(v);",
+                  "}",
+                  "",
+                  "pm.test(\"GET only\", function () { pm.expect(pm.request.method).to.eql(\"GET\"); });",
+                  "let json = null;",
+                  "try { json = pm.response.json(); } catch (e) {}",
+                  "const rows = resultsOf(json);",
+                  "const keys = rows[0] ? Object.keys(rows[0]).slice(0, 15) : [];",
+                  "show({",
+                  "  title: \"PROBE \u2014 \" + pm.info.requestName,",
+                  "  note: \"200 = exists. 401/403 = credential scope. 404 = path not on this tenant. Do not share if this is clients.\",",
+                  "  kpis: [",
+                  "    { label: \"HTTP\", value: String(pm.response.code) },",
+                  "    { label: \"rows\", value: String(rows.length) },",
+                  "    { label: \"msg\", value: json && json.msg ? String(json.msg) : \"\" }",
+                  "  ],",
+                  "  columns: keys.length ? keys : [\"(no row keys)\"],",
+                  "  rows: rows.slice(0, 5).map(r => keys.map(k => cell(r[k]))),",
+                  "  analytics: { http_status: pm.response.code, path: pm.request.url.toString(), row_count: rows.length, sample_keys: keys }",
+                  "});",
+                  ""
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

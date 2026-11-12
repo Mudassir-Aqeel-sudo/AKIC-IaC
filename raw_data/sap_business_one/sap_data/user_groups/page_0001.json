@@ -1,0 +1,231 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#UserGroups",
+	"value" : 
+	[
+		{
+			"UserGroupId" : -4,
+			"UserGroupName" : "Finance",
+			"UserGroupDec" : "Finance",
+			"TPLId" : 0,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : -3,
+			"UserGroupName" : "Sales",
+			"UserGroupDec" : "Sales",
+			"TPLId" : 0,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : -2,
+			"UserGroupName" : "Purchase",
+			"UserGroupDec" : "Purchase",
+			"TPLId" : 0,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : -1,
+			"UserGroupName" : "Inventory",
+			"UserGroupDec" : "Inventory",
+			"TPLId" : 0,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 2,
+			"UserGroupName" : "leasing",
+			"UserGroupDec" : "leasing",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 4,
+			"UserGroupName" : "Facilities Management",
+			"UserGroupDec" : "Facilities Management",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 5,
+			"UserGroupName" : "IT/System Admin",
+			"UserGroupDec" : "IT/System Admin",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 6,
+			"UserGroupName" : "Management",
+			"UserGroupDec" : "Management",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 7,
+			"UserGroupName" : "Finance Approver",
+			"UserGroupDec" : "Finance Approver",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 8,
+			"UserGroupName" : "Activity Creation",
+			"UserGroupDec" : "Activity Creation",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 9,
+			"UserGroupName" : "WhatsApp Approvers",
+			"UserGroupDec" : "WhatsApp Approvers",
+			"TPLId" : null,
+			"StartDate" : "2024-08-07T00:00:00Z",
+			"DueDate" : "2030-12-31T00:00:00Z",
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 10,
+			"UserGroupName" : "Purchase Manager (LL)",
+			"UserGroupDec" : "Purchase Manager (LL)",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 11,
+			"UserGroupName" : "CFO",
+			"UserGroupDec" : "CFO",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 12,
+			"UserGroupName" : "DOF ( Director Of finance )",
+			"UserGroupDec" : "DOF ( Director Of finance )",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 13,
+			"UserGroupName" : "Finance Account Manager",
+			"UserGroupDec" : "Finance Account Manager",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 14,
+			"UserGroupName" : "A/R Manager",
+			"UserGroupDec" : "A/R Manager",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 15,
+			"UserGroupName" : "A/R Team",
+			"UserGroupDec" : "A/R Team",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 16,
+			"UserGroupName" : "Collection Team",
+			"UserGroupDec" : "Collection Team",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 17,
+			"UserGroupName" : "G/L Manager",
+			"UserGroupDec" : "G/L Manager",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 18,
+			"UserGroupName" : "G/L Team",
+			"UserGroupDec" : "G/L Team",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 19,
+			"UserGroupName" : "Reporting Manager",
+			"UserGroupDec" : "Reporting Manager",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 20,
+			"UserGroupName" : "A/ P Team",
+			"UserGroupDec" : "A/ P Team",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 21,
+			"UserGroupName" : "Cash Management Team",
+			"UserGroupDec" : "Cash Management Team",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 22,
+			"UserGroupName" : "COMMON_USER_AUTH",
+			"UserGroupDec" : "COMMON_USER_AUTH",
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		},
+		{
+			"UserGroupId" : 23,
+			"UserGroupName" : "Group A Test",
+			"UserGroupDec" : null,
+			"TPLId" : null,
+			"StartDate" : null,
+			"DueDate" : null,
+			"UserGroupType" : "gc_Authorization"
+		}
+	]
+}
