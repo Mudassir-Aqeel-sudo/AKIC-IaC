@@ -1,0 +1,1807 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#DistributionRules",
+	"value" : 
+	[
+		{
+			"FactorCode" : "50000745",
+			"FactorDescription" : "Saeed Al Alyani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000745",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-06-13T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000749",
+			"FactorDescription" : "Faisal Ahmed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000749",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-07-19T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000750",
+			"FactorDescription" : "Nuruzzaman Sharbat",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000750",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-07-21T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000751",
+			"FactorDescription" : "Motalib Sakdar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000751",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000761",
+			"FactorDescription" : "Qablan Rafdan Al Yami",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000761",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-08-25T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000765",
+			"FactorDescription" : "Thevarajan Anthonipillai",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000765",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-08-25T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000772",
+			"FactorDescription" : "MUJIBUR HOSSAIN",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000772",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-10-05T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000775",
+			"FactorDescription" : "Abdullah Kariri",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000775",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-10-06T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000779",
+			"FactorDescription" : "Abdul Hadi Ali",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000779",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-10-13T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000787",
+			"FactorDescription" : "Arshad Ahmed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000787",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-10-23T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000793",
+			"FactorDescription" : "Nasser Al Subaie",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000793",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-11-20T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000797",
+			"FactorDescription" : "Mufres Al Shaibani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000797",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-11-27T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000802",
+			"FactorDescription" : "Bishnu Devkota",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000802",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-11-26T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000806",
+			"FactorDescription" : "Md Akram",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000806",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-11-26T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000807",
+			"FactorDescription" : "Bhim Chhetri",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000807",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-11-26T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000815",
+			"FactorDescription" : "Saud Al Sufiani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000815",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-12-22T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000820",
+			"FactorDescription" : "Nurnobi Rahman",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000820",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2016-12-22T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000827",
+			"FactorDescription" : "Basmah Al Khalid",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000827",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-03-19T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000829",
+			"FactorDescription" : "Thamer Al Hassan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000829",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-04-04T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000843",
+			"FactorDescription" : "Minhajul Islam",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000843",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-06-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000844",
+			"FactorDescription" : "Mohamed Siddik",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000844",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-06-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000845",
+			"FactorDescription" : "Md Buhiya",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000845",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-06-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000846",
+			"FactorDescription" : "Faisal Hossain",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000846",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-06-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000847",
+			"FactorDescription" : "Joynal Miah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000847",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-06-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000849",
+			"FactorDescription" : "Mohammad Ullah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000849",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-06-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000851",
+			"FactorDescription" : "Nayeem Fakir",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000851",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-07-02T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000853",
+			"FactorDescription" : "Md Kamruzzaman",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000853",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-07-13T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000864",
+			"FactorDescription" : "Humun Hakim",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000864",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2017-12-13T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000872",
+			"FactorDescription" : "Khaled Al Enazi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000872",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-03-29T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000874",
+			"FactorDescription" : "Shimul Miah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000874",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-04-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000875",
+			"FactorDescription" : "Moazzem Ali",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000875",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-04-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000876",
+			"FactorDescription" : "Mohammad Miah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000876",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-04-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000877",
+			"FactorDescription" : "Faysal Fakir",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000877",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-04-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000879",
+			"FactorDescription" : "Ahmed Mahashi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000879",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-04-23T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000881",
+			"FactorDescription" : "Nizam Hossain",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000881",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-05-03T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000882",
+			"FactorDescription" : "Pappukuttan Parampil",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000882",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-05-06T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000883",
+			"FactorDescription" : "Shakir Tota Miah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000883",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-05-13T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000884",
+			"FactorDescription" : "Sujon Miah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000884",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-05-13T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000885",
+			"FactorDescription" : "Md Alam",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000885",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-05-13T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000886",
+			"FactorDescription" : "Md Md",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000886",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-05-13T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000891",
+			"FactorDescription" : "Khalid Alghamdi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000891",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-06-03T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000892",
+			"FactorDescription" : "Mohammed Al Qahtani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000892",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-05-20T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000897",
+			"FactorDescription" : "Mohammed Zaid Bin Zaid",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000897",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000911",
+			"FactorDescription" : "RAED ALSIRAJ",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000911",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-09-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000920",
+			"FactorDescription" : "Meshal Alhathri",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000920",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2018-11-04T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000934",
+			"FactorDescription" : "Hassan Alhadyan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000934",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-02-24T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000953",
+			"FactorDescription" : "Ebtasam Abdulaziz Albabtain",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000953",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000954",
+			"FactorDescription" : "KHALID AL SHAMARDAL",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000954",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-07-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000972",
+			"FactorDescription" : "Azizul Mia",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000972",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-08-19T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000973",
+			"FactorDescription" : "Mohammed Alam",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000973",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-08-19T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000974",
+			"FactorDescription" : "Farhad Abdur",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000974",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-08-26T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000977",
+			"FactorDescription" : "Sarah Aljasham",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000977",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-09-02T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000978",
+			"FactorDescription" : "Sofikul Islam",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000978",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-09-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000987",
+			"FactorDescription" : "Muslat Alquraini",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000987",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-09-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000996",
+			"FactorDescription" : "Belal Ghazwani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000996",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-09-16T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001009",
+			"FactorDescription" : "Helal Uddin",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001009",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-09-18T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001072",
+			"FactorDescription" : "Thamer Bin Hawban",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001072",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-11-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001084",
+			"FactorDescription" : "Ali Albishi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001084",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-11-28T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001085",
+			"FactorDescription" : "Majed Alghamdi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001085",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-12-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001088",
+			"FactorDescription" : "Md Samim",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001088",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-12-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001089",
+			"FactorDescription" : "Rasel Miah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001089",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-12-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001090",
+			"FactorDescription" : "Tajul Islam",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001090",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-12-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001091",
+			"FactorDescription" : "Aslam Ali",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001091",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-12-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001097",
+			"FactorDescription" : "Zaid Alsubaie",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001097",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001099",
+			"FactorDescription" : "Abdulelah Albehairi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001099",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-05T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001101",
+			"FactorDescription" : "Sabbir Khan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001101",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-12-29T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001102",
+			"FactorDescription" : "Jakir Hossain",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001102",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-12-30T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001103",
+			"FactorDescription" : "Nabi Hossain",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001103",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2019-12-31T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001104",
+			"FactorDescription" : "Khalid Alfahad",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001104",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-07T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001105",
+			"FactorDescription" : "Main Atik",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001105",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-09T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001108",
+			"FactorDescription" : "Md Ahamed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001108",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-13T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001109",
+			"FactorDescription" : "Md Yousuf",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001109",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001115",
+			"FactorDescription" : "Aswani Natarajan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001115",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-02-16T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001116",
+			"FactorDescription" : "Mohin Uddin Moahmmad",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001116",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-02-23T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001118",
+			"FactorDescription" : "Tamzid Babul",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001118",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-03-07T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001120",
+			"FactorDescription" : "Raju Sikder",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001120",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-03-08T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001180",
+			"FactorDescription" : "Khalid Abuhaimed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001180",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-04-19T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001189",
+			"FactorDescription" : "Saud Abdulaziz Binshanar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001189",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001203",
+			"FactorDescription" : "Saleh Alrumayh",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001203",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-09-21T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001204",
+			"FactorDescription" : "Abdul Faris",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001204",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-09-27T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001207",
+			"FactorDescription" : "Saeed Bintooq",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001207",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-09-20T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001221",
+			"FactorDescription" : "Naif Bin Saad",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001221",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-10-21T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001222",
+			"FactorDescription" : "Fahad Alanazi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001222",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-11-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001227",
+			"FactorDescription" : "Abdulrahman Alotaibi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001227",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-11-03T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001234",
+			"FactorDescription" : "Mohammed Ba Wazir",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001234",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-11-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001243",
+			"FactorDescription" : "OTHMAN KLKTAWI",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001243",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-12-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001247",
+			"FactorDescription" : "Abdulaziz Alfuraya",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001247",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-12-06T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001255",
+			"FactorDescription" : "Salih Al Zahrani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001255",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001335",
+			"FactorDescription" : "Luc Delafosse",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001335",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-01-27T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001337",
+			"FactorDescription" : "MOHAMED NIYMATHULLAH",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001337",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001338",
+			"FactorDescription" : "SABOOR ISMATH",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001338",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001342",
+			"FactorDescription" : "Mohammad Uddin",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001342",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001345",
+			"FactorDescription" : "Mohammed Khan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001345",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001346",
+			"FactorDescription" : "Muhammad Yunus",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001346",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001347",
+			"FactorDescription" : "Tuwan Casim",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001347",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001367",
+			"FactorDescription" : "Bakr Mohamed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001367",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-02-07T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001384",
+			"FactorDescription" : "Muhammad Suleman",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001384",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-04-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001389",
+			"FactorDescription" : "Raju Bartaula",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001389",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-05-02T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001390",
+			"FactorDescription" : "Polash Fakir",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001390",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-05-03T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001391",
+			"FactorDescription" : "Md Abedin",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001391",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2021-05-04T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		}
+	],
+	"odata.nextLink" : "DistributionRules?$orderby=FactorCode&$skip=300"
+}

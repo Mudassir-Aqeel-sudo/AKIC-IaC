@@ -1,0 +1,195 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#Projects",
+	"value" : 
+	[
+		{
+			"Code" : "RUP-LPM-1509-08",
+			"Name" : "RUP-LPM-1509-08",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-LPM-1509-11",
+			"Name" : "RUP-LPM-1509-11",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MAM-1507-01",
+			"Name" : "RUP-MAM-1507-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MAM-1507-02",
+			"Name" : "RUP-MAM-1507-02",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MAM-1507-03",
+			"Name" : "RUP-MAM-1507-03",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MER-1508-03",
+			"Name" : "RUP-MER-1508-03",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MER-1508-08",
+			"Name" : "RUP-MER-1508-08",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MOA-1510-01",
+			"Name" : "RUP-MOA-1510-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MOA-1510-04",
+			"Name" : "RUP-MOA-1510-04",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-01",
+			"Name" : "AFT-RUP-MUL-1505-01",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-02",
+			"Name" : "AFT-RUP-MUL-1505-02",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-04",
+			"Name" : "AFT-RUP-MUL-1505-04",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-05",
+			"Name" : "AFT-RUP-MUL-1505-05",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-06",
+			"Name" : "AFT-RUP-MUL-1505-06",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-07",
+			"Name" : "AFT-RUP-MUL-1505-07",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-08",
+			"Name" : "AFT-RUP-MUL-1505-08",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-09",
+			"Name" : "AFT-RUP-MUL-1505-09",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-10-01",
+			"Name" : "AFT-RUP-MUL-1505-10-01",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-10-02",
+			"Name" : "AFT-RUP-MUL-1505-10-02",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-10-03",
+			"Name" : "AFT-RUP-MUL-1505-10-03",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-10-04",
+			"Name" : "AFT-RUP-MUL-1505-10-04",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-10-05",
+			"Name" : "AFT-RUP-MUL-1505-10-05",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-11-01",
+			"Name" : "AFT-RUP-MUL-1505-11-01",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-MUL-1505-12",
+			"Name" : "AFT-RUP-MUL-1505-12",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-PHB-1B",
+			"Name" : "Phase 1b land filling",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "UOC-ALF-DIST-2404",
+			"Name" : "Unification of CCTV and IPTV",
+			"ValidFrom" : "2024-04-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "UON-ALF-DIST-2402",
+			"Name" : "UON-ALF-DIST-2402-04",
+			"ValidFrom" : "2024-02-04T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		}
+	]
+}

@@ -1,0 +1,1807 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#DistributionRules",
+	"value" : 
+	[
+		{
+			"FactorCode" : "50001871",
+			"FactorDescription" : "Akhil  Pillai",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001871",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-07-19T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001872",
+			"FactorDescription" : "Mohammad  Akhtar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001872",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-02T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001873",
+			"FactorDescription" : "Shamim  Hoda",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001873",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-02T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001874",
+			"FactorDescription" : "MOHD Saleem  Noorhasan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001874",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-03T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001875",
+			"FactorDescription" : "Arjun  Braj Lal",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001875",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-03T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001876",
+			"FactorDescription" : "Mohammed  Syed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001876",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-03T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001877",
+			"FactorDescription" : "Nagarajan  Ramanathan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001877",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-07T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001878",
+			"FactorDescription" : "Yousef  Alanazi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001878",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-03T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001879",
+			"FactorDescription" : "Abdulaziz Alaqil",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001879",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-17T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001880",
+			"FactorDescription" : "Minhaj Mohammed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001880",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-20T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001881",
+			"FactorDescription" : "Shakkeer  Kattil",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001881",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-20T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001882",
+			"FactorDescription" : "Mohammad Ali",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001882",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-22T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001883",
+			"FactorDescription" : "Ohud AlBishi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001883",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-24T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001884",
+			"FactorDescription" : "Mohammed AlMazyad",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001884",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-27T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001885",
+			"FactorDescription" : "Raghad Alammari",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001885",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-27T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001886",
+			"FactorDescription" : "Abdulwahab Alghamdi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001886",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-08-31T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001887",
+			"FactorDescription" : "Hessah Almuqbel",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001887",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-02T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001888",
+			"FactorDescription" : "Saad Asseri",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001888",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001889",
+			"FactorDescription" : "Osamah Alanazi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001889",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001890",
+			"FactorDescription" : "Abdullah Alghaith",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001890",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001891",
+			"FactorDescription" : "Ahmed Almarzook",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001891",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001892",
+			"FactorDescription" : "Wed Alqahtani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001892",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001893",
+			"FactorDescription" : "Ibrahim Alqaddumi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001893",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001894",
+			"FactorDescription" : "Hamad Alosami",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001894",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-16T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001895",
+			"FactorDescription" : "Haya Al Fayi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001895",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-21T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001896",
+			"FactorDescription" : "Alanoud  Aldawish",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001896",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-24T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001897",
+			"FactorDescription" : "Mohammed  Baraka",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001897",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001898",
+			"FactorDescription" : "Faisal Alotaibi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001898",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001899",
+			"FactorDescription" : "Meshal Alashqar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001899",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001900",
+			"FactorDescription" : "Khalid  Al Jalban",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001900",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-05T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001901",
+			"FactorDescription" : "Faisal Sharahili",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001901",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-12T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001902",
+			"FactorDescription" : "Manar Alqabbaa",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001902",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-12T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001903",
+			"FactorDescription" : "Sergio  Novais",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001903",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-13T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001904",
+			"FactorDescription" : "Mohammed Alanazi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001904",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-12T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001905",
+			"FactorDescription" : "Ammar Alyami",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001905",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-19T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001906",
+			"FactorDescription" : "Faisal Alhumaidan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001906",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-26T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001907",
+			"FactorDescription" : "Ragad Almaliky",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001907",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-26T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001908",
+			"FactorDescription" : "Musaad  Sulaiman",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001908",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-26T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001909",
+			"FactorDescription" : "Humoud  Alsaif",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001909",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-26T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001910",
+			"FactorDescription" : "Ehab Maddah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001910",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-11-02T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001911",
+			"FactorDescription" : "Mohammed  Ghazwani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001911",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-11-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001912",
+			"FactorDescription" : "Saad  Alhudaib",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001912",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-11-17T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001913",
+			"FactorDescription" : "Riyadh  Almalki",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001913",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-11-17T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001914",
+			"FactorDescription" : "Abdullah Alshathri",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001914",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-11-23T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001915",
+			"FactorDescription" : "Reema Bakrpashat",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001915",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-11-30T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001916",
+			"FactorDescription" : "Abdulaziz  Alqahtani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001916",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-12-02T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001917",
+			"FactorDescription" : "Sami Almidani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001917",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2023-02-12T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001918",
+			"FactorDescription" : "Shahnawaz  Hussain",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001918",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-12-20T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001919",
+			"FactorDescription" : "Mohammed  Alangari",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001919",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-12-23T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001920",
+			"FactorDescription" : "Fahad  Alshamari",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001920",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-12-28T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001921",
+			"FactorDescription" : "Fawaz   Alfaris",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001921",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-01-04T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001922",
+			"FactorDescription" : "Wissam  Karaki",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001922",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-01-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001923",
+			"FactorDescription" : "Saud  Alanazi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001923",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-01-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001924",
+			"FactorDescription" : "Saleem  Alqahtani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001924",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-01-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001925",
+			"FactorDescription" : "Mubarak  Alzahrani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001925",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-01-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001926",
+			"FactorDescription" : "Turki  Alshammari",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001926",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-01-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001927",
+			"FactorDescription" : "Salim  Aldhafeeri",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001927",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-01-18T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001928",
+			"FactorDescription" : "Sultan  Alshammari",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001928",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-02-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001929",
+			"FactorDescription" : "Ammar   Alsulaimani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001929",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-02-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001930",
+			"FactorDescription" : "Bandar  Aldhafeeri",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001930",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-02-08T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001931",
+			"FactorDescription" : "Adhwaa  Alabdulkarim",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001931",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-02-08T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001932",
+			"FactorDescription" : "Faris  Alotayfi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001932",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-02-08T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001933",
+			"FactorDescription" : "Abdulaziz  Almutairi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001933",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-02-08T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001934",
+			"FactorDescription" : "Saif  Bader",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001934",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-02-04T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001935",
+			"FactorDescription" : "Ahad  Alotaibi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001935",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-02-23T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001936",
+			"FactorDescription" : "Orest  Lachowycz",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001936",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-02-25T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001937",
+			"FactorDescription" : "Saud  Asiri",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001937",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-03-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001938",
+			"FactorDescription" : "Nasser  Al Wateed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001938",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-03-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001939",
+			"FactorDescription" : "Dema  Albahooth",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001939",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-03-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001940",
+			"FactorDescription" : "Asim  Almutairi",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001940",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-02-17T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001941",
+			"FactorDescription" : "Jorge  Arroyo",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001941",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-03-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001942",
+			"FactorDescription" : "Rayan Alzaharani",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001942",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-03-02T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50001943",
+			"FactorDescription" : "AMIRAH ALKAHTANI",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50001943",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-03-18T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51",
+			"FactorDescription" : "51",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 1,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5110",
+			"FactorDescription" : "Corporate Head office",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5110",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51101100",
+			"FactorDescription" : "Board",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51101100",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51101200",
+			"FactorDescription" : "Internal Audit",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51101200",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51101300",
+			"FactorDescription" : "CEO Office",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51101300",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51101301",
+			"FactorDescription" : "Strategy and Transform DEP",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51101301",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51101302",
+			"FactorDescription" : "Real Estate Business Develpmt",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51101302",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-10-10T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51102000",
+			"FactorDescription" : "Corporate Finance",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51102000",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51102001",
+			"FactorDescription" : "COS IFRSs adjustment",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51102001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51102002",
+			"FactorDescription" : "G&A IFRSs adjustment",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51102002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51102003",
+			"FactorDescription" : "S&M IFRSs adjustment",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51102003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51102004",
+			"FactorDescription" : "Other IFRSs adjustms",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51102004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51104000",
+			"FactorDescription" : "PMO",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51104000",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51104100",
+			"FactorDescription" : "ENGINEERING & CONSUL",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51104100",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51105000",
+			"FactorDescription" : "Corporate Operations",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51105000",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51105100",
+			"FactorDescription" : "Corporate HR",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51105100",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51105101",
+			"FactorDescription" : "Corporate Adminstration",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51105101",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51105102",
+			"FactorDescription" : "Cluster Staff Housing section",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51105102",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-10-10T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51105200",
+			"FactorDescription" : "Corporate SCM",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51105200",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51105300",
+			"FactorDescription" : "Corporate IT",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51105300",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51105301",
+			"FactorDescription" : "CORPORATE IT - INFRA",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51105301",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51105400",
+			"FactorDescription" : "Legal",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51105400",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51106000",
+			"FactorDescription" : "Business Development",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51106000",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5111",
+			"FactorDescription" : "Corporate Marketing",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5111",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51111000",
+			"FactorDescription" : "Corporate Marketing",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51111000",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5112",
+			"FactorDescription" : "Corporate Shared Services",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5112",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "51121000",
+			"FactorDescription" : "Corporate Shared Services",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "51121000",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		}
+	],
+	"odata.nextLink" : "DistributionRules?$orderby=FactorCode&$skip=700"
+}

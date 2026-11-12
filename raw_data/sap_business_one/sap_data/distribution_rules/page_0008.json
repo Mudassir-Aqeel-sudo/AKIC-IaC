@@ -1,0 +1,1807 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#DistributionRules",
+	"value" : 
+	[
+		{
+			"FactorCode" : "52",
+			"FactorDescription" : "Realty Division",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 1,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5210",
+			"FactorDescription" : "Property Leasing",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5210",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52101000",
+			"FactorDescription" : "Property & Realty",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52101000",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5211",
+			"FactorDescription" : "Property Marketing",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5211",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52111000",
+			"FactorDescription" : "Property Marketing",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52111000",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5212",
+			"FactorDescription" : "Security and Protocol",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5212",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52121000",
+			"FactorDescription" : "Security and Protocol",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52121000",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52121001",
+			"FactorDescription" : "Security",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52121001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52121002",
+			"FactorDescription" : "HSE",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52121002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-10-10T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52121003",
+			"FactorDescription" : "Customer Experience",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52121003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-10-10T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52121004",
+			"FactorDescription" : "Leasing Department",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52121004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-10-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5220",
+			"FactorDescription" : "Al Faisaliah Tower",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5220",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52200001",
+			"FactorDescription" : "Al Faisaliah Tower",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52200001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5230",
+			"FactorDescription" : "Al Faisaliah Mall",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5230",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52300001",
+			"FactorDescription" : "Al Faisaliah Mall",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52300001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5240",
+			"FactorDescription" : "KFF Building",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5240",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52400001",
+			"FactorDescription" : "KFF Building - North",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52400001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5250",
+			"FactorDescription" : "AL Muthasem Street",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5250",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52500001",
+			"FactorDescription" : "Al Muthasem street",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52500001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5260",
+			"FactorDescription" : "Airline Building",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5260",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52600001",
+			"FactorDescription" : "Airlines Building",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52600001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5270",
+			"FactorDescription" : null,
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5270",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5280",
+			"FactorDescription" : "KFF Building - North",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5280",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52800001",
+			"FactorDescription" : "KFF Building - South",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52800001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5290",
+			"FactorDescription" : "Apartment",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5290",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2022-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52900001",
+			"FactorDescription" : "Olaya - Apartment",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52900001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-10-24T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52900002",
+			"FactorDescription" : "Al Malaz - Apartments",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52900002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2023-11-28T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52900003",
+			"FactorDescription" : "Al- Mather Apartments",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52900003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2023-11-28T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "52900004",
+			"FactorDescription" : "Sulaymaniyah Villa",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "52900004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53",
+			"FactorDescription" : "Facility Management",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 1,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5310",
+			"FactorDescription" : "Facility management",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5310",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53100001",
+			"FactorDescription" : "Facility management",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53100001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53101000",
+			"FactorDescription" : "FM Admin",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53101000",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53101001",
+			"FactorDescription" : "HSE & Fire Fighting",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53101001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5320",
+			"FactorDescription" : "House Keeping",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5320",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53200001",
+			"FactorDescription" : "HOUSE KEEPING",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53200001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53200002",
+			"FactorDescription" : "Supervisor-HK",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53200002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53200003",
+			"FactorDescription" : "HouseKeeper-High Lev",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53200003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53200004",
+			"FactorDescription" : "General HouseKeeper",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53200004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53200006",
+			"FactorDescription" : "Overhead-HK",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53200006",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "533",
+			"FactorDescription" : null,
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "533",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-25T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5330",
+			"FactorDescription" : "Operation & Maintenance",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5330",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53300001",
+			"FactorDescription" : "Op & Main -Snr Super",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53300001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53300002",
+			"FactorDescription" : "Op & Main - Supervr",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53300002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53300003",
+			"FactorDescription" : "Op & Maint -Sk.Tech",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53300003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53300004",
+			"FactorDescription" : "Op & Maint - SmkTech",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53300004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53300006",
+			"FactorDescription" : "Op & Main - Overhead",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53300006",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53300007",
+			"FactorDescription" : "O & M Engineer",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53300007",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53301100",
+			"FactorDescription" : "MECHANICAL",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53301100",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5340",
+			"FactorDescription" : "Security",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5340",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53400001",
+			"FactorDescription" : "Security Officer",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53400001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53400002",
+			"FactorDescription" : "Security Supervisor",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53400002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53400003",
+			"FactorDescription" : "Valet Parking",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53400003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53400004",
+			"FactorDescription" : "Security Admin",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53400004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53400005",
+			"FactorDescription" : "Security - OH",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53400005",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5350",
+			"FactorDescription" : "Valet Parking",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5350",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5360",
+			"FactorDescription" : "ENGINEERING",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5360",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53600001",
+			"FactorDescription" : "ENGINEERING",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53600001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5370",
+			"FactorDescription" : "FOOD & BEVERAGE",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5370",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53700001",
+			"FactorDescription" : "FOOD & BEVERAGE",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53700001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5380",
+			"FactorDescription" : "LANDSCAPING",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5380",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53800001",
+			"FactorDescription" : "LANDSCAPING",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53800001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5390",
+			"FactorDescription" : "Property Operations",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5390",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "53900001",
+			"FactorDescription" : "Property Operations",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tNO",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "53900001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54",
+			"FactorDescription" : "Hospitality Management",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 1,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5410",
+			"FactorDescription" : "Hospitality Management",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5410",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54100001",
+			"FactorDescription" : "Corporate Hospitality",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54100001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54100002",
+			"FactorDescription" : "Hospitality -Finance",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54100002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54100003",
+			"FactorDescription" : "Hospitality - H R",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54100003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54100004",
+			"FactorDescription" : "Hospitality - I T",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54100004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54101001",
+			"FactorDescription" : "Hospitality - Pre-Op",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54101001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54101002",
+			"FactorDescription" : "Hospitality - Technical",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54101002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54101003",
+			"FactorDescription" : "Hospitality - F & B",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54101003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54102001",
+			"FactorDescription" : "Hospitality - Sales",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54102001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54102002",
+			"FactorDescription" : "Hospitality - Market",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54102002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54102003",
+			"FactorDescription" : "Hospitality - B.DEV",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54102003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54102004",
+			"FactorDescription" : "Hospitality - BD.MAN",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54102004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5440",
+			"FactorDescription" : "Phase One Apartment",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5440",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54401001",
+			"FactorDescription" : "Phase 1 Aprt.Expense",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54401001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54401002",
+			"FactorDescription" : "Phase 1 Aprt.Adm&Gen",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54401002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54401003",
+			"FactorDescription" : "Phase 1 Aprt.IT&TLC",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54401003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54401004",
+			"FactorDescription" : "Phase 1 Aprt.Sal&Mkt",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54401004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54401005",
+			"FactorDescription" : "Phase 1 Aprt.Prp&Man",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54401005",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54401006",
+			"FactorDescription" : "Phase 1 Aprt.Utiliti",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54401006",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54401007",
+			"FactorDescription" : "Phase 1 Aprt.Fxd.Chr",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54401007",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54401008",
+			"FactorDescription" : "Phase 1 Aprt.Mng.Fee",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54401008",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5450",
+			"FactorDescription" : "Hittin Palace",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5450",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54501001",
+			"FactorDescription" : "Hittin Palace Opt.",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54501001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5460",
+			"FactorDescription" : "Al Faisaliah Hotel",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5460",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "54600001",
+			"FactorDescription" : "Al Faisaliah Hotel",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "54600001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2024-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "56",
+			"FactorDescription" : "Food & Beverage",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 1,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "56",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5610",
+			"FactorDescription" : "F&B - Corporate Management",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5610",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "56100001",
+			"FactorDescription" : "F&B - Corp Managemen",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "56100001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "56100002",
+			"FactorDescription" : "F&B - HR",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "56100002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "56100003",
+			"FactorDescription" : "F&B - Finance",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "56100003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "56100004",
+			"FactorDescription" : "F&B - Supply Chain",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "56100004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "56100005",
+			"FactorDescription" : "F&B - IT",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "56100005",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "56100006",
+			"FactorDescription" : "F&B - Business Devel",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "56100006",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "5620",
+			"FactorDescription" : "F&B - Yuatcha Restaura",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "5620",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "56200001",
+			"FactorDescription" : "F&B-Yuatcha Restaura",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "56200001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		}
+	],
+	"odata.nextLink" : "DistributionRules?$orderby=FactorCode&$skip=800"
+}

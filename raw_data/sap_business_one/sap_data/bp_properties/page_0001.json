@@ -1,0 +1,262 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#BusinessPartnerProperties",
+	"value" : 
+	[
+		{
+			"PropertyCode" : 1,
+			"PropertyName" : "Intercompany"
+		},
+		{
+			"PropertyCode" : 2,
+			"PropertyName" : "Related Party"
+		},
+		{
+			"PropertyCode" : 3,
+			"PropertyName" : "KFF Building"
+		},
+		{
+			"PropertyCode" : 4,
+			"PropertyName" : "Al faisalaiah Tower"
+		},
+		{
+			"PropertyCode" : 5,
+			"PropertyName" : "Al faisalaiah Mall"
+		},
+		{
+			"PropertyCode" : 6,
+			"PropertyName" : "Hospitality"
+		},
+		{
+			"PropertyCode" : 7,
+			"PropertyName" : "FM"
+		},
+		{
+			"PropertyCode" : 8,
+			"PropertyName" : "Legal Court Cases"
+		},
+		{
+			"PropertyCode" : 9,
+			"PropertyName" : "Embassies and Government"
+		},
+		{
+			"PropertyCode" : 10,
+			"PropertyName" : "Air line Buidling"
+		},
+		{
+			"PropertyCode" : 11,
+			"PropertyName" : "Syahya Building"
+		},
+		{
+			"PropertyCode" : 12,
+			"PropertyName" : "Royal"
+		},
+		{
+			"PropertyCode" : 13,
+			"PropertyName" : "Mutasim St"
+		},
+		{
+			"PropertyCode" : 14,
+			"PropertyName" : "Others -AK Hotel"
+		},
+		{
+			"PropertyCode" : 15,
+			"PropertyName" : "Tenants advances"
+		},
+		{
+			"PropertyCode" : 16,
+			"PropertyName" : "Legal"
+		},
+		{
+			"PropertyCode" : 17,
+			"PropertyName" : "Unlegal"
+		},
+		{
+			"PropertyCode" : 18,
+			"PropertyName" : "Business Partners Property 18"
+		},
+		{
+			"PropertyCode" : 19,
+			"PropertyName" : "Business Partners Property 19"
+		},
+		{
+			"PropertyCode" : 20,
+			"PropertyName" : "Business Partners Property 20"
+		},
+		{
+			"PropertyCode" : 21,
+			"PropertyName" : "Business Partners Property 21"
+		},
+		{
+			"PropertyCode" : 22,
+			"PropertyName" : "Business Partners Property 22"
+		},
+		{
+			"PropertyCode" : 23,
+			"PropertyName" : "Business Partners Property 23"
+		},
+		{
+			"PropertyCode" : 24,
+			"PropertyName" : "Business Partners Property 24"
+		},
+		{
+			"PropertyCode" : 25,
+			"PropertyName" : "Business Partners Property 25"
+		},
+		{
+			"PropertyCode" : 26,
+			"PropertyName" : "Business Partners Property 26"
+		},
+		{
+			"PropertyCode" : 27,
+			"PropertyName" : "Business Partners Property 27"
+		},
+		{
+			"PropertyCode" : 28,
+			"PropertyName" : "Business Partners Property 28"
+		},
+		{
+			"PropertyCode" : 29,
+			"PropertyName" : "Business Partners Property 29"
+		},
+		{
+			"PropertyCode" : 30,
+			"PropertyName" : "Business Partners Property 30"
+		},
+		{
+			"PropertyCode" : 31,
+			"PropertyName" : "Business Partners Property 31"
+		},
+		{
+			"PropertyCode" : 32,
+			"PropertyName" : "Business Partners Property 32"
+		},
+		{
+			"PropertyCode" : 33,
+			"PropertyName" : "Business Partners Property 33"
+		},
+		{
+			"PropertyCode" : 34,
+			"PropertyName" : "Business Partners Property 34"
+		},
+		{
+			"PropertyCode" : 35,
+			"PropertyName" : "Business Partners Property 35"
+		},
+		{
+			"PropertyCode" : 36,
+			"PropertyName" : "Business Partners Property 36"
+		},
+		{
+			"PropertyCode" : 37,
+			"PropertyName" : "Business Partners Property 37"
+		},
+		{
+			"PropertyCode" : 38,
+			"PropertyName" : "Business Partners Property 38"
+		},
+		{
+			"PropertyCode" : 39,
+			"PropertyName" : "Business Partners Property 39"
+		},
+		{
+			"PropertyCode" : 40,
+			"PropertyName" : "Business Partners Property 40"
+		},
+		{
+			"PropertyCode" : 41,
+			"PropertyName" : "Business Partners Property 41"
+		},
+		{
+			"PropertyCode" : 42,
+			"PropertyName" : "Business Partners Property 42"
+		},
+		{
+			"PropertyCode" : 43,
+			"PropertyName" : "Business Partners Property 43"
+		},
+		{
+			"PropertyCode" : 44,
+			"PropertyName" : "Business Partners Property 44"
+		},
+		{
+			"PropertyCode" : 45,
+			"PropertyName" : "Business Partners Property 45"
+		},
+		{
+			"PropertyCode" : 46,
+			"PropertyName" : "Business Partners Property 46"
+		},
+		{
+			"PropertyCode" : 47,
+			"PropertyName" : "Business Partners Property 47"
+		},
+		{
+			"PropertyCode" : 48,
+			"PropertyName" : "Business Partners Property 48"
+		},
+		{
+			"PropertyCode" : 49,
+			"PropertyName" : "Business Partners Property 49"
+		},
+		{
+			"PropertyCode" : 50,
+			"PropertyName" : "Business Partners Property 50"
+		},
+		{
+			"PropertyCode" : 51,
+			"PropertyName" : "Business Partners Property 51"
+		},
+		{
+			"PropertyCode" : 52,
+			"PropertyName" : "Business Partners Property 52"
+		},
+		{
+			"PropertyCode" : 53,
+			"PropertyName" : "Business Partners Property 53"
+		},
+		{
+			"PropertyCode" : 54,
+			"PropertyName" : "Business Partners Property 54"
+		},
+		{
+			"PropertyCode" : 55,
+			"PropertyName" : "Business Partners Property 55"
+		},
+		{
+			"PropertyCode" : 56,
+			"PropertyName" : "Business Partners Property 56"
+		},
+		{
+			"PropertyCode" : 57,
+			"PropertyName" : "Business Partners Property 57"
+		},
+		{
+			"PropertyCode" : 58,
+			"PropertyName" : "Business Partners Property 58"
+		},
+		{
+			"PropertyCode" : 59,
+			"PropertyName" : "Business Partners Property 59"
+		},
+		{
+			"PropertyCode" : 60,
+			"PropertyName" : "Business Partners Property 60"
+		},
+		{
+			"PropertyCode" : 61,
+			"PropertyName" : "Business Partners Property 61"
+		},
+		{
+			"PropertyCode" : 62,
+			"PropertyName" : "Business Partners Property 62"
+		},
+		{
+			"PropertyCode" : 63,
+			"PropertyName" : "Business Partners Property 63"
+		},
+		{
+			"PropertyCode" : 64,
+			"PropertyName" : "Business Partners Property 64"
+		}
+	]
+}

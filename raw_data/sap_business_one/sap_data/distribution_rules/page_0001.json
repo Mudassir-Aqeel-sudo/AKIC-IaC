@@ -1,0 +1,1807 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#DistributionRules",
+	"value" : 
+	[
+		{
+			"FactorCode" : "128387",
+			"FactorDescription" : "5340",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "128387",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "128392",
+			"FactorDescription" : "5320",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "128392",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192617",
+			"FactorDescription" : "56",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 1,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192617",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192618",
+			"FactorDescription" : "57",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 1,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192618",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192621",
+			"FactorDescription" : "5670",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192621",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192622",
+			"FactorDescription" : "5700",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192622",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192623",
+			"FactorDescription" : "5212",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192623",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192624",
+			"FactorDescription" : "5110",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192624",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192635",
+			"FactorDescription" : "56700001",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192635",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192636",
+			"FactorDescription" : "57001000",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192636",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192637",
+			"FactorDescription" : "52121002",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192637",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192638",
+			"FactorDescription" : "52121001",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192638",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192639",
+			"FactorDescription" : "52121003",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192639",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192640",
+			"FactorDescription" : "51101302",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192640",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "192641",
+			"FactorDescription" : "51105102",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "192641",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "21030001",
+			"FactorDescription" : null,
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "21030001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "21030002",
+			"FactorDescription" : null,
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "21030002",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "21030003",
+			"FactorDescription" : null,
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "21030003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "21030004",
+			"FactorDescription" : null,
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "21030004",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "21030005",
+			"FactorDescription" : null,
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 3,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "21030005",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "241362",
+			"FactorDescription" : "52121004",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 2,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "241362",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2020-01-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "40000001",
+			"FactorDescription" : "Mohammed Alsharidah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "40000001",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-09-28T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "40000006",
+			"FactorDescription" : "Rawad Nasereddine",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "40000006",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-11-02T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "40000007",
+			"FactorDescription" : "Shujan  Alsubaie",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "40000007",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-11-04T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "40000008",
+			"FactorDescription" : "Abdullah Alsayram",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "40000008",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-11-16T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "40000009",
+			"FactorDescription" : "Elmehdi  Bizrane",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "40000009",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-12-29T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "40000010",
+			"FactorDescription" : "Azeddine  Jamaa",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "40000010",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2025-12-29T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "40000011",
+			"FactorDescription" : "Noor Matar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "40000011",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2026-01-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000003",
+			"FactorDescription" : "Pawan Kumar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000003",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "1990-06-20T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000006",
+			"FactorDescription" : "Shaju Jose",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000006",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000009",
+			"FactorDescription" : "Shah Alam Shaikh",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000009",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2001-06-16T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000012",
+			"FactorDescription" : "Kaleemoddin Ahmed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000012",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-07-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000013",
+			"FactorDescription" : "Payyamal Shaju",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000013",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-10T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000015",
+			"FactorDescription" : "Sateesh Kurup",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000015",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-11-18T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000019",
+			"FactorDescription" : "Prasad Krishantha",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000019",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000021",
+			"FactorDescription" : "Biju Thottuppurathu",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000021",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000022",
+			"FactorDescription" : "Ahmed Sarfaraz",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000022",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-09-09T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000023",
+			"FactorDescription" : "Samira Al Wathlan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000023",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2001-03-18T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000028",
+			"FactorDescription" : "Sami Al Shaya",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000028",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-09-21T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000033",
+			"FactorDescription" : "Sirajul Aldin",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000033",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2001-02-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000038",
+			"FactorDescription" : "Mohammed Kunju Shahul Hameed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000038",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-06T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000039",
+			"FactorDescription" : "Cheethan Muneer",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000039",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-10T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000043",
+			"FactorDescription" : "Selastin Perera",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000043",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-10T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000044",
+			"FactorDescription" : "Kochakkadan Kuriappan Jeejo",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000044",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000048",
+			"FactorDescription" : "Mohammed Nawas",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000048",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-18T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000049",
+			"FactorDescription" : "Abubakar Ahmed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000049",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000055",
+			"FactorDescription" : "ARAB ALI ADUMIAH",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000055",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-06-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000059",
+			"FactorDescription" : "Khagendra Chauhan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000059",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-06-22T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000062",
+			"FactorDescription" : "Kannukadan Anthony",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000062",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000065",
+			"FactorDescription" : "NURUL MIAH",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000065",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2001-04-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000066",
+			"FactorDescription" : "Lokman Miah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000066",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2001-04-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000078",
+			"FactorDescription" : "Bangi Afasar Hassan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000078",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2001-11-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000079",
+			"FactorDescription" : "Kamaluddin Ruhul Amin",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000079",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2002-02-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000080",
+			"FactorDescription" : "Hasan Monir",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000080",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2002-02-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000082",
+			"FactorDescription" : "Ismail Miah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000082",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2002-02-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000085",
+			"FactorDescription" : "Manik Taramiah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000085",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2002-02-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000086",
+			"FactorDescription" : "Nimal Porutotage",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000086",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2002-02-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000089",
+			"FactorDescription" : "Anowar Abdul Basid",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000089",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2002-02-12T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000092",
+			"FactorDescription" : "Ziaul Fazzul Haque",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000092",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2002-02-20T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000094",
+			"FactorDescription" : "Mohammed Mahmud Shamim",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000094",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2002-02-20T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000100",
+			"FactorDescription" : "Maheen Kunju Kkannu",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000100",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "1992-01-27T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000103",
+			"FactorDescription" : "Jude Jayalithge Lakmal",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000103",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000105",
+			"FactorDescription" : "Mohamad Buhari",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000105",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000110",
+			"FactorDescription" : "Shaban Ali Falak Sher",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000110",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2001-11-05T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000114",
+			"FactorDescription" : "Ahsan Ahmed Riyasat",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000114",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2000-05-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000116",
+			"FactorDescription" : "Muthaleef Saleem",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000116",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2001-04-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000117",
+			"FactorDescription" : "Rajaratnam Damodaran",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000117",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2002-02-18T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000119",
+			"FactorDescription" : "Sajithran Pilakkool",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000119",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2002-03-06T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000130",
+			"FactorDescription" : "Khurshid Alam",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000130",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2004-01-10T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000131",
+			"FactorDescription" : "Fakhrul Hasan Abdul Rab",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000131",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2004-01-19T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000132",
+			"FactorDescription" : "Gopi Asari Suresh Kumar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000132",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2004-03-15T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000133",
+			"FactorDescription" : "Kamal Hossain Aminullah",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000133",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2004-06-23T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000137",
+			"FactorDescription" : "Abdul Karim Abdul Khalek",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000137",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2004-06-29T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000138",
+			"FactorDescription" : "Anoop Varghese",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000138",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2004-09-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000140",
+			"FactorDescription" : "Shahzad Naseem",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000140",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2005-01-09T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000145",
+			"FactorDescription" : "Mamun Hossain Amir Hossain",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000145",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2005-08-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000149",
+			"FactorDescription" : "Saiful Islam Mofizur Rahman",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000149",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2005-07-27T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000150",
+			"FactorDescription" : "NAZRUL ASANULLAH",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000150",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2005-07-26T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000151",
+			"FactorDescription" : "Asari Kumar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000151",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2005-09-25T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000152",
+			"FactorDescription" : "Abraham Job",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000152",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2005-10-17T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000153",
+			"FactorDescription" : "Haris Abdul Azeez",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000153",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2005-12-10T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000154",
+			"FactorDescription" : "Nur Mohammed Taslimuddin",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000154",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-01-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000161",
+			"FactorDescription" : "Thankappan Joy",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000161",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2006-06-21T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000162",
+			"FactorDescription" : "Shaikh Tarafdar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000162",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "1999-08-14T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000166",
+			"FactorDescription" : "Idley Ahmed",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000166",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2007-09-22T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000167",
+			"FactorDescription" : "Mohammed Ali",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000167",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2007-10-08T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000172",
+			"FactorDescription" : "Shajeer Mohamed Haneefa",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000172",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2008-04-01T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000173",
+			"FactorDescription" : "Saud Al Said",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000173",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2008-04-26T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000175",
+			"FactorDescription" : "Remesh Kumar Raman",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000175",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2008-08-27T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000179",
+			"FactorDescription" : "Mohammad Aftab",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000179",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2008-10-25T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000181",
+			"FactorDescription" : "Naser Al Sharahili",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000181",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2009-02-07T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000183",
+			"FactorDescription" : "Ismail Asharaf",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000183",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2009-03-03T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000187",
+			"FactorDescription" : "Prakash Nair",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000187",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2009-04-11T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000189",
+			"FactorDescription" : "Shiyas Ebrahim",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000189",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2009-04-18T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000191",
+			"FactorDescription" : "Vineesh Velayudhan",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000191",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2009-04-18T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000195",
+			"FactorDescription" : "Kozhikode Manoj Kumar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000195",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2009-05-25T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000199",
+			"FactorDescription" : "Mannilthodi Shihabudeen",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000199",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2009-06-07T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000200",
+			"FactorDescription" : "Rajesh Kumar",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000200",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2009-06-25T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000201",
+			"FactorDescription" : "Dilbag Singh",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000201",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2009-06-25T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		},
+		{
+			"FactorCode" : "50000203",
+			"FactorDescription" : "Thaivalappil Murali",
+			"TotalFactor" : 100.0,
+			"Direct" : "Y",
+			"InWhichDimension" : 4,
+			"Active" : "tYES",
+			"IsFixedAmount" : "tNO",
+			"DistributionRuleLines" : 
+			[
+				{
+					"CenterCode" : "50000203",
+					"TotalInCenter" : 100.0,
+					"EffectiveFrom" : "2009-06-27T00:00:00Z",
+					"EffectiveTo" : null
+				}
+			]
+		}
+	],
+	"odata.nextLink" : "DistributionRules?$orderby=FactorCode&$skip=100"
+}

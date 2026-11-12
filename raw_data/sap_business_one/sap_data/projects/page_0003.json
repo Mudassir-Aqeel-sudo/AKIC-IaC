@@ -1,0 +1,707 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#Projects",
+	"value" : 
+	[
+		{
+			"Code" : "FHN-LBR-ALL-1503-02",
+			"Name" : "Hotel North Wing La Brasserie Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FHN-LBR-ALL-1503-04",
+			"Name" : "Hotel North Wing La Brasserie Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FHN-LBR-ALL-1503-05",
+			"Name" : "Hotel North Wing La Brasserie Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FM-DIST-LS-UPLIFT-24",
+			"Name" : "District Landscape Upgrade - Uplift Project 2024",
+			"ValidFrom" : "2024-01-10T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FM-KT-EXT-MARB-2408",
+			"Name" : "External Marble Replacement - KFF Garden Wall",
+			"ValidFrom" : "2024-07-03T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FM-KT-FWP-2405",
+			"Name" : "Supply & Installation of Foul Water Pump",
+			"ValidFrom" : "2024-06-04T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FM-MALL-PARK-GUID-24",
+			"Name" : "Mall Carpark Guiding System",
+			"ValidFrom" : "2024-03-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HIT-REP-AL-1512",
+			"Name" : "Hittin Palace - Redevelopment Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-BDH-2100",
+			"Name" : "HOS-BDH-2100",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-BDH-2100-02",
+			"Name" : "HOS-BDH-2100-02",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-MAS-2100-01",
+			"Name" : "HOS-MAS-2100-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-MAS-2100-06",
+			"Name" : "HOS-MAS-2100-06",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-MAS-2100-07",
+			"Name" : "HOS-MAS-2100-07",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-MAS-2100-10",
+			"Name" : "HOS-MAS-2100-10",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SCR-2100-01",
+			"Name" : "HOS-SCR-2100-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SCR-2100-03",
+			"Name" : "AKM-HOS-SCR-2100-03",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SCR-2100-04",
+			"Name" : "HOS-SCR-2100-04",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SCR-2100-05",
+			"Name" : "HOS-SCR-2100-05",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SCR-2100-06",
+			"Name" : "AKM-HOS-SCR-2100-06",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SCR-2100-07",
+			"Name" : "AKM-HOS-SCR-2100-07",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SCR-2100-07-01",
+			"Name" : "AKM-HOS-SCR-2100-07-01",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SCR-2100-07-02",
+			"Name" : "AKM-HOS-SCR-2100-07-02",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SCR-2100-07-03",
+			"Name" : "AKM-HOS-SCR-2100-07-03",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SCR-2100-08",
+			"Name" : "HOS-SCR-2100-08",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SW3-2100-06",
+			"Name" : "HOS-SW3-2100-06",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "HOS-SW3-2100-07",
+			"Name" : "HOS-SW3-2100-07",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "KFF-ALL-1601-01",
+			"Name" : "KFF-ALL-1601-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "KFF-ALL-1601-02",
+			"Name" : "KFF-ALL-1601-02",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "KFF-FACADE-MARB-1223",
+			"Name" : "KFF Facade Marble Replacement",
+			"ValidFrom" : "2023-12-01T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "KFF-FM-UPVC-2309",
+			"Name" : "KFF Rain/Drain/Vent UPVC pipe replacement",
+			"ValidFrom" : "2024-01-01T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "KFR-CHL-1701-01",
+			"Name" : "KFR-CHL-1701-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "KFR-ELE-2020-01",
+			"Name" : "KFR-ELE-2020-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "KFS-MB1-1502-02",
+			"Name" : "KFS-MB1-1502-02",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "KFS-MB1-1502-03",
+			"Name" : "KFS-MB1-1502-03",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "MOD-CPX-2202-01",
+			"Name" : "MOD-CPX-2202-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REN-COP-1506",
+			"Name" : "CEO office renovation and upgrading",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-ACCESS-CARD-2301",
+			"Name" : "Access Card - Revenue 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFH-ACC-2201",
+			"Name" : "FH- Annual Cleaning Contract",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFH-AMC-1818",
+			"Name" : "2018-REV-AMC-OM+HK-F. Hotel N/S Maint.",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFH-AMC-1818-02",
+			"Name" : "Hotel North Wing La Brasserie Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFH-AMC-2023",
+			"Name" : "Mandarin - AMC 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFH-AMC-2202",
+			"Name" : "FH-Annual Maintenance Contract Correctiv",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFH-AMC-3019",
+			"Name" : "FH-Annual Maintenance Contract Correctiv",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFH-AMC-3019-01",
+			"Name" : "Hotel North Wing La Brasserie Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFM-ACC-2001",
+			"Name" : "Harvey Nichols- Annaul Cleaning Contract",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFT-AMC-1834",
+			"Name" : "Richemont Office 2- AMC -2018-2019",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFT-AMC-2204-01",
+			"Name" : "JP Morgan 25th Floor AMC -2022",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFT-AMC-2215-01",
+			"Name" : "JP Morgan 8th Floor AMC -2022",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFT-HSE-2201",
+			"Name" : "JPM - Supply of Vacuum Machine",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFT-HSE-2201-01",
+			"Name" : "Hotel North Wing La Brasserie Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFT-MGN-2049",
+			"Name" : "Standard Chart-Floor Coring Drain conect",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFT-MGN-2050",
+			"Name" : "JP Morgan-Water Heater in 8th floor",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AFT-MGN-2226",
+			"Name" : "ACI Worlwide- KitchenSuppliesRequest",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AKH-AMC-1815-02",
+			"Name" : "Hotel North Wing La Brasserie Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-AMC-MAIZ-2023",
+			"Name" : "AMC - MAIZ Restaurant Year 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-APT-AMC-2202",
+			"Name" : "Kh Apt-Maintenance Contract- Corrective",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-APT408-7937",
+			"Name" : "APT-408 Pipes upgrade to improve water pressure",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-ARADA-7944",
+			"Name" : "ARADA- Supply & Installatioin of FOC",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-BDMDESIGN-7942",
+			"Name" : "Level 7m - Brocken Curtain Wall Glass Replace",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-BNP-2200005",
+			"Name" : "BNP Maintenance MECH/ELE/CIVIL works",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-COR-F&B-1901",
+			"Name" : "WBS Element REV-COR-F&B-1901",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-COR-F&B-19010102",
+			"Name" : "Hotel North Wing La Brasserie Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-EXT-GEN-1810",
+			"Name" : "MORGAN STANLEY - EF MOTOR REPLACEMENT",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-EXT-MGN-2010",
+			"Name" : "Interior Cre-Supply raise access floor",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-EYADREDA-7953",
+			"Name" : "FOC from 11F to 2nd Floor data Eyad reda center",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-GLEEDS-2200006",
+			"Name" : "FOC from T29 GleedS to STC room Hotel",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-HN-AMC-2023",
+			"Name" : "HARVEY NICHOLS - Annual Maintenance 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-HOS-MGN-2201",
+			"Name" : "HospitalityDiv Plumbing Work",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-HTN-MGN-2202",
+			"Name" : "Hittin palace mechanical work",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-INVCORP-2302",
+			"Name" : "New Corridor Works - Investcorp",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-JPM25F-AMC-2023",
+			"Name" : "JP Morgan 25th Floor AMC -2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-JPM25F-MGN-7918",
+			"Name" : "JP Morgan 25 F - Supply Lamps - 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-JPM8F-7951",
+			"Name" : "JPM-8F-Relocation of Office Tables",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-JPM8F-AMC-2023",
+			"Name" : "JP Morgan 8th Floor AMC -2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-KALSOFT-MGN-2301",
+			"Name" : "Fibre Optic Cabling - Kallsoft KFF Airlines",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-KFR-GEN-1801",
+			"Name" : "R-M-KFCRIS-FCU Servicing 28no. 3rd flr",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-KFR-MGN-2010",
+			"Name" : "KFCRIS - HVAC - FCU work",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-LPM-AMC-2301",
+			"Name" : "LPM AMC 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-MAIZ-2200008",
+			"Name" : "Supply, installation & termination of FOC from HLG STC Room to Maiz KFF",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-MAIZ-REST-7955",
+			"Name" : "Maiz Restaurant - Power socket replace",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-MAIZ-VILLA-2301",
+			"Name" : "Maiz Villa Laban - Maintenance Works 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-MER-7837",
+			"Name" : "Fryer Machine Power Connection - Meraki Qtn. 5000007837",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-NATIXIS-ACC",
+			"Name" : "Natixis - Annual Cleaning Contract - Consumptions 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-RES-MGN-2005",
+			"Name" : "Mamo Res-Painting work inside",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-RICHE-AMC-2023",
+			"Name" : "Richemont - AMC 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-RICHEMONT-7794",
+			"Name" : "Supply & Installation of FOC 19F - Mall Lange Sohne",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-VP-MAKANI-2023",
+			"Name" : "Valet Parking - Makani 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-YAT-MGN-2202",
+			"Name" : "Yauatcha Staff Villa Electrical &Plumbin",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-YAU-AMC-2023",
+			"Name" : "Yauatcha Restaurant - AMC 2023",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-YAU-MGN-2101",
+			"Name" : "Yauatcha-Villa5-InstallSubmersiblePump",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-YAU-MGN-2303",
+			"Name" : "Yauatcha Kitchen Isolator Replace",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-YAU-MGN-7916",
+			"Name" : "Yauatcha villa Plumbing works V-4&5",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "REV-YAU-MGN-7924",
+			"Name" : "Yauatcha Villa Lamps V-B, 1&5",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RM2-1801-01",
+			"Name" : "RM2-1801-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-HAK-1506-03",
+			"Name" : "RUP-HAK-1506-03",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-HAK-1506-03-04",
+			"Name" : "AFT-RUP-HAK-1506-03-04",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-HAK-1506-09",
+			"Name" : "AFT-RUP-HAK-1506-09",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-LPM-1509-01",
+			"Name" : "RUP-LPM-1509-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-LPM-1509-03",
+			"Name" : "RUP-LPM-1509-03",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "RUP-LPM-1509-07",
+			"Name" : "RUP-LPM-1509-07",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		}
+	],
+	"odata.nextLink" : "Projects?$orderby=Code&$skip=300"
+}

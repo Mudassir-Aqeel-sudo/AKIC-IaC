@@ -1,0 +1,707 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#Projects",
+	"value" : 
+	[
+		{
+			"Code" : "AKM-AFC-CPX-1702",
+			"Name" : "FC & KFF -Expansion Joint Water Leak Rep",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFC-CPX-1702-01",
+			"Name" : "FC & KFF -Expansion Joint Water Leak Rep",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFH-FIR-1601",
+			"Name" : "Capex-Fire Protection System - ALFH&KH",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFH-FIR-1601-01",
+			"Name" : "Capex-Fire Protection System - ALFH&KH",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFM-CHI-1701",
+			"Name" : "Faisaliah Mall Chiller Overhauling 2017",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFM-CHI-1701-01",
+			"Name" : "Faisaliah Mall Chiller Overhauling 2017",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFM-CHI-1701-02",
+			"Name" : "Faisaliah Mall chiller Overhauling-17-18",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFT-LB2-1506",
+			"Name" : "MAINT. SUPERVISOR OFFICE PROJECT",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFT-RM2-1801",
+			"Name" : "Capex-Richemont Office Extension",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFT-RM2-1801-01",
+			"Name" : "Capex-Richemont Office Extension",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFT-RMT-1701",
+			"Name" : "RICHEMONT FT02 - OFFICE SET-UP CAPEX",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFT-RMT-1701-01",
+			"Name" : "RICHEMONT FT02 - OFFICE SET-UP CAPEX",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-BD-GRH-1100",
+			"Name" : "Development Fee for F&B License",
+			"ValidFrom" : "2023-11-05T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-CPX-DDC-2125",
+			"Name" : "Mall Addition DDC Supply/Install",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-CPX-FMC-2021",
+			"Name" : "CAPEX-FT - Revolving Door (FMC-13)",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-CPX-FSS-2103",
+			"Name" : "Fire Fighting Panels repair/replace",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-CPX-KFE-2021",
+			"Name" : "KFF Elevators -2021",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-CPX-KFR-2020",
+			"Name" : "KFCRIS Elevator Modernisation",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-CPX-KFR-2020-01",
+			"Name" : "KFCRIS Elevator Modernisation",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-CPX-PFI-2107",
+			"Name" : "RO PLANT HEADER PIPE/VALVE REPLACE",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-CPX-SVP-2021",
+			"Name" : "Staff Villa Partition",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-CPX-SVP-20210101",
+			"Name" : "Staff Villa Partition",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-CPX-UPL-2021",
+			"Name" : "CAPEX - KFF Tower & Plaza Upgrade",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-BDH-2100",
+			"Name" : "Hospitality Rebranding",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-BDH-2100-02",
+			"Name" : "Al Khozama Hotel Rebrand",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-MAS-2100",
+			"Name" : "Mastro Al Bujairi Diriyah",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-MAS-2100-01",
+			"Name" : "Mastro Al Bujairi Diriyah",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-MAS-2100-06",
+			"Name" : "Mastro Al Bujairi Diriyah",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-MAS-2100-07",
+			"Name" : "Mastro Al Bujairi Diriyah",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-MAS-2100-10",
+			"Name" : "Mastro Al Bujairi Diriyah",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SCR-2100",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SCR-2100-01",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SCR-2100-04",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SCR-2100-05",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SCR-2100-08",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SCR-21000701",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SCR-21000702",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SCR-21000703",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SW3-2100",
+			"Name" : "Dining SW3 Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SW3-2100-06",
+			"Name" : "Dining SW3 Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-HOS-SW3-2100-07",
+			"Name" : "Dining SW3 Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-KFF-ALL-1601",
+			"Name" : "FIRE PROTECTION & FA SYSTEM KFF- ETECHS",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-KFF-ALL-1601-01",
+			"Name" : "FIRE PROTECTION & FA SYSTEM KFF- ETECHS",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-KFF-ALL-1601-02",
+			"Name" : "FF  & Fire Pro System - Additional Work",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-KFR-CHL-1701",
+			"Name" : "KFCRIS - Centrifugal Chiller Replacement",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-KFR-CHL-1701-01",
+			"Name" : "KFCRIS - Centrifugal Chiller Replacement",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-KFR-ELE-2020",
+			"Name" : "KFCRIS - Upgrading Elevator 2020",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-KFR-ELE-2020-01",
+			"Name" : "KFCRIS - Upgrading Elevator 2020",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-KFS-MB1-1502",
+			"Name" : "AL KHOZAMA IT CENTER - KFF-ST- MB1",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-KFS-MB1-1502-02",
+			"Name" : "AL KHOZAMA IT CENTER - KFF-ST- MB1",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-KFS-MB1-1502-03",
+			"Name" : "AL KHOZAMA IT CENTER - KFF-ST- MB1",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-MAIZ-RETAIL-2401",
+			"Name" : "Maiz Restaurant Retails",
+			"ValidFrom" : "2024-01-29T00:00:00Z",
+			"ValidTo" : "2024-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-MOD-CPX-2202",
+			"Name" : "Mode - ShopperTrak Smart Head Count Syst",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-MOD-CPX-2202-01",
+			"Name" : "Mode - ShopperTrak Smart Head Count Syst",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXDDC-2125-01-01",
+			"Name" : "Mall Addition DDC Supply/Install",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXFMC-2021-05-01",
+			"Name" : "CAPEX-FT - Revolving Door (FMC-13)",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXFSS-2103-01-03",
+			"Name" : "Fire Fighting Panels repair/replace",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXFSS-2103-01-04",
+			"Name" : "Fire Fighting Panels repair/replace",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXKFE-2021-01-01",
+			"Name" : "KFF Elevators -2021",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXPFI-2107-01-01",
+			"Name" : "RO PLANT HEADER PIPE/VALVE REPLACE",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXSVP-2021-01-01",
+			"Name" : "Staff Villa Partition",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXUPL-2021-02",
+			"Name" : "Marble Replacement Work",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXUPL-2021-02-02",
+			"Name" : "Marble Replacement Work",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXUPL-2021-04",
+			"Name" : "The District Signage and Wayfinding",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMCPXUPL-2021-04-01",
+			"Name" : "The District Signage and Wayfinding",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-01",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-03",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-04",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-05",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-06",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-07",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-07-01",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-07-02",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-07-03",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-08",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKMHOSSCR-2100-09",
+			"Name" : "MEIZ (MERKAZ) - Saudi Cuisine Resturant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "ALF-MALL-CRUST-2401",
+			"Name" : "Al Faisaliah Mode Mall - Crust",
+			"ValidFrom" : "2024-01-21T00:00:00Z",
+			"ValidTo" : "2024-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "ALF-MALL-WED-2407",
+			"Name" : "Al Faisaliah Mall - Wedding Booth",
+			"ValidFrom" : "2024-07-25T00:00:00Z",
+			"ValidTo" : "2025-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "ALF-RUP-AB-2311",
+			"Name" : "Airline Power Source Upgrading",
+			"ValidFrom" : "2023-11-27T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "ALF-RUP-KFF-AUD",
+			"Name" : "KFF Auditorium Renovation",
+			"ValidFrom" : "2023-12-01T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-ALF-INV-2100",
+			"Name" : "Investment in Alfa - Valuation Service",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-ALF-INV-2100-01",
+			"Name" : "Investment in Alfa - Valuation Service",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-DDC-2125-01-01",
+			"Name" : "AKM-CPX-DDC-2125-01-01",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-FMC-2021-05-01",
+			"Name" : "AKM-CPX-FMC-2021-05-01",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-FSS-2103-01-03",
+			"Name" : "AKM-CPX-FSS-2103-01-03",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-FSS-2103-01-04",
+			"Name" : "AKM-CPX-FSS-2103-01-04",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-KFE-2021-01-01",
+			"Name" : "AKM-CPX-KFE-2021-01-01",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-KFR-2020-01",
+			"Name" : "CPX-KFR-2020-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-PFI-2107-01-01",
+			"Name" : "AKM-CPX-PFI-2107-01-01",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-SVP-2021-01-01",
+			"Name" : "AKM-CPX-SVP-2021-01-01",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-UPL-2021-02-02",
+			"Name" : "AKM-CPX-UPL-2021-02-02",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "CPX-UPL-2021-04-01",
+			"Name" : "AKM-CPX-UPL-2021-04-01",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FHB-OMS-COR-1510",
+			"Name" : "Redevelopment of Omsiat Banquet Corridor",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FHB-OMS-COR-1510-01",
+			"Name" : "Redevelopment of Omsiat Banquet Corridor",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FHN-GRR-ALL-1502",
+			"Name" : "Hotel North Wing Guest Rooms Renovations",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FHN-GRR-ALL-1502-01",
+			"Name" : "Hotel North Wing Guest Rooms Renovations",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FHN-GRR-ALL-1502-02",
+			"Name" : "Hotel North Wing Guest Rooms Renovations",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FHN-GRR-ALL-1502-03",
+			"Name" : "Hotel North Wing Guest Rooms Renovations",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FHN-GRR-ALL-1502-04",
+			"Name" : "Hotel North Wing Guest Rooms Renovations",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "FHN-LBR-ALL-1503",
+			"Name" : "Hotel North Wing La Brasserie Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		}
+	],
+	"odata.nextLink" : "Projects?$orderby=Code&$skip=200"
+}

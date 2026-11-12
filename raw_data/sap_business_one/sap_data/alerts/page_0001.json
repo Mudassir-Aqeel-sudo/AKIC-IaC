@@ -1,0 +1,2627 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#AlertManagements",
+	"value" : 
+	[
+		{
+			"Code" : -7,
+			"Name" : "MRP Recommendation Due",
+			"Type" : "att_System",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : null,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : null,
+			"NextExecutionTime" : null,
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : [],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : -6,
+			"Name" : "Deviation from Budget",
+			"Type" : "att_System",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : null,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : null,
+			"NextExecutionTime" : null,
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : [],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : -5,
+			"Name" : "Deviation from Discount (in %)",
+			"Type" : "att_System",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : "25.00",
+			"QueryID" : null,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : null,
+			"NextExecutionTime" : null,
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 41,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 56,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 84,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 85,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 110,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 168,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 174,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : -4,
+			"Name" : "Deviation from % of Gross Profit",
+			"Type" : "att_System",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : null,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : null,
+			"NextExecutionTime" : null,
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : [],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : -3,
+			"Name" : "Deviation from Commitment Limit",
+			"Type" : "att_System",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : null,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : null,
+			"NextExecutionTime" : null,
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : [],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : -2,
+			"Name" : "Deviation from Credit Limit",
+			"Type" : "att_System",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : null,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : null,
+			"NextExecutionTime" : null,
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : [],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : -1,
+			"Name" : "Minimum Stock Deviation",
+			"Type" : "att_System",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : null,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : null,
+			"NextExecutionTime" : null,
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 65,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 78,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 92,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 2,
+			"Name" : "Eligible for Invoice",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 319,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : "2022-11-30T00:00:00Z",
+			"NextExecutionTime" : "12:26:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 43,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 44,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 45,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 46,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 47,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 48,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 49,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 51,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 52,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 53,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 4,
+			"Name" : "Open GRPO's",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 738,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2025-05-31T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2025-06-01T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 146,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 154,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 165,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 6,
+			"Name" : "AR closed by payment",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 321,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : "2022-11-30T00:00:00Z",
+			"NextExecutionTime" : "13:17:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 49,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 8,
+			"Name" : "new JV on Live",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 322,
+			"FrequencyType" : "atfi_Minutes",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2024-09-09T00:00:00Z",
+			"LastExecutionTime" : 1120,
+			"NextExecutionDate" : "2024-09-09T00:00:00Z",
+			"NextExecutionTime" : "11:22:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 10,
+			"Name" : "PR Open > 2 days",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 323,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : "2022-12-01T00:00:00Z",
+			"NextExecutionTime" : "16:45:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 59,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 61,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 12,
+			"Name" : "Payment Draft",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 348,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : "2022-12-11T00:00:00Z",
+			"NextExecutionTime" : "09:57:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 50,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 14,
+			"Name" : "Alert for FM",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 378,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "10:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "10:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 65,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 85,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 16,
+			"Name" : "Alert for Project",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 379,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "10:00:00",
+			"LastExecutionDate" : null,
+			"LastExecutionTime" : null,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "10:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 65,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 99,
+					"SendEMail" : "tNO",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 18,
+			"Name" : "PO Not approved greater than 2 days",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 440,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "09:00:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 900,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "09:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 59,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 20,
+			"Name" : "Not Approved Manager",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 416,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 22,
+			"Name" : "ZATCA Expairy Date",
+			"Type" : "att_User",
+			"Priority" : "atp_High",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 496,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2024-11-09T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 2,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 24,
+			"Name" : "Pending Vendors",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 505,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 59,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 60,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 26,
+			"Name" : "Pending Customers",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 506,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 54,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 56,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 28,
+			"Name" : "Pending Tenant",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 507,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 41,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 30,
+			"Name" : "Pending Employees",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 526,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2024-11-06T00:00:00Z",
+			"LastExecutionTime" : 1648,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "09:30:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 24,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 80,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 32,
+			"Name" : "ANY MODIFICATION IN SALES ORDER",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 536,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 2201,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "02:01:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 4,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 120,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 121,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 34,
+			"Name" : "AP DOWNPAYMENT PENDING REQUEST APPROVAL NOTIFICATION",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 537,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 47,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 119,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 179,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 36,
+			"Name" : "GRPO APPROVAL NOTIFICATIONS",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 538,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 906,
+			"NextExecutionDate" : "2024-11-07T00:00:00Z",
+			"NextExecutionTime" : "10:37:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 38,
+			"Name" : "OUTGOING PAYMENT",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 539,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "09:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 900,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "09:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 45,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 47,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 119,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 40,
+			"Name" : "Open GRPO (Aging more than 60 days)",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 540,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 915,
+			"NextExecutionDate" : "2024-11-07T00:00:00Z",
+			"NextExecutionTime" : "10:37:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 42,
+			"Name" : "Open PO (Aging more than 90 days)",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 541,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 915,
+			"NextExecutionDate" : "2024-11-07T00:00:00Z",
+			"NextExecutionTime" : "10:37:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 44,
+			"Name" : "Outstanding Debtors & Advances received from customer (Aging more than 180 days)",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 542,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 916,
+			"NextExecutionDate" : "2024-11-07T00:00:00Z",
+			"NextExecutionTime" : "10:37:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 46,
+			"Name" : "Outstanding Supplier (Aging more than 180 days)",
+			"Type" : "att_User",
+			"Priority" : "atp_High",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 543,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 48,
+			"Name" : "PO PENDING APPROVAL NOTIFICATION",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 544,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 62,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 63,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 119,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 150,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 171,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 176,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 179,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 50,
+			"Name" : "PURCHASE REQUESTOR",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 545,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "09:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 900,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "09:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 62,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 63,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 150,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 171,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 176,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 52,
+			"Name" : "Sales order creation",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 546,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "09:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 900,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "09:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 120,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 121,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 54,
+			"Name" : "SUPPLIER CREATION NOTIFICATION",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 552,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "13:00:00",
+			"LastExecutionDate" : "2024-11-06T00:00:00Z",
+			"LastExecutionTime" : 1300,
+			"NextExecutionDate" : "2024-11-07T00:00:00Z",
+			"NextExecutionTime" : "13:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 56,
+			"Name" : "New JV",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 322,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 58,
+			"Name" : "Pending Finance Approval For Customers",
+			"Type" : "att_User",
+			"Priority" : "atp_High",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 607,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 1749,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "01:49:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 8,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 121,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 60,
+			"Name" : "Approved Vendors By Finance",
+			"Type" : "att_User",
+			"Priority" : "atp_High",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 598,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 1744,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "01:44:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 8,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 63,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 111,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 179,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 62,
+			"Name" : "Rejected Vendors By Finance",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 599,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 1744,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "01:44:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 8,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 63,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 179,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 64,
+			"Name" : "Pending Finance Approval For Employees",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 603,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 1744,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "01:44:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 8,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 146,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 66,
+			"Name" : "Approved Employees By Finance",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 604,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 1007,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "10:07:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 24,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 80,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 129,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 68,
+			"Name" : "Approved Customers By Finance",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 606,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 1744,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "01:44:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 8,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 70,
+			"Name" : "Not Approved Manager",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 320,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:15:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 815,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "08:15:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 72,
+			"Name" : "Approved Outgoing Payment Details For Payment",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 624,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 901,
+			"NextExecutionDate" : "2024-11-07T00:00:00Z",
+			"NextExecutionTime" : "10:37:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 134,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 74,
+			"Name" : "Approved Tenants By Finance",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 634,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 1744,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "01:44:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 8,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 41,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 160,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 76,
+			"Name" : "Email 1",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 546,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:30:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 830,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "08:30:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 78,
+			"Name" : "email 2",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 545,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:45:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 845,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "08:45:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 80,
+			"Name" : "Email 3",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 320,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "09:00:00",
+			"LastExecutionDate" : "2024-11-07T00:00:00Z",
+			"LastExecutionTime" : 900,
+			"NextExecutionDate" : "2024-11-08T00:00:00Z",
+			"NextExecutionTime" : "09:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 82,
+			"Name" : "E-Mail 4",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 654,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "13:30:00",
+			"LastExecutionDate" : "2024-11-06T00:00:00Z",
+			"LastExecutionTime" : 1330,
+			"NextExecutionDate" : "2024-11-07T00:00:00Z",
+			"NextExecutionTime" : "13:30:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 84,
+			"Name" : "Approved GRPO Test Cofiguration",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 538,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2025-06-01T00:00:00Z",
+			"LastExecutionTime" : 936,
+			"NextExecutionDate" : "2025-06-01T00:00:00Z",
+			"NextExecutionTime" : "17:38:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 8,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 86,
+			"Name" : "Pending Finance Approval For Vendors",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 597,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 1744,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "01:44:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 8,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 111,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 146,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 154,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 88,
+			"Name" : "Approved GRPO Test Cofiguration 2",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 538,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2025-06-01T00:00:00Z",
+			"LastExecutionTime" : 933,
+			"NextExecutionDate" : "2025-06-01T00:00:00Z",
+			"NextExecutionTime" : "17:38:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 8,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 90,
+			"Name" : "test-feb-2025",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tNO",
+			"Param" : null,
+			"QueryID" : 678,
+			"FrequencyType" : "atfi_Hours",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : null,
+			"LastExecutionDate" : "2025-04-29T00:00:00Z",
+			"LastExecutionTime" : 1545,
+			"NextExecutionDate" : "2025-04-29T00:00:00Z",
+			"NextExecutionTime" : "23:55:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 8,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 1,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 58,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 92,
+			"Name" : "GRPO Approval Pending with Finance",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 746,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "09:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 900,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "09:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 146,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 154,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 162,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 165,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 94,
+			"Name" : "Open GRPO's",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 738,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "08:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 800,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "08:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 146,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 154,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				},
+				{
+					"UserCode" : 179,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tNO"
+				}
+			],
+			"AlertManagementDocuments" : []
+		},
+		{
+			"Code" : 96,
+			"Name" : "AP INVOICE PENDING APPROVAL NOTIFICATION",
+			"Type" : "att_User",
+			"Priority" : "atp_Normal",
+			"Active" : "tYES",
+			"Param" : null,
+			"QueryID" : 766,
+			"FrequencyType" : "atfi_Days",
+			"DayOfExecution" : 1,
+			"ExecutionTime" : "09:00:00",
+			"LastExecutionDate" : "2026-03-25T00:00:00Z",
+			"LastExecutionTime" : 900,
+			"NextExecutionDate" : "2026-03-26T00:00:00Z",
+			"NextExecutionTime" : "09:00:00",
+			"SaveHistory" : "tNO",
+			"FrequencyInterval" : 1,
+			"AlertManagementRecipients" : 
+			[
+				{
+					"UserCode" : 47,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 57,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 119,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				},
+				{
+					"UserCode" : 124,
+					"SendEMail" : "tYES",
+					"SendSMS" : "tNO",
+					"SendFax" : "tNO",
+					"SendInternal" : "tYES"
+				}
+			],
+			"AlertManagementDocuments" : []
+		}
+	]
+}

@@ -1,0 +1,4409 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#ApprovalTemplates",
+	"value" : 
+	[
+		{
+			"Code" : 1,
+			"Name" : "PO 0≤100k",
+			"Remarks" : "PO 0≤100k",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 2,
+					"Remarks" : "Finance"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseOrder"
+				}
+			],
+			"ApprovalTemplateTerms" : 
+			[
+				{
+					"ConditionType" : "atctTotalDocument",
+					"OperationType" : "opcodeLessThan",
+					"Value" : "100,000.00 SAR"
+				}
+			],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 2,
+			"Name" : "APDP 0≤20k",
+			"Remarks" : "Adv Payment Request 0≤20k",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 23,
+					"Remarks" : "Anas"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 62,
+					"Remarks" : "Muhammad Sulman"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtApDownPayment"
+				}
+			],
+			"ApprovalTemplateTerms" : 
+			[
+				{
+					"ConditionType" : "atctTotalDocument",
+					"OperationType" : "opcodeLessThan",
+					"Value" : "20.000,00 SAR"
+				}
+			],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 452
+				}
+			]
+		},
+		{
+			"Code" : 3,
+			"Name" : "APDP 20 to 100k",
+			"Remarks" : "Adv Payment Request from 20 to 100K",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 2,
+					"Remarks" : "Finance"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 3,
+					"Remarks" : "Managment 1"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtApDownPayment"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 278
+				}
+			]
+		},
+		{
+			"Code" : 4,
+			"Name" : "PYR 100 to 500k",
+			"Remarks" : "Payment request 100 to 500k",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 2,
+					"Remarks" : "Finance"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 3,
+					"Remarks" : "Managment 1"
+				},
+				{
+					"SortID" : 3,
+					"ApprovalStageCode" : 4,
+					"Remarks" : "CEO"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtApDownPayment"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 279
+				}
+			]
+		},
+		{
+			"Code" : 5,
+			"Name" : "PYR greater than 500",
+			"Remarks" : "Payment Request greater than 500k",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 2,
+					"Remarks" : "Finance"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 3,
+					"Remarks" : "Managment 1"
+				},
+				{
+					"SortID" : 3,
+					"ApprovalStageCode" : 4,
+					"Remarks" : "CEO"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtApDownPayment"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 280
+				}
+			]
+		},
+		{
+			"Code" : 6,
+			"Name" : "PO 100k to 300k",
+			"Remarks" : "PO > 100k  ≤300k",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 3,
+					"Remarks" : "Managment 1"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 23,
+					"Remarks" : "Anas"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseOrder"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 281
+				}
+			]
+		},
+		{
+			"Code" : 7,
+			"Name" : "PO 300k to 10M",
+			"Remarks" : "PO >300k  ≤10M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 3,
+					"Remarks" : "Managment 1"
+				},
+				{
+					"SortID" : 3,
+					"ApprovalStageCode" : 4,
+					"Remarks" : "CEO"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 23,
+					"Remarks" : "Anas"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseOrder"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 282
+				}
+			]
+		},
+		{
+			"Code" : 8,
+			"Name" : "PO greater than 10M",
+			"Remarks" : "PO greater than 10M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 3,
+					"Remarks" : "Managment 1"
+				},
+				{
+					"SortID" : 3,
+					"ApprovalStageCode" : 4,
+					"Remarks" : "CEO"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 23,
+					"Remarks" : "Anas"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseOrder"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 283
+				}
+			]
+		},
+		{
+			"Code" : 9,
+			"Name" : "PR M Corp. Marketing",
+			"Remarks" : "PR M Corp. Marketing",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 30,
+					"Remarks" : "Michael"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 286
+				}
+			]
+		},
+		{
+			"Code" : 10,
+			"Name" : "PR M Corp. Finance",
+			"Remarks" : "PR M Corp. Finance",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 45
+				},
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 79,
+					"Remarks" : "Muhammad Bilal"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 285
+				}
+			]
+		},
+		{
+			"Code" : 11,
+			"Name" : "PR MCorp. Finance IT",
+			"Remarks" : "PR M Corp. Finance IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 45
+				},
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 79,
+					"Remarks" : "Muhammad Bilal"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 324
+				}
+			]
+		},
+		{
+			"Code" : 12,
+			"Name" : "PR S Corp. Finance",
+			"Remarks" : "PR Services Corp. Finance",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				},
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 44,
+					"Remarks" : "Head of Finance"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 287
+				},
+				{
+					"QueryID" : 406
+				}
+			]
+		},
+		{
+			"Code" : 13,
+			"Name" : "PR Mktg IT",
+			"Remarks" : "PR Marketing IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 110
+				},
+				{
+					"UserID" : 190
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 87,
+					"Remarks" : "Alaa Al Farran"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 325
+				}
+			]
+		},
+		{
+			"Code" : 14,
+			"Name" : "PR S Corp. Marketing",
+			"Remarks" : "PR S Corp. Marketing",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 5,
+					"Remarks" : "Corp. Marketing"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 288
+				},
+				{
+					"QueryID" : 407
+				}
+			]
+		},
+		{
+			"Code" : 16,
+			"Name" : "PR Corp M HR IT",
+			"Remarks" : "PR Corp M HR IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				},
+				{
+					"UserID" : 129
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 326
+				}
+			]
+		},
+		{
+			"Code" : 17,
+			"Name" : "PR Corp S HR",
+			"Remarks" : "PR Corp Services HR",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 79
+				},
+				{
+					"UserID" : 129
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 290
+				}
+			]
+		},
+		{
+			"Code" : 18,
+			"Name" : "PR Corp M HR",
+			"Remarks" : "PR Corp M HR",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 129
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 289
+				}
+			]
+		},
+		{
+			"Code" : 19,
+			"Name" : "PR Admin M",
+			"Remarks" : "PR Admin M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 97
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 57,
+					"Remarks" : "Ibrahim Alhoshan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 291
+				}
+			]
+		},
+		{
+			"Code" : 20,
+			"Name" : "PR Admin M IT",
+			"Remarks" : "PR Admin M IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 97
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 57,
+					"Remarks" : "Ibrahim Alhoshan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 328
+				}
+			]
+		},
+		{
+			"Code" : 21,
+			"Name" : "PR Admin S",
+			"Remarks" : "PR Admin S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 97
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 292
+				},
+				{
+					"QueryID" : 392
+				}
+			]
+		},
+		{
+			"Code" : 22,
+			"Name" : "PR Corp. Food & Bev",
+			"Remarks" : "Corp. Food & Bever",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 75
+				},
+				{
+					"UserID" : 162
+				},
+				{
+					"UserID" : 187
+				},
+				{
+					"UserID" : 189
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 293
+				}
+			]
+		},
+		{
+			"Code" : 23,
+			"Name" : "PR Cor Food M IT",
+			"Remarks" : "PR Cor Food M IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 58
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 329
+				}
+			]
+		},
+		{
+			"Code" : 24,
+			"Name" : "PR Cor Food S",
+			"Remarks" : "PR Cor Food S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 85
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 330
+				},
+				{
+					"QueryID" : 394
+				}
+			]
+		},
+		{
+			"Code" : 25,
+			"Name" : "PR Corporate SCM M",
+			"Remarks" : "PR Corporate SCM M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 89,
+					"Remarks" : "Ibrahim Al Dubayyan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 295
+				}
+			]
+		},
+		{
+			"Code" : 26,
+			"Name" : "PR Corporate SCM IT",
+			"Remarks" : "PR Corporate SCM IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 90,
+					"Remarks" : "Procurement Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 331
+				}
+			]
+		},
+		{
+			"Code" : 27,
+			"Name" : "PR Corporate SCM S",
+			"Remarks" : "PR Corporate SCM S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 90,
+					"Remarks" : "Procurement Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 296
+				},
+				{
+					"QueryID" : 398
+				}
+			]
+		},
+		{
+			"Code" : 28,
+			"Name" : "PR Corporate IT M",
+			"Remarks" : "PR Corporate IT M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 58
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 162
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 298
+				}
+			]
+		},
+		{
+			"Code" : 29,
+			"Name" : "PR Corporate IT S",
+			"Remarks" : "PR Corporate IT S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 58
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 162
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 297
+				},
+				{
+					"QueryID" : 396
+				}
+			]
+		},
+		{
+			"Code" : 30,
+			"Name" : "PR Corporate IT I",
+			"Remarks" : "PR Corporate IT I",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 58
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 162
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 332
+				}
+			]
+		},
+		{
+			"Code" : 31,
+			"Name" : "PR Corporate Legal M",
+			"Remarks" : "PR Corporate Legal M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 69,
+					"Remarks" : "Fahad Al Thaikry"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 299
+				}
+			]
+		},
+		{
+			"Code" : 32,
+			"Name" : "PR Corporate Legal S",
+			"Remarks" : "PR Corporate Legal S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 69,
+					"Remarks" : "Fahad Al Thaikry"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 300
+				},
+				{
+					"QueryID" : 397
+				}
+			]
+		},
+		{
+			"Code" : 33,
+			"Name" : "PR Corporate Leg IT",
+			"Remarks" : "PR Corporate Leg IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 58
+				},
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 69,
+					"Remarks" : "Fahad Al Thaikry"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 333
+				}
+			]
+		},
+		{
+			"Code" : 34,
+			"Name" : "PR Internal Audit M",
+			"Remarks" : "PR Internal Audit M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 162
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 26,
+					"Remarks" : "Shahensha"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 302
+				}
+			]
+		},
+		{
+			"Code" : 35,
+			"Name" : "PR Internal Audit S",
+			"Remarks" : "PR Internal Audit S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 162
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 26,
+					"Remarks" : "Shahensha"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 301
+				},
+				{
+					"QueryID" : 402
+				}
+			]
+		},
+		{
+			"Code" : 36,
+			"Name" : "PR Internal Audit IT",
+			"Remarks" : "PR Internal Audit IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 162
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 26,
+					"Remarks" : "Shahensha"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 334
+				}
+			]
+		},
+		{
+			"Code" : 37,
+			"Name" : "PR Hospitality M",
+			"Remarks" : "PR Hospitality M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 75
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 174
+				},
+				{
+					"UserID" : 187
+				},
+				{
+					"UserID" : 189
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 303
+				}
+			]
+		},
+		{
+			"Code" : 38,
+			"Name" : "PR Hospitality S",
+			"Remarks" : "PR Hospitality S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 75
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 174
+				},
+				{
+					"UserID" : 187
+				},
+				{
+					"UserID" : 189
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 304
+				},
+				{
+					"QueryID" : 401
+				}
+			]
+		},
+		{
+			"Code" : 39,
+			"Name" : "PR Hospitality IT",
+			"Remarks" : "PR Hospitality IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 75
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 174
+				},
+				{
+					"UserID" : 187
+				},
+				{
+					"UserID" : 189
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 335
+				}
+			]
+		},
+		{
+			"Code" : 40,
+			"Name" : "PR Prop & Realty M",
+			"Remarks" : "PR Prop & Realty M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 126
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 306
+				}
+			]
+		},
+		{
+			"Code" : 41,
+			"Name" : "PR Prop & Realty S",
+			"Remarks" : "PR Prop & Realty S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 126
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 305
+				},
+				{
+					"QueryID" : 405
+				}
+			]
+		},
+		{
+			"Code" : 42,
+			"Name" : "PR Prop & Realty IT",
+			"Remarks" : "PR Prop & Realty IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 126
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 336
+				}
+			]
+		},
+		{
+			"Code" : 43,
+			"Name" : "PR Facility M",
+			"Remarks" : "PR Facility M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 32,
+					"Remarks" : "Husam"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 309
+				}
+			]
+		},
+		{
+			"Code" : 44,
+			"Name" : "PR Facility S",
+			"Remarks" : "PR Facility S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 32,
+					"Remarks" : "Husam"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 310
+				},
+				{
+					"QueryID" : 399
+				}
+			]
+		},
+		{
+			"Code" : 45,
+			"Name" : "PR Facility IT",
+			"Remarks" : "PR Facility IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 32,
+					"Remarks" : "Husam"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 337
+				}
+			]
+		},
+		{
+			"Code" : 46,
+			"Name" : "PR Sec O&M M",
+			"Remarks" : "PR Sec O&M M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 32,
+					"Remarks" : "Husam"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 338
+				}
+			]
+		},
+		{
+			"Code" : 47,
+			"Name" : "PR Security S",
+			"Remarks" : "PR Security S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 32,
+					"Remarks" : "Husam"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 340
+				},
+				{
+					"QueryID" : 408
+				}
+			]
+		},
+		{
+			"Code" : 48,
+			"Name" : "PR Security IT",
+			"Remarks" : "PR Security IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 32,
+					"Remarks" : "Husam"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 339
+				}
+			]
+		},
+		{
+			"Code" : 49,
+			"Name" : "PR Soft Services IT",
+			"Remarks" : "PR Soft Services IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 77,
+					"Remarks" : "Joy Sherwin"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 342
+				}
+			]
+		},
+		{
+			"Code" : 50,
+			"Name" : "PR Soft Services M",
+			"Remarks" : "PR Soft Services M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 77,
+					"Remarks" : "Joy Sherwin"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 341
+				}
+			]
+		},
+		{
+			"Code" : 51,
+			"Name" : "PR Soft Services S",
+			"Remarks" : "PR Soft Services S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 77,
+					"Remarks" : "Joy Sherwin"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 343
+				},
+				{
+					"QueryID" : 409
+				}
+			]
+		},
+		{
+			"Code" : 52,
+			"Name" : "PR Proj Mgmt Engg M",
+			"Remarks" : "PR Proj Mgmt Engg M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 99
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 3,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 34,
+					"Remarks" : "Saleh"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 72,
+					"Remarks" : "Mohammed Gayasuddin"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 313
+				}
+			]
+		},
+		{
+			"Code" : 53,
+			"Name" : "PR Proj Mgmt Engg S",
+			"Remarks" : "PR Proj Mgmt Engg S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 99
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 34,
+					"Remarks" : "Saleh"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 72,
+					"Remarks" : "Mohammed Gayasuddin"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 314
+				},
+				{
+					"QueryID" : 404
+				}
+			]
+		},
+		{
+			"Code" : 55,
+			"Name" : "PR CEO Office M",
+			"Remarks" : "PR CEO Office Materials",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 92
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 99
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 89,
+					"Remarks" : "Ibrahim Al Dubayyan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 316
+				}
+			]
+		},
+		{
+			"Code" : 56,
+			"Name" : "PR CEO Office S",
+			"Remarks" : "PR CEO Office S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 92
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 99
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 4,
+					"Remarks" : "CEO"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 315
+				},
+				{
+					"QueryID" : 393
+				}
+			]
+		},
+		{
+			"Code" : 57,
+			"Name" : "PR CEO Office IT",
+			"Remarks" : "PR CEO Office IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 92
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 99
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 3,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 89,
+					"Remarks" : "Ibrahim Al Dubayyan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 345
+				}
+			]
+		},
+		{
+			"Code" : 58,
+			"Name" : "PR Phase1 Apa M",
+			"Remarks" : "PR Phase - 1 Apartment materials",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 148
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 317
+				}
+			]
+		},
+		{
+			"Code" : 59,
+			"Name" : "PR Phase1 Apa S",
+			"Remarks" : "PR Phase1 Apa S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 148
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 318
+				},
+				{
+					"QueryID" : 403
+				}
+			]
+		},
+		{
+			"Code" : 60,
+			"Name" : "PR Phase1 Apa IT",
+			"Remarks" : "PR Phase1 Apa IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 148
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 346
+				}
+			]
+		},
+		{
+			"Code" : 61,
+			"Name" : "PR Hard Services M",
+			"Remarks" : "PR Hard Services M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 49,
+					"Remarks" : "Labeeb"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 312
+				}
+			]
+		},
+		{
+			"Code" : 62,
+			"Name" : "PR Hard Services S",
+			"Remarks" : "PR Hard Services S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 49,
+					"Remarks" : "Labeeb"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 311
+				},
+				{
+					"QueryID" : 400
+				}
+			]
+		},
+		{
+			"Code" : 63,
+			"Name" : "PR Hard Services IT",
+			"Remarks" : "PR Hard Services IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 49,
+					"Remarks" : "Labeeb"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 347
+				}
+			]
+		},
+		{
+			"Code" : 64,
+			"Name" : "PO 0≤50 K",
+			"Remarks" : "PO 0≤50 K",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 23,
+					"Remarks" : "Anas"
+				},
+				{
+					"SortID" : 3,
+					"ApprovalStageCode" : 45,
+					"Remarks" : "Samir"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 52,
+					"Remarks" : "Abdul Cader"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseOrder"
+				}
+			],
+			"ApprovalTemplateTerms" : 
+			[
+				{
+					"ConditionType" : "atctTotalDocument",
+					"OperationType" : "opcodeLessThan",
+					"Value" : "50,000.00 SAR"
+				}
+			],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 65,
+			"Name" : "PO 50k to 100k",
+			"Remarks" : "PO 50k to 100k",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 23,
+					"Remarks" : "Anas"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 45,
+					"Remarks" : "Samir"
+				},
+				{
+					"SortID" : 3,
+					"ApprovalStageCode" : 46,
+					"Remarks" : "Ivan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseOrder"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 349
+				}
+			]
+		},
+		{
+			"Code" : 66,
+			"Name" : "PR Inventory WH",
+			"Remarks" : "PR Inventory WH",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 47,
+					"Remarks" : "Mohammed Ajab Alqahtani"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 350
+				}
+			]
+		},
+		{
+			"Code" : 67,
+			"Name" : "PO 0≤100k V1",
+			"Remarks" : "PO 0≤100k V1",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 60
+				},
+				{
+					"UserID" : 61
+				},
+				{
+					"UserID" : 62
+				},
+				{
+					"UserID" : 63
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 23,
+					"Remarks" : "Anas"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 46,
+					"Remarks" : "Ivan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseOrder"
+				}
+			],
+			"ApprovalTemplateTerms" : 
+			[
+				{
+					"ConditionType" : "atctTotalDocument",
+					"OperationType" : "opcodeLessThan",
+					"Value" : "100,000.00 SAR"
+				}
+			],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 450
+				}
+			]
+		},
+		{
+			"Code" : 68,
+			"Name" : "GRPO-HM",
+			"Remarks" : "GRPO- Hospitality",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 21,
+					"Remarks" : "Luc"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 69,
+			"Name" : "GRPO-HR",
+			"Remarks" : "GRPO HR",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 79
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 70,
+			"Name" : "GRPO-Store",
+			"Remarks" : "GRPO Store",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 71,
+			"Name" : "GRPO-FI",
+			"Remarks" : "GRPO-Finance",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 45
+				},
+				{
+					"UserID" : 46
+				},
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 46,
+					"Remarks" : "Ivan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 471
+				}
+			]
+		},
+		{
+			"Code" : 72,
+			"Name" : "GRPO-IT",
+			"Remarks" : "GRPO Corportae IT",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 58
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar Tarafdar"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 73,
+			"Name" : "GRPO-Phase1 Apart",
+			"Remarks" : "GRPO-Phase1 Apartment",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 90
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 21,
+					"Remarks" : "Luc Delafosse"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 74,
+			"Name" : "GRPO-FM",
+			"Remarks" : "GRPO - Facilities Management",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 32,
+					"Remarks" : "Husam"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 75,
+			"Name" : "Financial - AP",
+			"Remarks" : "Financial - AP",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 45
+				},
+				{
+					"UserID" : 48
+				},
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 45,
+					"Remarks" : "Samir"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtReturns"
+				},
+				{
+					"DocumentType" : "atdtApInvoice"
+				},
+				{
+					"DocumentType" : "atdtApCreditMemo"
+				},
+				{
+					"DocumentType" : "atdtReturnRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 76,
+			"Name" : "Financials",
+			"Remarks" : "Financial",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 45
+				},
+				{
+					"UserID" : 47
+				},
+				{
+					"UserID" : 48
+				},
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 46,
+					"Remarks" : "Ivan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtOutgoingPayment"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 77,
+			"Name" : "GRPO HOSPIT",
+			"Remarks" : "GRPO HOSPIT",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 21,
+					"Remarks" : "Luc"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 78,
+			"Name" : "GRPO - Admin",
+			"Remarks" : "GRPO - Admin Dept",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 97
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 79,
+			"Name" : "PR CEO Office",
+			"Remarks" : "PR CEO Office",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 4,
+					"Remarks" : "CEO"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 362
+				}
+			]
+		},
+		{
+			"Code" : 81,
+			"Name" : "PR -PMO",
+			"Remarks" : "PR -PMO",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 99
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 34,
+					"Remarks" : "Saleh"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 72,
+					"Remarks" : "Mohammed Gayasuddin"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 82,
+			"Name" : "STR-Finance",
+			"Remarks" : "STR-Finance",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 45
+				},
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 46,
+					"Remarks" : "Ivan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 410
+				}
+			]
+		},
+		{
+			"Code" : 83,
+			"Name" : "STR-Marketing",
+			"Remarks" : "STR-Marketing",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 110
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 30,
+					"Remarks" : "Michael"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 84,
+			"Name" : "STR-HR",
+			"Remarks" : "STR-HR",
+			"UseTerms" : "tNO",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 79
+				},
+				{
+					"UserID" : 129
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 85,
+			"Name" : "STR-HOS-FOOD",
+			"Remarks" : "STR-HOS-FOOD",
+			"UseTerms" : "tNO",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 86,
+			"Name" : "STR-Planning/Purchas",
+			"Remarks" : "STR-Planning/Purchas",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 61
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 23,
+					"Remarks" : "Anas"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 411
+				}
+			]
+		},
+		{
+			"Code" : 87,
+			"Name" : "STR-IT",
+			"Remarks" : "STR-IT",
+			"UseTerms" : "tNO",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 58
+				},
+				{
+					"UserID" : 162
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 88,
+			"Name" : "STR-FM",
+			"Remarks" : "STR-FM",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 55
+				},
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 32,
+					"Remarks" : "Husam"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 413
+				}
+			]
+		},
+		{
+			"Code" : 89,
+			"Name" : "STR-PROJ",
+			"Remarks" : "STR-PROJ",
+			"UseTerms" : "tNO",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 99
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 34,
+					"Remarks" : "Saleh"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 90,
+			"Name" : "STR-Internal Audit",
+			"Remarks" : "STR-Internal Audit",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 55,
+					"Remarks" : "Mohammad Shahensha"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 411
+				}
+			]
+		},
+		{
+			"Code" : 91,
+			"Name" : "STR-President's Offi",
+			"Remarks" : "STR-President's Office",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 94
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 412
+				}
+			]
+		},
+		{
+			"Code" : 92,
+			"Name" : "STR-FM-G",
+			"Remarks" : "STR-FM-G",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 49,
+					"Remarks" : "Labeeb"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 414
+				}
+			]
+		},
+		{
+			"Code" : 93,
+			"Name" : "STR-SOFT SER",
+			"Remarks" : "STR-SOFT SER",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 84
+				},
+				{
+					"UserID" : 85
+				},
+				{
+					"UserID" : 127
+				},
+				{
+					"UserID" : 163
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 77,
+					"Remarks" : "Joy Sherwin"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 415
+				}
+			]
+		},
+		{
+			"Code" : 94,
+			"Name" : "STR-Admin",
+			"Remarks" : "STR-Admin",
+			"UseTerms" : "tNO",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 97
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 57,
+					"Remarks" : "Ibrahim Alhoshan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 95,
+			"Name" : "PR Admin S v1",
+			"Remarks" : "PR Admin S v1",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 63
+				},
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 92
+				},
+				{
+					"UserID" : 97
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 58,
+					"Remarks" : "Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 292
+				},
+				{
+					"QueryID" : 392
+				}
+			]
+		},
+		{
+			"Code" : 96,
+			"Name" : "GRPO - Admin v1",
+			"Remarks" : "GRPO - Admin v1",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 97
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 58,
+					"Remarks" : "Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 97,
+			"Name" : "PR Hittin M",
+			"Remarks" : "PR Hittin M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 75
+				},
+				{
+					"UserID" : 174
+				},
+				{
+					"UserID" : 187
+				},
+				{
+					"UserID" : 189
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 426
+				}
+			]
+		},
+		{
+			"Code" : 98,
+			"Name" : "PR Hittin M IT",
+			"Remarks" : "PR Hittin M IT",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 75
+				},
+				{
+					"UserID" : 174
+				},
+				{
+					"UserID" : 187
+				},
+				{
+					"UserID" : 189
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 427
+				}
+			]
+		},
+		{
+			"Code" : 99,
+			"Name" : "PR Hittin S",
+			"Remarks" : "PR Hittin S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 75
+				},
+				{
+					"UserID" : 174
+				},
+				{
+					"UserID" : 187
+				},
+				{
+					"UserID" : 189
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 429
+				},
+				{
+					"QueryID" : 430
+				}
+			]
+		},
+		{
+			"Code" : 100,
+			"Name" : "STR-Phase1",
+			"Remarks" : "STR Phase One Apartment",
+			"UseTerms" : "tNO",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 144
+				},
+				{
+					"UserID" : 148
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 101,
+			"Name" : "PR Mktg S",
+			"Remarks" : "PR Marketing S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 110
+				},
+				{
+					"UserID" : 190
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 87,
+					"Remarks" : "Alaa Al Farran"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 288
+				},
+				{
+					"QueryID" : 407
+				}
+			]
+		},
+		{
+			"Code" : 102,
+			"Name" : "PR Mktg M",
+			"Remarks" : "PR Marketing M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 110
+				},
+				{
+					"UserID" : 190
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 87,
+					"Remarks" : "Alaa Al Farran"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 286
+				}
+			]
+		},
+		{
+			"Code" : 103,
+			"Name" : "GRPO-Mktg",
+			"Remarks" : "GRPO Marketing",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 110
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 59,
+					"Remarks" : "Marketing Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 434
+				}
+			]
+		}
+	],
+	"odata.nextLink" : "ApprovalTemplates?$orderby=Code&$skip=100"
+}

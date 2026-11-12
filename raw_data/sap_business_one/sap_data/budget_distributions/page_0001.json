@@ -1,0 +1,57 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#BudgetDistributions",
+	"value" : 
+	[
+		{
+			"September" : 1.0,
+			"August" : 1.0,
+			"July" : 1.0,
+			"June" : 1.0,
+			"May" : 1.0,
+			"April" : 1.0,
+			"March" : 1.0,
+			"February" : 1.0,
+			"December" : 1.0,
+			"November" : 1.0,
+			"October" : 1.0,
+			"January" : 1.0,
+			"BudgetAmount" : 12.0,
+			"Description" : "Equal",
+			"DivisionCode" : 1
+		},
+		{
+			"September" : 9.0,
+			"August" : 8.0,
+			"July" : 7.0,
+			"June" : 6.0,
+			"May" : 5.0,
+			"April" : 4.0,
+			"March" : 3.0,
+			"February" : 2.0,
+			"December" : 12.0,
+			"November" : 11.0,
+			"October" : 10.0,
+			"January" : 1.0,
+			"BudgetAmount" : 78.0,
+			"Description" : "Ascending Order",
+			"DivisionCode" : 2
+		},
+		{
+			"September" : 4.0,
+			"August" : 5.0,
+			"July" : 6.0,
+			"June" : 7.0,
+			"May" : 8.0,
+			"April" : 9.0,
+			"March" : 10.0,
+			"February" : 11.0,
+			"December" : 1.0,
+			"November" : 2.0,
+			"October" : 3.0,
+			"January" : 12.0,
+			"BudgetAmount" : 78.0,
+			"Description" : "Descending Series",
+			"DivisionCode" : 3
+		}
+	]
+}

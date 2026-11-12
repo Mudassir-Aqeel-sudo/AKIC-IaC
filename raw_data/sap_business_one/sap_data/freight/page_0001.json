@@ -1,0 +1,37 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#AdditionalExpenses",
+	"value" : 
+	[
+		{
+			"odata.etag" : "W/\"356A192B7913B04C54574D18C28D46E6395428AB\"",
+			"Name" : "WT",
+			"RevenuesAccount" : null,
+			"ExpenseAccount" : "_SYS00000004920",
+			"TaxLiable" : "tNO",
+			"FixedAmountRevenues" : 0.0,
+			"FixedAmountExpenses" : 0.0,
+			"OutputVATGroup" : "",
+			"InputVATGroup" : "",
+			"DistributionMethod" : "aed_None",
+			"Includein1099" : "tNO",
+			"FreightOffsetAccount" : null,
+			"WTLiable" : "N",
+			"ExpensCode" : 1,
+			"ExpenseExemptedAccount" : null,
+			"RevenuesExemptedAccount" : null,
+			"DistributionRule" : "",
+			"DrawingMethod" : "dmTotal",
+			"FreightType" : "ftShipping",
+			"Stock" : "tNO",
+			"LastPurchasePrice" : "tNO",
+			"Project" : null,
+			"DistributionRule2" : "",
+			"DistributionRule3" : "",
+			"DistributionRule4" : "",
+			"DistributionRule5" : "",
+			"DataVersion" : 1,
+			"SAFTProductType" : null,
+			"SAFTProductTypeEx" : null
+		}
+	]
+}

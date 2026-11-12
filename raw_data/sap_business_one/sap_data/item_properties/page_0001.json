@@ -1,0 +1,262 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#ItemProperties",
+	"value" : 
+	[
+		{
+			"Number" : 1,
+			"PropertyName" : "Leasing Units"
+		},
+		{
+			"Number" : 2,
+			"PropertyName" : "Services Charge"
+		},
+		{
+			"Number" : 3,
+			"PropertyName" : "Grace period Service charge"
+		},
+		{
+			"Number" : 4,
+			"PropertyName" : "Security Deposit"
+		},
+		{
+			"Number" : 5,
+			"PropertyName" : "Electricity Charges"
+		},
+		{
+			"Number" : 6,
+			"PropertyName" : "Meter Charge"
+		},
+		{
+			"Number" : 7,
+			"PropertyName" : "FM Services"
+		},
+		{
+			"Number" : 8,
+			"PropertyName" : "Intercompany & Other External Customers"
+		},
+		{
+			"Number" : 9,
+			"PropertyName" : "Manage Hotel"
+		},
+		{
+			"Number" : 10,
+			"PropertyName" : "Activation Area"
+		},
+		{
+			"Number" : 11,
+			"PropertyName" : "Items Property 11"
+		},
+		{
+			"Number" : 12,
+			"PropertyName" : "Items Property 12"
+		},
+		{
+			"Number" : 13,
+			"PropertyName" : "Items Property 13"
+		},
+		{
+			"Number" : 14,
+			"PropertyName" : "Items Property 14"
+		},
+		{
+			"Number" : 15,
+			"PropertyName" : "Items Property 15"
+		},
+		{
+			"Number" : 16,
+			"PropertyName" : "Items Property 16"
+		},
+		{
+			"Number" : 17,
+			"PropertyName" : "Items Property 17"
+		},
+		{
+			"Number" : 18,
+			"PropertyName" : "Items Property 18"
+		},
+		{
+			"Number" : 19,
+			"PropertyName" : "Items Property 19"
+		},
+		{
+			"Number" : 20,
+			"PropertyName" : "Items Property 20"
+		},
+		{
+			"Number" : 21,
+			"PropertyName" : "Items Property 21"
+		},
+		{
+			"Number" : 22,
+			"PropertyName" : "Items Property 22"
+		},
+		{
+			"Number" : 23,
+			"PropertyName" : "Items Property 23"
+		},
+		{
+			"Number" : 24,
+			"PropertyName" : "Items Property 24"
+		},
+		{
+			"Number" : 25,
+			"PropertyName" : "Items Property 25"
+		},
+		{
+			"Number" : 26,
+			"PropertyName" : "Items Property 26"
+		},
+		{
+			"Number" : 27,
+			"PropertyName" : "Items Property 27"
+		},
+		{
+			"Number" : 28,
+			"PropertyName" : "Items Property 28"
+		},
+		{
+			"Number" : 29,
+			"PropertyName" : "Items Property 29"
+		},
+		{
+			"Number" : 30,
+			"PropertyName" : "Items Property 30"
+		},
+		{
+			"Number" : 31,
+			"PropertyName" : "Items Property 31"
+		},
+		{
+			"Number" : 32,
+			"PropertyName" : "Items Property 32"
+		},
+		{
+			"Number" : 33,
+			"PropertyName" : "Items Property 33"
+		},
+		{
+			"Number" : 34,
+			"PropertyName" : "Items Property 34"
+		},
+		{
+			"Number" : 35,
+			"PropertyName" : "Items Property 35"
+		},
+		{
+			"Number" : 36,
+			"PropertyName" : "Items Property 36"
+		},
+		{
+			"Number" : 37,
+			"PropertyName" : "Items Property 37"
+		},
+		{
+			"Number" : 38,
+			"PropertyName" : "Items Property 38"
+		},
+		{
+			"Number" : 39,
+			"PropertyName" : "Items Property 39"
+		},
+		{
+			"Number" : 40,
+			"PropertyName" : "Items Property 40"
+		},
+		{
+			"Number" : 41,
+			"PropertyName" : "Items Property 41"
+		},
+		{
+			"Number" : 42,
+			"PropertyName" : "Items Property 42"
+		},
+		{
+			"Number" : 43,
+			"PropertyName" : "Items Property 43"
+		},
+		{
+			"Number" : 44,
+			"PropertyName" : "Items Property 44"
+		},
+		{
+			"Number" : 45,
+			"PropertyName" : "Items Property 45"
+		},
+		{
+			"Number" : 46,
+			"PropertyName" : "Items Property 46"
+		},
+		{
+			"Number" : 47,
+			"PropertyName" : "Items Property 47"
+		},
+		{
+			"Number" : 48,
+			"PropertyName" : "Items Property 48"
+		},
+		{
+			"Number" : 49,
+			"PropertyName" : "Items Property 49"
+		},
+		{
+			"Number" : 50,
+			"PropertyName" : "Items Property 50"
+		},
+		{
+			"Number" : 51,
+			"PropertyName" : "Items Property 51"
+		},
+		{
+			"Number" : 52,
+			"PropertyName" : "Items Property 52"
+		},
+		{
+			"Number" : 53,
+			"PropertyName" : "Items Property 53"
+		},
+		{
+			"Number" : 54,
+			"PropertyName" : "Items Property 54"
+		},
+		{
+			"Number" : 55,
+			"PropertyName" : "Items Property 55"
+		},
+		{
+			"Number" : 56,
+			"PropertyName" : "Items Property 56"
+		},
+		{
+			"Number" : 57,
+			"PropertyName" : "Items Property 57"
+		},
+		{
+			"Number" : 58,
+			"PropertyName" : "Items Property 58"
+		},
+		{
+			"Number" : 59,
+			"PropertyName" : "Items Property 59"
+		},
+		{
+			"Number" : 60,
+			"PropertyName" : "Items Property 60"
+		},
+		{
+			"Number" : 61,
+			"PropertyName" : "Items Property 61"
+		},
+		{
+			"Number" : 62,
+			"PropertyName" : "Items Property 62"
+		},
+		{
+			"Number" : 63,
+			"PropertyName" : "Items Property 63"
+		},
+		{
+			"Number" : 64,
+			"PropertyName" : "Items Property 64"
+		}
+	]
+}

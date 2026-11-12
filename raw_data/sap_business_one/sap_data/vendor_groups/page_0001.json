@@ -1,0 +1,371 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#BusinessPartnerGroups",
+	"value" : 
+	[
+		{
+			"Code" : 101,
+			"Name" : "Medical",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 102,
+			"Name" : "Construction Materials",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 103,
+			"Name" : "In Active",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 104,
+			"Name" : "Water Treatment",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 105,
+			"Name" : "Electronics Supply",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 106,
+			"Name" : "Insurance",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 107,
+			"Name" : "Training & Course",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 108,
+			"Name" : "Recruitment",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 109,
+			"Name" : "Legal Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 110,
+			"Name" : "Logistic, Transportation",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 111,
+			"Name" : "Entertainment & Events",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 112,
+			"Name" : "IT hardware",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 113,
+			"Name" : "Facility Management",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 114,
+			"Name" : "Hotel OSE Supplies",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 115,
+			"Name" : "FMCG",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 116,
+			"Name" : "Stationary & Office Supplies",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 117,
+			"Name" : "Real Estate",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 118,
+			"Name" : "IT Software",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 119,
+			"Name" : "Design & Consultancy",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 120,
+			"Name" : "Cleaning Supplies & Equipment",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 121,
+			"Name" : "Manage Print Service",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 122,
+			"Name" : "MEP Supplies",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 123,
+			"Name" : "Project Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 124,
+			"Name" : "Engineering Tools",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 125,
+			"Name" : "Industrial Kitchen Equipment",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 126,
+			"Name" : "Digital Marketing",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 127,
+			"Name" : "Pest Control Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 128,
+			"Name" : "Valuation Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 129,
+			"Name" : "Network Supplies",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 130,
+			"Name" : "Lighting Fixtures",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 131,
+			"Name" : "HVAC Supplies & Maintenance",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 132,
+			"Name" : "Low Currant Engineering",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 133,
+			"Name" : "Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 134,
+			"Name" : "Paint & Paint Supplies",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 135,
+			"Name" : "Elevator & Elevator Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 136,
+			"Name" : "Hotel FFE Supplies",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 137,
+			"Name" : "Training & Consultation",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 138,
+			"Name" : "Oil & Gas Supplies",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 139,
+			"Name" : "Printing Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 140,
+			"Name" : "Landscape",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 141,
+			"Name" : "Security Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 142,
+			"Name" : "FLS Supplies & Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 143,
+			"Name" : "Manpower Supplies",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 144,
+			"Name" : "Linen & Textiles",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 145,
+			"Name" : "Waste Management",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 146,
+			"Name" : "Doors & Carpentry",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 147,
+			"Name" : "Uniform",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 148,
+			"Name" : "Professional Cleaning",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 149,
+			"Name" : "Equipment",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 150,
+			"Name" : "Catering Industrial Kitchen",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 151,
+			"Name" : "Items",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 152,
+			"Name" : "Sanitary Ware",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 153,
+			"Name" : "Advertising & Signages",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 154,
+			"Name" : "Finance Professional Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 155,
+			"Name" : "Old Vendors",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 156,
+			"Name" : "Petty cash vendors",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 158,
+			"Name" : "Local",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 159,
+			"Name" : "International",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 162,
+			"Name" : "Import",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 163,
+			"Name" : "Employee",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 164,
+			"Name" : "Government Entity",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 165,
+			"Name" : "Event Planers & Organizer",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 166,
+			"Name" : "General Contracting",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 167,
+			"Name" : "Electromechanical Contracting",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 168,
+			"Name" : "Craft & Gift Accessories",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 169,
+			"Name" : "Online Subscription Consultant",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 170,
+			"Name" : "Marketing & Advertising",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 171,
+			"Name" : "Operation & Maintenance",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 172,
+			"Name" : "Elevator & Access Control",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 173,
+			"Name" : "CCTV & Surveillance Services",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 174,
+			"Name" : "Marble/Stone/Granite",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 175,
+			"Name" : "Internal Account",
+			"Type" : "bbpgt_VendorGroup"
+		},
+		{
+			"Code" : 176,
+			"Name" : "Audit",
+			"Type" : "bbpgt_VendorGroup"
+		}
+	]
+}

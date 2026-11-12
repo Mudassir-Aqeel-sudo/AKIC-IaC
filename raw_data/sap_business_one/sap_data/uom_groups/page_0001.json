@@ -1,0 +1,454 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#UnitOfMeasurementGroups",
+	"value" : 
+	[
+		{
+			"AbsEntry" : -1,
+			"Code" : "يدوي",
+			"Name" : "يدوي",
+			"BaseUoM" : -1,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : -1,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 1,
+			"Code" : "Each",
+			"Name" : "Each",
+			"BaseUoM" : 1,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 1,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 2,
+			"Code" : "Mtr",
+			"Name" : "Mtr",
+			"BaseUoM" : 2,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 2,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 3,
+			"Code" : "SQM",
+			"Name" : "SQM",
+			"BaseUoM" : 3,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 3,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 4,
+			"Code" : "Box",
+			"Name" : "Box",
+			"BaseUoM" : 4,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 4,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				},
+				{
+					"AlternateUoM" : 1,
+					"AlternateQuantity" : 40.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 5,
+			"Code" : "Bag",
+			"Name" : "Bag",
+			"BaseUoM" : 5,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 5,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 6,
+			"Code" : "Btl",
+			"Name" : "Btl",
+			"BaseUoM" : 6,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 6,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 7,
+			"Code" : "Ltr",
+			"Name" : "Ltr",
+			"BaseUoM" : 7,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 7,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 8,
+			"Code" : "Kg",
+			"Name" : "Kg",
+			"BaseUoM" : 10,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 10,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 9,
+			"Code" : "Can",
+			"Name" : "Can",
+			"BaseUoM" : 8,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 8,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 10,
+			"Code" : "Jar",
+			"Name" : "Jar",
+			"BaseUoM" : 9,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 9,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 11,
+			"Code" : "Pkt",
+			"Name" : "Pkt",
+			"BaseUoM" : 11,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 11,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 12,
+			"Code" : "Pair",
+			"Name" : "Pair",
+			"BaseUoM" : 12,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 12,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 13,
+			"Code" : "Tin",
+			"Name" : "Tin",
+			"BaseUoM" : 13,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 13,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 14,
+			"Code" : "Pc",
+			"Name" : "Pc",
+			"BaseUoM" : 14,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 14,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 15,
+			"Code" : "Box-6Roll",
+			"Name" : "Box/6Roll",
+			"BaseUoM" : 17,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 17,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				},
+				{
+					"AlternateUoM" : 4,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 6.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 16,
+			"Code" : "Percentage",
+			"Name" : "Percentage",
+			"BaseUoM" : 19,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 19,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				},
+				{
+					"AlternateUoM" : 23,
+					"AlternateQuantity" : 100.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 17,
+			"Code" : "Drum",
+			"Name" : "Drum",
+			"BaseUoM" : 20,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 20,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 18,
+			"Code" : "Gallon",
+			"Name" : "Gallon",
+			"BaseUoM" : 21,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 21,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 19,
+			"Code" : "Month",
+			"Name" : "Month",
+			"BaseUoM" : 22,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 22,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 20,
+			"Code" : "Hour",
+			"Name" : "Hour",
+			"BaseUoM" : 18,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 18,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		},
+		{
+			"AbsEntry" : 21,
+			"Code" : "Roll",
+			"Name" : "Roll",
+			"BaseUoM" : 17,
+			"UoMGroupDefinitionCollection" : 
+			[
+				{
+					"AlternateUoM" : 17,
+					"AlternateQuantity" : 1.0,
+					"BaseQuantity" : 1.0,
+					"WeightFactor" : 0,
+					"UdfFactor" : -1,
+					"Active" : "tYES",
+					"BaseUdfFtr" : -1,
+					"BaseWgtFtr" : 0
+				}
+			]
+		}
+	]
+}

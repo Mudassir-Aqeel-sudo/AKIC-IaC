@@ -1,0 +1,1198 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#ApprovalTemplates",
+	"value" : 
+	[
+		{
+			"Code" : 216,
+			"Name" : "GRPO Sec & HSE M",
+			"Remarks" : "GRPO Security & HSE Material",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 142
+				},
+				{
+					"UserID" : 168
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 84,
+					"Remarks" : "Neil James Harris"
+				},
+				{
+					"SortID" : 3,
+					"ApprovalStageCode" : 86,
+					"Remarks" : "GRPO Fin Approver"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 88,
+					"Remarks" : "Saud Algabsani"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 694
+				}
+			]
+		},
+		{
+			"Code" : 217,
+			"Name" : "GRPO Sec & HSE S",
+			"Remarks" : "GRPO Security & HSE Services",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 142
+				},
+				{
+					"UserID" : 168
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 84,
+					"Remarks" : "Neil James Harris"
+				},
+				{
+					"SortID" : 3,
+					"ApprovalStageCode" : 86,
+					"Remarks" : "GRPO Fin Approver"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 88,
+					"Remarks" : "Saud Algabsani"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 693
+				}
+			]
+		},
+		{
+			"Code" : 218,
+			"Name" : "STR Sec & HSE",
+			"Remarks" : "STR Security & HSE",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 142
+				},
+				{
+					"UserID" : 168
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 84,
+					"Remarks" : "Neil James Harris"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 689
+				}
+			]
+		},
+		{
+			"Code" : 219,
+			"Name" : "PR CEO Office S V1",
+			"Remarks" : "PR CEO Office S V1",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 65
+				},
+				{
+					"UserID" : 94
+				},
+				{
+					"UserID" : 99
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 12,
+					"Remarks" : "WH Manager"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 89,
+					"Remarks" : "Ibrahim Al Dubayyan"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 315
+				},
+				{
+					"QueryID" : 393
+				}
+			]
+		},
+		{
+			"Code" : 220,
+			"Name" : "STR Customer Exp",
+			"Remarks" : "STR Customer Experience",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 166
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 717
+				}
+			]
+		},
+		{
+			"Code" : 221,
+			"Name" : "PR Customer Exp M",
+			"Remarks" : "PR Customer Experience M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 166
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 719
+				}
+			]
+		},
+		{
+			"Code" : 223,
+			"Name" : "PR Customer Exp S",
+			"Remarks" : "PR Customer Experience S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 166
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 725
+				},
+				{
+					"QueryID" : 726
+				}
+			]
+		},
+		{
+			"Code" : 224,
+			"Name" : "GRPO-Customer Exp M",
+			"Remarks" : "GRPO Customer Experience M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 166
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 722
+				}
+			]
+		},
+		{
+			"Code" : 225,
+			"Name" : "GRPO-Customer Exp S",
+			"Remarks" : "GRPO Customer Experience S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 166
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 723
+				}
+			]
+		},
+		{
+			"Code" : 226,
+			"Name" : "PR HSE M",
+			"Remarks" : "PR HSE M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 166
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 727
+				}
+			]
+		},
+		{
+			"Code" : 227,
+			"Name" : "PR HSE S",
+			"Remarks" : "PR HSE S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 166
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 728
+				}
+			]
+		},
+		{
+			"Code" : 228,
+			"Name" : "STR HSE",
+			"Remarks" : "STR Health Safety & Environment",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 166
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 729
+				}
+			]
+		},
+		{
+			"Code" : 229,
+			"Name" : "GRPO - HSE M",
+			"Remarks" : "GRPO HSE M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 166
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 730
+				}
+			]
+		},
+		{
+			"Code" : 230,
+			"Name" : "GRPO - HSE S",
+			"Remarks" : "GRPO - HSE S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 166
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 86,
+					"Remarks" : "GRPO Fin Approver"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 731
+				}
+			]
+		},
+		{
+			"Code" : 231,
+			"Name" : "GRPO Sec&Prot S",
+			"Remarks" : "GRPO Sec&Prot S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 142
+				},
+				{
+					"UserID" : 168
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 86,
+					"Remarks" : "GRPO Fin Approver"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 94,
+					"Remarks" : "Property Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 733
+				}
+			]
+		},
+		{
+			"Code" : 232,
+			"Name" : "STR Hospitality",
+			"Remarks" : "Inventory Transfer Request - Hospitality",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 75
+				},
+				{
+					"UserID" : 174
+				},
+				{
+					"UserID" : 187
+				},
+				{
+					"UserID" : 189
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 745
+				}
+			]
+		},
+		{
+			"Code" : 233,
+			"Name" : "STR-Hittin",
+			"Remarks" : "Inventory Transfer Request - Hittin Palace",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 53
+				},
+				{
+					"UserID" : 75
+				},
+				{
+					"UserID" : 174
+				},
+				{
+					"UserID" : 187
+				},
+				{
+					"UserID" : 189
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 92,
+					"Remarks" : "Hospitality Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 744
+				}
+			]
+		},
+		{
+			"Code" : 234,
+			"Name" : "PR Staff Housing M",
+			"Remarks" : "PR Staff Cluster Housing Material",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 175
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 750
+				}
+			]
+		},
+		{
+			"Code" : 235,
+			"Name" : "PR Staff Housing S",
+			"Remarks" : "PR Cluster Staff Housing S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 175
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 751
+				},
+				{
+					"QueryID" : 752
+				}
+			]
+		},
+		{
+			"Code" : 236,
+			"Name" : "STR-Staff Housing",
+			"Remarks" : "Inventory Transfer Request - Staff Housing",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 175
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 753
+				}
+			]
+		},
+		{
+			"Code" : 237,
+			"Name" : "GRPO Staff Housing M",
+			"Remarks" : "GRPO Staff Housing Material",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 175
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 86,
+					"Remarks" : "GRPO Fin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 754
+				}
+			]
+		},
+		{
+			"Code" : 238,
+			"Name" : "GRPO Staff Housing S",
+			"Remarks" : "GRPO STaff Housing Service",
+			"UseTerms" : "tYES",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 175
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 48,
+					"Remarks" : "HR Admin Approver"
+				},
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 86,
+					"Remarks" : "GRPO Fin Approver"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 755
+				}
+			]
+		},
+		{
+			"Code" : 239,
+			"Name" : "GRPO_PettyCash",
+			"Remarks" : "GRPO_PettyCash",
+			"UseTerms" : "tNO",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 150
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 2,
+					"ApprovalStageCode" : 86,
+					"Remarks" : "GRPO Fin Approver"
+				},
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 90,
+					"Remarks" : "Procurement Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		},
+		{
+			"Code" : 240,
+			"Name" : "PR Leasing M",
+			"Remarks" : "PR Leasing M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 126
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 93,
+					"Remarks" : "Leasing Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 816
+				}
+			]
+		},
+		{
+			"Code" : 241,
+			"Name" : "PR Leasing S",
+			"Remarks" : "PR Leasing S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 126
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 93,
+					"Remarks" : "Leasing Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtPurchaseRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 817
+				},
+				{
+					"QueryID" : 818
+				}
+			]
+		},
+		{
+			"Code" : 242,
+			"Name" : "GRPO Leasing M",
+			"Remarks" : "GRPO Leasing M",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 126
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 93,
+					"Remarks" : "Leasing Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 819
+				}
+			]
+		},
+		{
+			"Code" : 243,
+			"Name" : "GRPO Leasing S",
+			"Remarks" : "GRPO Leasing S",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 126
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 93,
+					"Remarks" : "Leasing Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtGoodsReceiptPO"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 820
+				}
+			]
+		},
+		{
+			"Code" : 244,
+			"Name" : "STR Leasing",
+			"Remarks" : "STR Leasing",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 126
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 93,
+					"Remarks" : "Leasing Manager"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 821
+				}
+			]
+		},
+		{
+			"Code" : 245,
+			"Name" : "STR Faisaliah Mall",
+			"Remarks" : "STR Faisaliah Mall",
+			"UseTerms" : "tYES",
+			"IsActive" : "tYES",
+			"IsActiveWhenUpdatingDocuments" : "tYES",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 41
+				},
+				{
+					"UserID" : 177
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 95,
+					"Remarks" : "Mall Director"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtInventoryTransferRequest"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : 
+			[
+				{
+					"QueryID" : 822
+				}
+			]
+		},
+		{
+			"Code" : 246,
+			"Name" : "AP invoice Test",
+			"Remarks" : "AP invoice Test",
+			"UseTerms" : "tNO",
+			"IsActive" : "tNO",
+			"IsActiveWhenUpdatingDocuments" : "tNO",
+			"ApprovalTemplateUsers" : 
+			[
+				{
+					"UserID" : 124
+				}
+			],
+			"ApprovalTemplateStages" : 
+			[
+				{
+					"SortID" : 1,
+					"ApprovalStageCode" : 37,
+					"Remarks" : "Anwar"
+				}
+			],
+			"ApprovalTemplateDocuments" : 
+			[
+				{
+					"DocumentType" : "atdtApInvoice"
+				}
+			],
+			"ApprovalTemplateTerms" : [],
+			"ApprovalTemplateQueries" : []
+		}
+	]
+}

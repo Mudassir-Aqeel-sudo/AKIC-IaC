@@ -1,0 +1,1152 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#ApprovalStages",
+	"value" : 
+	[
+		{
+			"Code" : 1,
+			"Name" : "1",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "1",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 59
+				}
+			]
+		},
+		{
+			"Code" : 2,
+			"Name" : "01",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Finance",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 59
+				},
+				{
+					"UserID" : 100
+				}
+			]
+		},
+		{
+			"Code" : 3,
+			"Name" : "Managment 1",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Managment 1",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 44
+				},
+				{
+					"UserID" : 69
+				},
+				{
+					"UserID" : 76
+				}
+			]
+		},
+		{
+			"Code" : 4,
+			"Name" : "CEO",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "CEO",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 70
+				}
+			]
+		},
+		{
+			"Code" : 5,
+			"Name" : "Corp. Marketing",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Corp. Marketing",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 67
+				},
+				{
+					"UserID" : 78
+				}
+			]
+		},
+		{
+			"Code" : 6,
+			"Name" : "Corp. Finance",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Corp. Finance",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 44
+				},
+				{
+					"UserID" : 78
+				}
+			]
+		},
+		{
+			"Code" : 7,
+			"Name" : "HR & IT",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "HR & IT",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 66
+				}
+			]
+		},
+		{
+			"Code" : 8,
+			"Name" : "Finance&Planing",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Finance&Planing",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 44
+				},
+				{
+					"UserID" : 59
+				}
+			]
+		},
+		{
+			"Code" : 9,
+			"Name" : "It marking M",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "It marking M",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 67
+				}
+			]
+		},
+		{
+			"Code" : 10,
+			"Name" : "03",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Dir. Corp & Planing",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 59
+				},
+				{
+					"UserID" : 67
+				}
+			]
+		},
+		{
+			"Code" : 11,
+			"Name" : "HR",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "HR",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 80
+				}
+			]
+		},
+		{
+			"Code" : 12,
+			"Name" : "WH Manager",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "WH Manager",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 78
+				}
+			]
+		},
+		{
+			"Code" : 13,
+			"Name" : "HR & IT & Finance",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "HR & IT & Finance",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 66
+				}
+			]
+		},
+		{
+			"Code" : 14,
+			"Name" : "Plang & Purchse Mngr",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Plang & Purchse Mngr",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 59
+				}
+			]
+		},
+		{
+			"Code" : 15,
+			"Name" : "HR & Plang Man",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "HR & Plang Man",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 59
+				},
+				{
+					"UserID" : 80
+				}
+			]
+		},
+		{
+			"Code" : 16,
+			"Name" : "Shadi & WH Manager",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Shadi & WH Manager",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 66
+				},
+				{
+					"UserID" : 78
+				}
+			]
+		},
+		{
+			"Code" : 17,
+			"Name" : "It & Shadi & Plang",
+			"NoOfApproversRequired" : 3,
+			"Remarks" : "It & Shadi & Plang",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 66
+				},
+				{
+					"UserID" : 78
+				}
+			]
+		},
+		{
+			"Code" : 19,
+			"Name" : "Shadi & Planing",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Shadi & Planing",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 59
+				},
+				{
+					"UserID" : 66
+				}
+			]
+		},
+		{
+			"Code" : 20,
+			"Name" : "Finance & WH",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Finance & WH",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 44
+				},
+				{
+					"UserID" : 78
+				}
+			]
+		},
+		{
+			"Code" : 21,
+			"Name" : "Luc",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Luc",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 69
+				}
+			]
+		},
+		{
+			"Code" : 22,
+			"Name" : "Anas & Anwar & Ivan",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Anas & Anwar",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 59
+				}
+			]
+		},
+		{
+			"Code" : 23,
+			"Name" : "Anas",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Anas",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 59
+				}
+			]
+		},
+		{
+			"Code" : 24,
+			"Name" : "Anwar & WH",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Anwar & WH",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 78
+				}
+			]
+		},
+		{
+			"Code" : 25,
+			"Name" : "Vernon",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Vernon",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 71
+				}
+			]
+		},
+		{
+			"Code" : 26,
+			"Name" : "Shahensha",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Shahensha",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 72
+				}
+			]
+		},
+		{
+			"Code" : 27,
+			"Name" : "Shah & IVAN & Anwar",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Shah & IVAN & Anwar",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 72
+				}
+			]
+		},
+		{
+			"Code" : 28,
+			"Name" : "Vernon & Anwar",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Vernon & Anwar",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 71
+				}
+			]
+		},
+		{
+			"Code" : 29,
+			"Name" : "Luc & Ivan & Anwar",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Luc & Ivan & Anwar",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 69
+				}
+			]
+		},
+		{
+			"Code" : 30,
+			"Name" : "Michael",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Michael",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 67
+				}
+			]
+		},
+		{
+			"Code" : 31,
+			"Name" : "Mich & Ivan & anwar",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Mich & Ivan & anwar",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 67
+				}
+			]
+		},
+		{
+			"Code" : 32,
+			"Name" : "Husam",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Husam",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 54
+				}
+			]
+		},
+		{
+			"Code" : 33,
+			"Name" : "Husam & Anwar",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Husam & Anwar",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 54
+				},
+				{
+					"UserID" : 57
+				}
+			]
+		},
+		{
+			"Code" : 34,
+			"Name" : "Saleh",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Saleh",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 68
+				}
+			]
+		},
+		{
+			"Code" : 35,
+			"Name" : "CEO & Ivan",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "CEO & Ivan",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 44
+				},
+				{
+					"UserID" : 70
+				}
+			]
+		},
+		{
+			"Code" : 36,
+			"Name" : "CEO & Anwar",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "CEO & Anwar",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 70
+				}
+			]
+		},
+		{
+			"Code" : 37,
+			"Name" : "Anwar",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Anwar",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				}
+			]
+		},
+		{
+			"Code" : 43,
+			"Name" : "Shadi",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "HR Director",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 66
+				}
+			]
+		},
+		{
+			"Code" : 44,
+			"Name" : "Finance",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Head of Finance",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 44
+				}
+			]
+		},
+		{
+			"Code" : 45,
+			"Name" : "Samir",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Samir",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 46
+				}
+			]
+		},
+		{
+			"Code" : 46,
+			"Name" : "Ivan",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Ivan",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 44
+				}
+			]
+		},
+		{
+			"Code" : 47,
+			"Name" : "Mohammed Ajab Alqaht",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Mohammed Ajab Alqahtani",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 78
+				}
+			]
+		},
+		{
+			"Code" : 48,
+			"Name" : "Saud Al Said",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "HR Admin Approver",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 80
+				}
+			]
+		},
+		{
+			"Code" : 49,
+			"Name" : "Labeeb",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Labeeb",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 88
+				}
+			]
+		},
+		{
+			"Code" : 50,
+			"Name" : "Francis",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Francis",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 81
+				}
+			]
+		},
+		{
+			"Code" : 52,
+			"Name" : "Abdul Cader",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Abdul Cader",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 60
+				}
+			]
+		},
+		{
+			"Code" : 53,
+			"Name" : "Turki",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Turki",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 100
+				}
+			]
+		},
+		{
+			"Code" : 54,
+			"Name" : "saud",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : null,
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 80
+				}
+			]
+		},
+		{
+			"Code" : 55,
+			"Name" : "Mohammad Shahensha",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Mohammad Shahensha",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 72
+				}
+			]
+		},
+		{
+			"Code" : 56,
+			"Name" : "President/CEO",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "President/CEO",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 70
+				}
+			]
+		},
+		{
+			"Code" : 57,
+			"Name" : "Ibrahim Alhoshan",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Ibrahim Alhoshan",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 103
+				}
+			]
+		},
+		{
+			"Code" : 58,
+			"Name" : "Admin",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Admin Approver",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 103
+				}
+			]
+		},
+		{
+			"Code" : 59,
+			"Name" : "MKT Dir",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Marketing Director",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 106
+				}
+			]
+		},
+		{
+			"Code" : 60,
+			"Name" : "APDP 1st",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "APDP 1st",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 59
+				}
+			]
+		},
+		{
+			"Code" : 61,
+			"Name" : "APDP 2nd",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "APDP 2nd",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 57
+				},
+				{
+					"UserID" : 109
+				}
+			]
+		},
+		{
+			"Code" : 62,
+			"Name" : "Muhammad Sulman",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Muhammad Sulman",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 109
+				}
+			]
+		},
+		{
+			"Code" : 63,
+			"Name" : "ExCom 01",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Executive Comittee 01",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 69
+				},
+				{
+					"UserID" : 76
+				},
+				{
+					"UserID" : 109
+				}
+			]
+		},
+		{
+			"Code" : 64,
+			"Name" : "managment DP",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "managment DP",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 76
+				},
+				{
+					"UserID" : 119
+				},
+				{
+					"UserID" : 191
+				}
+			]
+		},
+		{
+			"Code" : 65,
+			"Name" : "CHA",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "CHA",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 70
+				}
+			]
+		},
+		{
+			"Code" : 66,
+			"Name" : "Rahaf Alluhaidan",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Rahaf Alluhaidan",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 110
+				}
+			]
+		},
+		{
+			"Code" : 68,
+			"Name" : "Mohammad Al Abidien",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Mohammad Al Abidien",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 106
+				}
+			]
+		},
+		{
+			"Code" : 69,
+			"Name" : "Fahad Al Thaikry",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Fahad Al Thaikry",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 117
+				}
+			]
+		},
+		{
+			"Code" : 70,
+			"Name" : "Managment 2",
+			"NoOfApproversRequired" : 2,
+			"Remarks" : "Managment 2",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 76
+				},
+				{
+					"UserID" : 119
+				},
+				{
+					"UserID" : 191
+				}
+			]
+		},
+		{
+			"Code" : 71,
+			"Name" : "Manager - AR",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Manager AR & Collection",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 120
+				}
+			]
+		},
+		{
+			"Code" : 72,
+			"Name" : "Mohammed Gayasuddin",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Mohammed Gayasuddin",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 122
+				}
+			]
+		},
+		{
+			"Code" : 73,
+			"Name" : "Uthman Klaktawi",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Uthman Klaktawi",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 48
+				}
+			]
+		},
+		{
+			"Code" : 74,
+			"Name" : "Toro",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Toro",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 135
+				}
+			]
+		},
+		{
+			"Code" : 75,
+			"Name" : "Haya Binziyad",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Haya Binziyad",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 136
+				}
+			]
+		},
+		{
+			"Code" : 76,
+			"Name" : "BD Director",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "BD Director",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 137
+				}
+			]
+		},
+		{
+			"Code" : 77,
+			"Name" : "Joy Sherwin",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Joy Sherwin",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 139
+				}
+			]
+		},
+		{
+			"Code" : 78,
+			"Name" : "Omar Alomar",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Omar Alomar",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 47
+				}
+			]
+		},
+		{
+			"Code" : 79,
+			"Name" : "Muhammad Bilal",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Muhammad Bilal",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 119
+				}
+			]
+		},
+		{
+			"Code" : 80,
+			"Name" : "Aqeel Al Sadoun",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Aqeel Al Sadoun",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 141
+				}
+			]
+		},
+		{
+			"Code" : 81,
+			"Name" : "Khalid Al Sweelim",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Khalid Al Sweelim",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 143
+				}
+			]
+		},
+		{
+			"Code" : 82,
+			"Name" : "Abdulaziz Alsaleh",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Abdulaziz Alsaleh",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 151
+				}
+			]
+		},
+		{
+			"Code" : 83,
+			"Name" : "Muhammad Faheem",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Muhammad Faheem",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 146
+				}
+			]
+		},
+		{
+			"Code" : 84,
+			"Name" : "Neil James Harris",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Neil James Harris",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 160
+				}
+			]
+		},
+		{
+			"Code" : 85,
+			"Name" : "Mohammad Hassan",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Mohammad Hassan",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 165
+				}
+			]
+		},
+		{
+			"Code" : 86,
+			"Name" : "GRPO Fin Approver",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "GRPO Fin Approver",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 146
+				},
+				{
+					"UserID" : 154
+				}
+			]
+		},
+		{
+			"Code" : 87,
+			"Name" : "Alaa Al Farran",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Alaa Al Farran",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 172
+				}
+			]
+		},
+		{
+			"Code" : 88,
+			"Name" : "Saud Algabsani",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Saud Algabsani",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 173
+				}
+			]
+		},
+		{
+			"Code" : 89,
+			"Name" : "Ibrahim Al Dubayyan",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Ibrahim Al Dubayyan",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 63
+				}
+			]
+		},
+		{
+			"Code" : 90,
+			"Name" : "Procurement Director",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Procurement Director",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 179
+				}
+			]
+		},
+		{
+			"Code" : 91,
+			"Name" : "Cash Management",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Cash Management",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 188
+				}
+			]
+		},
+		{
+			"Code" : 92,
+			"Name" : "Hospitality Director",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Hospitality Director",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 191
+				}
+			]
+		},
+		{
+			"Code" : 93,
+			"Name" : "Leasing Manager",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Leasing Manager",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 194
+				}
+			]
+		},
+		{
+			"Code" : 94,
+			"Name" : "Property Manager",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Property Manager",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 198
+				}
+			]
+		},
+		{
+			"Code" : 95,
+			"Name" : "Mall Director",
+			"NoOfApproversRequired" : 1,
+			"Remarks" : "Mall Director",
+			"ApprovalStageApprovers" : 
+			[
+				{
+					"UserID" : 195
+				}
+			]
+		}
+	]
+}

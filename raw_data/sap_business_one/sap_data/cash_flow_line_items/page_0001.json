@@ -1,0 +1,326 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#CashFlowLineItems",
+	"value" : 
+	[
+		{
+			"LineItemID" : 1,
+			"LineItemName" : "التدفقات النقدية من الأنشطة التشغيلية",
+			"ActiveLineItem" : "tNO",
+			"ParentArticle" : null,
+			"Level" : 1,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 2,
+			"LineItemName" : "التدفق النقدي من الأنشطة الاستثمارية",
+			"ActiveLineItem" : "tNO",
+			"ParentArticle" : null,
+			"Level" : 1,
+			"Drawer" : 2
+		},
+		{
+			"LineItemID" : 3,
+			"LineItemName" : "التدفقات النقدية من الأنشطة التمويلية",
+			"ActiveLineItem" : "tNO",
+			"ParentArticle" : null,
+			"Level" : 1,
+			"Drawer" : 3
+		},
+		{
+			"LineItemID" : 4,
+			"LineItemName" : "Cash Receipts from intercompany",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 5,
+			"LineItemName" : "Rent Received from Customers",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 6,
+			"LineItemName" : "Cash Received - Others",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 7,
+			"LineItemName" : "Security Deposit Received from Customers",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 8,
+			"LineItemName" : "Payments to Suppliers for Goods and Services",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 9,
+			"LineItemName" : "Advance to Suppliers",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 10,
+			"LineItemName" : "Purchase Credit Notes Paid by Suppliers",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 11,
+			"LineItemName" : "Sales Credit Notes Paid to Customers",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 12,
+			"LineItemName" : "Cash Paid for Rent (Properties/Outlets)",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 13,
+			"LineItemName" : "Cash Paid for Utilities (Electricity, Water, Gas)",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 14,
+			"LineItemName" : "Cash Paid for Communication (Phone and Internet), Printing and Stationary",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 15,
+			"LineItemName" : "Cash Paid for Professional, Legal and Audit Services",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 16,
+			"LineItemName" : "Cash paid for Repair and Maintenance",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 17,
+			"LineItemName" : "Cash paid for Fee, Subscription and Franchise Fees",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 18,
+			"LineItemName" : "Cash paid for Board Remuneration and Audit Committee Incentives",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 19,
+			"LineItemName" : "Cash paid for Insurance",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 20,
+			"LineItemName" : "Payments to Employees (Wages, Salaries, Benefits)",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 21,
+			"LineItemName" : "Other Operating Expenses Paid",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 22,
+			"LineItemName" : "VAT Paid to Authorities",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 23,
+			"LineItemName" : "Zakat Paid to Authorities",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 24,
+			"LineItemName" : "Payments for Petty Cash Replenishment",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 1,
+			"Level" : 2,
+			"Drawer" : 1
+		},
+		{
+			"LineItemID" : 25,
+			"LineItemName" : "Purchase of Property, Plant & Equipment and Intangibles",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 2,
+			"Level" : 2,
+			"Drawer" : 2
+		},
+		{
+			"LineItemID" : 26,
+			"LineItemName" : "Purchase of Investment Properties",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 2,
+			"Level" : 2,
+			"Drawer" : 2
+		},
+		{
+			"LineItemID" : 27,
+			"LineItemName" : "Purchase of Financial Assets (Shares/Obligations)",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 2,
+			"Level" : 2,
+			"Drawer" : 2
+		},
+		{
+			"LineItemID" : 28,
+			"LineItemName" : "Proceeds from Sale of Fixed Assets",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 2,
+			"Level" : 2,
+			"Drawer" : 2
+		},
+		{
+			"LineItemID" : 29,
+			"LineItemName" : "Proceeds from Sale of Financial Assets",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 2,
+			"Level" : 2,
+			"Drawer" : 2
+		},
+		{
+			"LineItemID" : 30,
+			"LineItemName" : "Dividends Received (Investment Portfolios)",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 2,
+			"Level" : 2,
+			"Drawer" : 2
+		},
+		{
+			"LineItemID" : 31,
+			"LineItemName" : "Investment in Subsidiaries, JVs and Associates",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 2,
+			"Level" : 2,
+			"Drawer" : 2
+		},
+		{
+			"LineItemID" : 32,
+			"LineItemName" : "Proceeds/Payments for Issue or Redemption of Shares",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 3,
+			"Level" : 2,
+			"Drawer" : 3
+		},
+		{
+			"LineItemID" : 33,
+			"LineItemName" : "Proceeds/Repayments from Long-term Borrowings (Loans/Bonds)",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 3,
+			"Level" : 2,
+			"Drawer" : 3
+		},
+		{
+			"LineItemID" : 34,
+			"LineItemName" : "Payments for Finance Lease Liabilities (e.g., equipment/vehicle leases)",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 3,
+			"Level" : 2,
+			"Drawer" : 3
+		},
+		{
+			"LineItemID" : 35,
+			"LineItemName" : "Repayment of Loans",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 3,
+			"Level" : 2,
+			"Drawer" : 3
+		},
+		{
+			"LineItemID" : 36,
+			"LineItemName" : "Dividends Paid to Shareholders",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 3,
+			"Level" : 2,
+			"Drawer" : 3
+		},
+		{
+			"LineItemID" : 37,
+			"LineItemName" : "Interest Received from Affiliates (Financing Activities)",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 3,
+			"Level" : 2,
+			"Drawer" : 3
+		},
+		{
+			"LineItemID" : 38,
+			"LineItemName" : "Interest Paid on Loan",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 3,
+			"Level" : 2,
+			"Drawer" : 3
+		},
+		{
+			"LineItemID" : 39,
+			"LineItemName" : "Bank Charges Paid",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 3,
+			"Level" : 2,
+			"Drawer" : 3
+		},
+		{
+			"LineItemID" : 40,
+			"LineItemName" : "Cash Received from Affiliates",
+			"ActiveLineItem" : "tYES",
+			"ParentArticle" : 3,
+			"Level" : 2,
+			"Drawer" : 3
+		}
+	]
+}

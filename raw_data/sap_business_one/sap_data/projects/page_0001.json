@@ -1,0 +1,707 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#Projects",
+	"value" : 
+	[
+		{
+			"Code" : "1N2-ALL-1509-03",
+			"Name" : "1N2-ALL-1509-03",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900002",
+			"Name" : "ALF Mall Uplift Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900007",
+			"Name" : "AL Faisaliah Mall Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900829",
+			"Name" : "IP Telephony Project with MS team integr",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900878",
+			"Name" : "5x Dell latitude laptop i5 for IT Dep",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900879",
+			"Name" : "5x Dell WD19 Docking station",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900897",
+			"Name" : "Civi works in Apt 312 and 313(CEO Apt)",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900901",
+			"Name" : "\"Ph1 APT 312,313LIGHTING FM LBR MATTRESSE\"",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900903",
+			"Name" : "\"Installation new pipe lines ceo312,313ap\"",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900907",
+			"Name" : "installation of tiles in a bathroom wate",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900917",
+			"Name" : "Plastic acordion door and gypsum partiti",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "900919",
+			"Name" : "ALK hotel land renovation parking facili",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFC-BRN-1601-01",
+			"Name" : "AFC-BRN-1601-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFC-CPX-1702-01",
+			"Name" : "AFC-CPX-1702-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFH-FIR-1601-01",
+			"Name" : "AFH-FIR-1601-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFM-CHI-1701-01",
+			"Name" : "AFM-CHI-1701-01",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFM-CHI-1701-02",
+			"Name" : "AFM-CHI-1701-02",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-HAK-1506",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-HAK-1506-03",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-HAK-15060301",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-HAK-15060302",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-HAK-15060305",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-HAK-15060809",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-HAK-15060810",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-KFF-AUD-2312",
+			"Name" : "King Faisal Foundation Auditorium",
+			"ValidFrom" : "2023-12-19T00:00:00Z",
+			"ValidTo" : "2026-12-17T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-LPM-1509",
+			"Name" : "LPM Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-LPM-1509-01",
+			"Name" : "LPM Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-LPM-1509-03",
+			"Name" : "LPM Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-LPM-1509-07",
+			"Name" : "LPM Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-LPM-1509-08",
+			"Name" : "LPM Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-LPM-1509-09",
+			"Name" : "LPM Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-LPM-1509-11",
+			"Name" : "LPM Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MAM-1507",
+			"Name" : "MAMO Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MAM-1507-01",
+			"Name" : "MAMO Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MAM-1507-02",
+			"Name" : "MAMO Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MAM-1507-03",
+			"Name" : "MAMO Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MAM-1507-08",
+			"Name" : "MAMO Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MAM-1507-10",
+			"Name" : "MAMO Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MER-1508",
+			"Name" : "Meraki Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MER-1508-03",
+			"Name" : "Meraki Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MER-1508-08",
+			"Name" : "Meraki Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MER-1508-09",
+			"Name" : "Meraki Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MOA-1510",
+			"Name" : "Al Moatasim Street Redevelopment Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MOA-1510-01",
+			"Name" : "Al Moatasim Street Redevelopment Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MOA-1510-04",
+			"Name" : "Al Moatasim Street Redevelopment Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MUL-1505",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MUL-15051001",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MUL-15051004",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFT-RUP-MUL-15051005",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPHAK-1506-03",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPHAK-1506-03-04",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPHAK-1506-07-04",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPHAK-1506-08",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPHAK-1506-09",
+			"Name" : "Yauatcha Restaurant",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-01",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-02",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-04",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-05",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-06",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-07",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-08",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-09",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-10-01",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-10-02",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-10-03",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-10-04",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-10-05",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-11-01",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AFTRUPMUL-1505-12",
+			"Name" : "ALF Redevelopment & Upgrading Project",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-CRISIS-MGMT-2407",
+			"Name" : "Crisis Management",
+			"ValidFrom" : "2024-07-08T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-Catering-2409",
+			"Name" : "Al Khozama Catering Project - F&B 2024",
+			"ValidFrom" : "2024-09-25T00:00:00Z",
+			"ValidTo" : "2024-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-DAPINO-2402",
+			"Name" : "Dapino Development",
+			"ValidFrom" : "2024-02-19T00:00:00Z",
+			"ValidTo" : "2025-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-DUCASSE-2404",
+			"Name" : "Alain Ducasse Chocolate & Cafe Shop",
+			"ValidFrom" : "2024-04-22T00:00:00Z",
+			"ValidTo" : "2026-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-HQ-REN-2403",
+			"Name" : "Al Khozama Head Quarters Renovation",
+			"ValidFrom" : "2024-03-05T00:00:00Z",
+			"ValidTo" : "2024-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-IT-DOC-ARC-2508",
+			"Name" : "AK Document Archiving System",
+			"ValidFrom" : "2025-08-18T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-IT-YARDI-2503",
+			"Name" : "YARDI SYSTEM IMPLEMENTATION",
+			"ValidFrom" : "2025-02-01T00:00:00Z",
+			"ValidTo" : "2026-01-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-MERAKI-2408",
+			"Name" : "Meraki Restaurant",
+			"ValidFrom" : "2024-08-04T00:00:00Z",
+			"ValidTo" : "2024-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-PMO-MR-2025",
+			"Name" : "PMO Projects - Management Reserve FY2025",
+			"ValidFrom" : "2025-02-13T00:00:00Z",
+			"ValidTo" : "2025-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-PMO-PHASE 1B-2509",
+			"Name" : "Phase 1B Development",
+			"ValidFrom" : "2025-09-01T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-PSGH-2412",
+			"Name" : "Prince Sultan Grand Hall and Omsiat Hall Renovation",
+			"ValidFrom" : "2024-12-01T00:00:00Z",
+			"ValidTo" : "2026-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-SW3-2409",
+			"Name" : "Dinings SW3 Restaurant",
+			"ValidFrom" : "2024-09-16T00:00:00Z",
+			"ValidTo" : "2025-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-SWLR-2411",
+			"Name" : "South Wing Lobby Renovation - MOHG",
+			"ValidFrom" : "2025-02-13T00:00:00Z",
+			"ValidTo" : "2025-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AK-SWLR-2412",
+			"Name" : "Southwing Lobby Renovation",
+			"ValidFrom" : "2024-12-01T00:00:00Z",
+			"ValidTo" : "2025-12-31T00:00:00Z",
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKFM-AUC-AKC-2311",
+			"Name" : "Al Khozama Center Land Parking Construction",
+			"ValidFrom" : "2023-11-01T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKFM-AUC-KFM-2311",
+			"Name" : "KFF Mosque Toilet Renovation",
+			"ValidFrom" : "2023-11-01T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKFM-FTEX-MTST-PARK",
+			"Name" : "Motesim Street Permenent Pakring Construction",
+			"ValidFrom" : "2024-10-29T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKFM-FTKT-SMOKE-ROOM",
+			"Name" : "Smoking Room Construction for FT/KFFNT/KFFST/HQ",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKFM-KFF-PARK-1223",
+			"Name" : "KFF Parking - Renovation Works",
+			"ValidFrom" : "2023-12-06T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKFM-KFFT-C-TOWER",
+			"Name" : "Colling Tower KFF",
+			"ValidFrom" : null,
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKFM-KFT-WAP",
+			"Name" : "KFF NT/ST & HQ ROOF Water Proffing",
+			"ValidFrom" : "2023-11-02T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKFM-KTNT-BPDF-2406",
+			"Name" : "KFF N/T Boosting Pump room New door",
+			"ValidFrom" : "2024-05-27T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKFM-TPL-STIK-1223",
+			"Name" : "Tower Plaza Glass Sticker Replace",
+			"ValidFrom" : "2023-12-06T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKFM-UPS-BATRY-2408",
+			"Name" : "UPS Batter replacement Tower",
+			"ValidFrom" : "2024-07-16T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKH-HOS-DAT-1701",
+			"Name" : "Al Khozama Hotel - Data Center Solution",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKH-HOS-DAT-1701-01",
+			"Name" : "Al Khozama Hotel - Data Center Solution",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKIC-PARK-LAND",
+			"Name" : "Old Khozama Hotel Land Develop for Parking Facility",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-1N2-ALL-1509",
+			"Name" : "Al Khozama Head Office 1st & 2nd Floor",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-1N2-ALL-1509-03",
+			"Name" : "Al Khozama Head Office 1st & 2nd Floor",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFC-BRN-1601",
+			"Name" : "Capex-Al Faisaliah Center Branding Dev.",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		},
+		{
+			"Code" : "AKM-AFC-BRN-1601-01",
+			"Name" : "Capex-Al Faisaliah Center Branding Dev.",
+			"ValidFrom" : "0101-06-20T00:00:00Z",
+			"ValidTo" : null,
+			"Active" : "tYES"
+		}
+	],
+	"odata.nextLink" : "Projects?$orderby=Code&$skip=100"
+}

@@ -1,0 +1,36 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#WeightMeasures",
+	"value" : 
+	[
+		{
+			"UnitCode" : 1,
+			"UnitDisplay" : "mg",
+			"UnitName" : "Milligramme",
+			"UnitWeightinmg" : 1.0
+		},
+		{
+			"UnitCode" : 2,
+			"UnitDisplay" : "g",
+			"UnitName" : "Gramme",
+			"UnitWeightinmg" : 1000.0
+		},
+		{
+			"UnitCode" : 3,
+			"UnitDisplay" : "kg",
+			"UnitName" : "Kilogramme",
+			"UnitWeightinmg" : 1000000.0
+		},
+		{
+			"UnitCode" : 4,
+			"UnitDisplay" : "Oz",
+			"UnitName" : "Ounce",
+			"UnitWeightinmg" : 28300.0
+		},
+		{
+			"UnitCode" : 5,
+			"UnitDisplay" : "Lb",
+			"UnitName" : "Pound",
+			"UnitWeightinmg" : 453592.4
+		}
+	]
+}

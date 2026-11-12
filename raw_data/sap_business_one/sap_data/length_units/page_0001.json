@@ -1,0 +1,48 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#LengthMeasures",
+	"value" : 
+	[
+		{
+			"UnitCode" : 1,
+			"UnitDisplay" : "mm",
+			"UnitName" : "Millimetre",
+			"UnitCodeforQuantityDisplay" : "cmm",
+			"UnitLengthinmm" : 1.0
+		},
+		{
+			"UnitCode" : 2,
+			"UnitDisplay" : "cm",
+			"UnitName" : "Centimetre",
+			"UnitCodeforQuantityDisplay" : "cc",
+			"UnitLengthinmm" : 10.0
+		},
+		{
+			"UnitCode" : 3,
+			"UnitDisplay" : "dm",
+			"UnitName" : "Decimetre",
+			"UnitCodeforQuantityDisplay" : "cdm",
+			"UnitLengthinmm" : 100.0
+		},
+		{
+			"UnitCode" : 4,
+			"UnitDisplay" : "m",
+			"UnitName" : "Metre",
+			"UnitCodeforQuantityDisplay" : "cm",
+			"UnitLengthinmm" : 1000.0
+		},
+		{
+			"UnitCode" : 5,
+			"UnitDisplay" : "\"",
+			"UnitName" : "Inch",
+			"UnitCodeforQuantityDisplay" : "ci",
+			"UnitLengthinmm" : 25.4
+		},
+		{
+			"UnitCode" : 6,
+			"UnitDisplay" : "'",
+			"UnitName" : "Foot",
+			"UnitCodeforQuantityDisplay" : "cf",
+			"UnitLengthinmm" : 304.8
+		}
+	]
+}

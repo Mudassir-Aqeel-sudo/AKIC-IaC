@@ -1,0 +1,26 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#BusinessPartnerGroups",
+	"value" : 
+	[
+		{
+			"Code" : 100,
+			"Name" : "Customers",
+			"Type" : "bbpgt_CustomerGroup"
+		},
+		{
+			"Code" : 157,
+			"Name" : "Tenant",
+			"Type" : "bbpgt_CustomerGroup"
+		},
+		{
+			"Code" : 160,
+			"Name" : "Local Customer",
+			"Type" : "bbpgt_CustomerGroup"
+		},
+		{
+			"Code" : 161,
+			"Name" : "International Customer",
+			"Type" : "bbpgt_CustomerGroup"
+		}
+	]
+}

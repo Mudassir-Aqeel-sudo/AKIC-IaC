@@ -1,0 +1,36 @@
+{
+	"odata.metadata" : "https://akmobapp.alkhozama.com:50000/b1s/v1/$metadata#Dimensions",
+	"value" : 
+	[
+		{
+			"DimensionCode" : 1,
+			"DimensionName" : "Dimension 1",
+			"IsActive" : "tYES",
+			"DimensionDescription" : "Business Unit"
+		},
+		{
+			"DimensionCode" : 2,
+			"DimensionName" : "Dimension 2",
+			"IsActive" : "tYES",
+			"DimensionDescription" : "Department"
+		},
+		{
+			"DimensionCode" : 3,
+			"DimensionName" : "Dimension 3",
+			"IsActive" : "tYES",
+			"DimensionDescription" : "Profit Center"
+		},
+		{
+			"DimensionCode" : 4,
+			"DimensionName" : "Dimension 4",
+			"IsActive" : "tYES",
+			"DimensionDescription" : "Employees"
+		},
+		{
+			"DimensionCode" : 5,
+			"DimensionName" : "Dimension 5",
+			"IsActive" : "tNO",
+			"DimensionDescription" : "Dimension 5"
+		}
+	]
+}
