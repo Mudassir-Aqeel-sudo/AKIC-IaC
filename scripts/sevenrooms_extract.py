@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# tmp/scripts/sevenrooms_extract.py
+# scripts/sevenrooms_extract.py
 """
 SevenRooms API extraction: every GET in the Postman collection "SevenRooms AKIC:
 RAW + ANALYTICS (GET only)", all pages, saved as indented (readable) JSON with
@@ -12,7 +12,8 @@ How it works:
   2. POST /auth -> token (sent as the raw Authorization header, no "Bearer").
   3. Each endpoint is read page by page, following data.cursor until there is no
      cursor or no rows. Every page is saved to OUT_DIR/<endpoint>/page_0001.json
-     (charges: OUT_DIR/charges/<venue_id>/page_0001.json).
+     (per-venue endpoints such as charges, events and feedback:
+     OUT_DIR/<endpoint>/<venue_id>/page_0001.json).
   4. 401 -> logs in again once. 429 (rate limit) -> waits and retries, 3 times max.
   5. Only status codes, row counts and SevenRooms error messages are printed, never
      field values. The venue group id is masked in printed links.
@@ -22,7 +23,7 @@ Collection mapping: 1.1 venues, 1.3 + 1.4 reservations (updated_since + cursor),
 return data). 1.2 is the first page of 1.4 without the date filter, and 2.1 to 2.4
 are the same GETs as 1.x, so they are not repeated.
 
-Where it sits: local capture helper next to tmp/scripts/sevenrooms_requests.sh.
+Where it sits: local capture helper next to scripts/sevenrooms_requests.sh.
 Upgrade path: the same calls move into the connector Lambda, with the guest-PII
 allow-list applied before anything is stored or logged.
 
@@ -31,17 +32,18 @@ Required in .env (gitignored):
   SEVENROOMS_CLIENT_SECRET=...
   SEVENROOMS_VENUE_GROUP_ID=...
 Variables already exported in your shell win over .env, so you can override one
-run, e.g. UPDATED_SINCE=2026-09-01 python tmp/scripts/sevenrooms_extract.py reservations
+run, e.g. UPDATED_SINCE=2026-09-01 python scripts/sevenrooms_extract.py reservations
 
 Optional:
   SEVENROOMS_BASE_URL (default https://api.sevenrooms.com/2_4)
   LIMIT (default 100), UPDATED_SINCE (default 2026-10-01), MAX_PAGES (default 500),
+  FEEDBACK_START / FEEDBACK_END (MM-DD-YYYY, default UPDATED_SINCE to today),
   OUT_DIR (default raw_data/sevenrooms/sevenrooms_data)
 
 Usage (from the repo root, with .venv active):
-  python tmp/scripts/sevenrooms_extract.py                       # every endpoint
-  python tmp/scripts/sevenrooms_extract.py reservations charges  # only these
-  python tmp/scripts/sevenrooms_extract.py list                  # endpoint names (no network)
+  python scripts/sevenrooms_extract.py                       # every endpoint
+  python scripts/sevenrooms_extract.py reservations charges  # only these
+  python scripts/sevenrooms_extract.py list                  # endpoint names (no network)
 
 A rerun overwrites pages in place: delete an endpoint's old page_*.json first if
 the new pull may have fewer pages.
@@ -56,6 +58,7 @@ import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from datetime import date
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -66,12 +69,17 @@ load_dotenv(ENV_FILE)  # override=False: shell variables win
 BASE_URL = os.getenv("SEVENROOMS_BASE_URL", "https://api.sevenrooms.com/2_4").rstrip("/")
 LIMIT = os.getenv("LIMIT", "100")
 UPDATED_SINCE = os.getenv("UPDATED_SINCE", "2026-10-01")
+# /feedback reads start_date/end_date as MM-DD-YYYY: "01-10-2026" came back from 10 Jan, not 1 Oct.
+# Defaults: UPDATED_SINCE to today.
+FEEDBACK_START = os.getenv("FEEDBACK_START", date.fromisoformat(UPDATED_SINCE).strftime("%m-%d-%Y"))
+FEEDBACK_END = os.getenv("FEEDBACK_END", date.today().strftime("%m-%d-%Y"))
 MAX_PAGES = int(os.getenv("MAX_PAGES", "500"))
 OUT_DIR = Path(os.getenv("OUT_DIR", "raw_data/sevenrooms/sevenrooms_data"))
 VENUE_GROUP_ID = os.getenv("SEVENROOMS_VENUE_GROUP_ID", "")
 TIMEOUT = 120  # seconds
 
-# folder: (collection id, path, query as in the collection). Charges run once per venue.
+# folder: (collection id, path, query). Paths with {venue_id} run once per venue.
+# clients, events and feedback use the paths Izhan found; the last three are still unknown (404).
 ENDPOINTS = {
     "venues": ("1.1", "/venues", {}),
     "reservations": ("1.3+1.4", "/reservations", {"limit": LIMIT, "updated_since": UPDATED_SINCE}),
@@ -79,12 +87,12 @@ ENDPOINTS = {
                             {"venue_group_id": VENUE_GROUP_ID, "updated_since": UPDATED_SINCE}),
     "charges": ("1.6", "/venues/{venue_id}/charges", {}),
     "clients_export": ("3.1", "/clients/export", {"venue_group_id": VENUE_GROUP_ID}),
-    "clients": ("3.2", "/clients", {}),
-    "events": ("3.3", "/events", {}),
+    "clients": ("3.2", "/clients", {"venue_group_id": VENUE_GROUP_ID}),
+    "events": ("3.3", "/venues/{venue_id}/events", {}),
     "reservation_requests": ("3.4", "/reservation-requests", {}),
     "programs": ("3.5", "/programs", {}),
     "payout_profiles": ("3.6", "/payout-profiles", {}),
-    "feedback": ("3.7", "/feedback", {}),
+    "feedback": ("3.7", "/venues/{venue_id}/feedback", {"start_date": FEEDBACK_START, "end_date": FEEDBACK_END}),
 }
 
 RESULTS = []  # (verdict, label, detail, link)
@@ -118,7 +126,7 @@ def rows_of(body):
 
 def cursor_of(body):
     data = body.get("data")
-    return data.get("cursor") if isinstance(data, dict) else None
+    return (data.get("cursor") or data.get("next_cursor")) if isinstance(data, dict) else None  # events use next_cursor
 
 
 def error_of(raw):
@@ -245,17 +253,18 @@ def main(argv):
         sys.exit(f"Unknown endpoints: {', '.join(unknown)}. Run 'list' to see them.")
 
     selected = [n for n in ENDPOINTS if n in names] or list(ENDPOINTS)
-    if "charges" in selected and "venues" not in selected and not venue_ids():
-        selected.insert(0, "venues")  # charges need the venue ids
+    per_venue = [n for n in selected if "{venue_id}" in ENDPOINTS[n][1]]
+    if per_venue and "venues" not in selected and not venue_ids():
+        selected.insert(0, "venues")  # per-venue endpoints need the venue ids
 
     c = Client()
     c.auth()
     for name in selected:
         cid, path, query = ENDPOINTS[name]
-        if name == "charges":
+        if "{venue_id}" in path:
             for vid in venue_ids():
-                pull(c, f"{cid} charges {vid[:12]}...", path.format(venue_id=urllib.parse.quote(vid)),
-                     query, OUT_DIR / "charges" / vid)
+                pull(c, f"{cid} {name} {vid[:12]}...", path.format(venue_id=urllib.parse.quote(vid)),
+                     query, OUT_DIR / name / vid)
         else:
             pull(c, f"{cid} {name}", path, query, OUT_DIR / name)
     summary()
