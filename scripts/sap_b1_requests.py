@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# tmp/scripts/sap_b1_requests.py
+# scripts/sap_b1_requests.py
 """
 SAP Business One Service Layer extraction, one call per "List" request in the
 Postman collection "Alkhozama - SAP Business One Service Layer - BI Data APIs
@@ -10,15 +10,24 @@ How it works:
   1. Reads credentials from .env (never from this file, never printed).
   2. POST /Login -> B1SESSION (+ ROUTEID) cookies, kept in memory for the run.
      A failed login is never retried, so the SAP user does not get locked.
-  3. Each entity is read page by page (header Prefer: odata.maxpagesize=PAGE_SIZE),
-     following "odata.nextLink" until it is absent. Every page is saved as-is to
-     OUT_DIR/<entity>/page_0001.json. A rerun overwrites files in place: delete
-     old page_*.json of an entity first if the new pull has fewer pages.
-  4. Only HTTP codes, row counts and page counts are printed, never field values.
-  5. A 401 (session expired) logs in again once and repeats the request.
-  6. POST /Logout at the end, also after errors, to release the SAP license.
+  3. Each entity is read from its first record, page by page (header Prefer:
+     odata.maxpagesize=PAGE_SIZE), following "odata.nextLink" until it is absent,
+     with no page limit. full and all have no date filter; only delta uses FROM_DATE.
+     Every page is saved as-is to OUT_DIR/run_<YYYYMMDD_HHMMSS>/<entity>/page_0001.json,
+     so each run is a complete copy of its own and never mixes with an older run.
+  4. Jobs (each entity, plus the services block) run WORKERS at a time (default 8),
+     each worker on its own SAP session; when one job finishes, the next starts.
+     Sessions log in one by one first; if SAP refuses a later login, the run goes
+     on with the sessions it has. A summary with result and time per entity is
+     printed at the end.
+  5. Only HTTP codes, row counts and page counts are printed, never field values.
+  6. A 401 (session expired) logs in again once and repeats the request. A page
+     that fails with a network error or HTTP 429/5xx is retried 3 times (30, 60
+     and 90 seconds apart) before that entity is reported as failed.
+  7. Every session logs out at the end, also after errors or Ctrl+C, to release
+     the SAP license. Ctrl+C lets in-flight pages finish first.
 
-Where it sits: local capture helper, like tmp/scripts/sevenrooms_requests.sh.
+Where it sits: local capture helper, like scripts/sevenrooms_requests.sh.
 Upgrade path: the same calls move into a connector Lambda (Bronze raw/ in S3)
 with credentials in Secrets Manager.
 
@@ -28,22 +37,23 @@ spaces, # or quotes:
   SAP_B1_USERNAME=...      (domain users: DOMAIN\\user)
   SAP_B1_PASSWORD=...
 Variables already exported in your shell win over .env, so you can override one
-run, e.g. FROM_DATE=2026-09-01 python tmp/scripts/sap_b1_requests.py delta
+run, e.g. FROM_DATE=2026-09-01 python scripts/sap_b1_requests.py delta
 
 Optional:
   SAP_B1_BASE_URL (default https://akmobapp.alkhozama.com:50000/b1s/v1)
   PAGE_SIZE (default 100, SAP recommends max 500), FROM_DATE (default 2026-01-01),
-  MAX_PAGES (default 1000 per entity), OUT_DIR (default raw_data/sap_business_one/sap_data)
+  MAX_PAGES (default 0 = no limit), OUT_DIR (default raw_data/sap_business_one/sap_data)
+  WORKERS (default 8 jobs at a time; 0 = every job at once, 1 = one at a time)
 
 Usage (from the repo root, with .venv active):
-  python tmp/scripts/sap_b1_requests.py login                  # check login only
-  python tmp/scripts/sap_b1_requests.py entities               # list entities (no network)
-  python tmp/scripts/sap_b1_requests.py counts                 # row count per entity ($count)
-  python tmp/scripts/sap_b1_requests.py services               # read-only service actions
-  python tmp/scripts/sap_b1_requests.py full ar_invoices items # full load of some entities
-  python tmp/scripts/sap_b1_requests.py full                   # full load of every entity
-  python tmp/scripts/sap_b1_requests.py delta                  # changed since FROM_DATE
-  python tmp/scripts/sap_b1_requests.py all                    # services + full
+  python scripts/sap_b1_requests.py login                  # check login only
+  python scripts/sap_b1_requests.py entities               # list entities (no network)
+  python scripts/sap_b1_requests.py counts                 # row count per entity ($count)
+  python scripts/sap_b1_requests.py services               # read-only service actions
+  python scripts/sap_b1_requests.py full ar_invoices items # full load of some entities
+  python scripts/sap_b1_requests.py full                   # full load of every entity
+  python scripts/sap_b1_requests.py delta                  # changed since FROM_DATE
+  python scripts/sap_b1_requests.py all                    # services + full
 
 WARNING: responses hold business partner names, addresses, phones, bank and tax
 data and SAP user details. OUT_DIR must stay gitignored. Do not share these files.
@@ -52,13 +62,18 @@ Not covered (each call needs a key or parameter): the "Get ... by key" requests,
 Reconciliation (read by ReconNum only), Get Currency Rate, Get Document Series and
 Get Asset Values (per asset). Journal Vouchers have no read endpoint in SAP.
 """
+import builtins
 import http.cookiejar
 import json
 import os
+import queue
 import sys
+import threading
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 from dotenv import load_dotenv
@@ -69,10 +84,21 @@ load_dotenv(ENV_FILE)  # override=False: shell variables win
 BASE_URL = os.getenv("SAP_B1_BASE_URL", "https://akmobapp.alkhozama.com:50000/b1s/v1").rstrip("/")
 PAGE_SIZE = int(os.getenv("PAGE_SIZE", "100"))
 FROM_DATE = os.getenv("FROM_DATE", "2026-01-01")
-MAX_PAGES = int(os.getenv("MAX_PAGES", "1000"))
+MAX_PAGES = int(os.getenv("MAX_PAGES", "0")) or sys.maxsize  # 0 = no limit
 OUT_DIR = Path(os.getenv("OUT_DIR", "raw_data/sap_business_one/sap_data"))
-RUN_DIR = OUT_DIR
-TIMEOUT = 180  # seconds; heavy document pages can be slow (502/504 = lower PAGE_SIZE)
+RUN_DIR = OUT_DIR / time.strftime("run_%Y%m%d_%H%M%S")
+TIMEOUT = 900  # seconds; with every entity at once, heavy pages (items ~11 MB) can wait long on the server
+WORKERS = int(os.getenv("WORKERS", "8"))  # 8 jobs at a time keeps the client's SAP server comfortable; 0 = all at once
+RETRY_STATUS = {0, 429, 500, 502, 503, 504}  # 0 = network error or timeout
+RETRIES = 3
+STOP = threading.Event()  # set on Ctrl+C or a fatal error: workers stop after their current page
+PRINT_LOCK = threading.Lock()
+
+
+def print(*args, **kwargs):
+    """builtins.print under a lock, so lines from parallel workers never run together."""
+    with PRINT_LOCK:
+        builtins.print(*args, **kwargs)
 
 # name: (resource, $orderby key, "changed since" date field, fixed $filter)
 # Date field as in the collection: UpdateDate where SAP has it. Journal Entries,
@@ -245,16 +271,24 @@ class Session:
 
 
 def pull(s, name, since=False):
-    """All pages of one entity -> RUN_DIR/<name>/page_NNNN.json."""
+    """All pages of one entity -> RUN_DIR/<name>/page_NNNN.json. Returns a short result for the summary."""
     out = RUN_DIR / name
-    out.mkdir(parents=True, exist_ok=True)
     url, page, rows = query(name, since), 0, 0
     while url and page < MAX_PAGES:
+        if STOP.is_set():
+            return f"interrupted after page {page} ({rows} rows)"
         page += 1
-        status, raw = s.call("GET", url)
+        for attempt in range(1, RETRIES + 2):
+            status, raw = s.call("GET", url)
+            if status not in RETRY_STATUS or attempt > RETRIES:
+                break
+            print(f"{name} page {page}: HTTP {status} {sap_error(raw)}, retry {attempt}/{RETRIES} in {30 * attempt}s")
+            if STOP.wait(30 * attempt):  # Ctrl+C ends the wait at once
+                return f"interrupted after page {page - 1} ({rows} rows)"
         if status != 200:
             print(f"{name} page {page}: HTTP {status} {sap_error(raw)}, stopping")
-            break
+            return f"HTTP {status} on page {page} ({rows} rows saved)"
+        out.mkdir(parents=True, exist_ok=True)  # only once data arrives: no empty folder for a blocked screen
         (out / f"page_{page:04d}.json").write_bytes(raw)
         body = json.loads(raw)
         n = len(body.get("value", []))
@@ -267,6 +301,7 @@ def pull(s, name, since=False):
     date_field = ENTITIES[name][2]
     mode = f"changed since {FROM_DATE} ({date_field})" if since and date_field else "full"
     print(f"{name}: {rows} rows, {mode} -> {out}")
+    return f"{rows} rows" + (f", stopped at MAX_PAGES={MAX_PAGES}" if url else "")
 
 
 def counts(s):
@@ -299,6 +334,56 @@ def services(s):
                      suffix=f"_{entry}")
 
 
+def run_parallel(jobs, since):
+    """Runs jobs ("services" or entity names) on up to WORKERS threads, one SAP session each,
+    so threads never share cookies or a re-login."""
+    sessions, results = queue.Queue(), {}
+
+    def run(job):
+        s, t0 = sessions.get(), time.monotonic()
+        try:
+            if job == "services":
+                services(s)
+                result = "done"
+            else:
+                result = pull(s, job, since)
+        except Exception as e:  # one broken entity must not stop the others
+            result = f"FAILED {type(e).__name__}: {e}"
+        finally:
+            sessions.put(s)
+        results[job] = f"{result} in {time.monotonic() - t0:.0f}s"
+
+    try:
+        for i in range(min(WORKERS or len(jobs), len(jobs))):  # one by one: a wrong password fails once, no lockout
+            s = Session()
+            try:
+                s.login()
+            except SystemExit as e:
+                if i == 0:
+                    raise  # first login failed: credentials, stop here
+                print(f"login {i + 1} refused ({str(e.code).split('. Check')[0]}), going on with {i} sessions")
+                break
+            sessions.put(s)
+        print(f"running {len(jobs)} jobs on {sessions.qsize()} parallel sessions -> {RUN_DIR}")
+        with ThreadPoolExecutor(max_workers=sessions.qsize()) as pool:
+            futures = [pool.submit(run, job) for job in jobs]
+            try:
+                for f in as_completed(futures):
+                    f.result()
+            except BaseException:  # Ctrl+C, or a failed re-login (sys.exit) in a worker
+                STOP.set()
+                print("stopping: waiting for in-flight pages, then logging out")
+                pool.shutdown(cancel_futures=True)
+                raise
+    finally:
+        while not sessions.empty():
+            sessions.get().logout()
+        if results:
+            print("\nsummary:")
+            for job in jobs:
+                print(f"  {job:30} {results.get(job, 'not run')}")
+
+
 def main(argv):
     cmd, names = (argv[1] if len(argv) > 1 else "help"), argv[2:]
     if cmd == "entities":
@@ -312,18 +397,19 @@ def main(argv):
     if unknown:
         sys.exit(f"Unknown entities: {', '.join(unknown)}. Run 'entities' to list them.")
 
-    s = Session()
-    s.login()
-    try:
-        if cmd == "counts":
-            counts(s)
-        if cmd in ("services", "all"):
-            services(s)
-        if cmd in ("full", "delta", "all"):
-            for name in names or ENTITIES:
-                pull(s, name, since=cmd == "delta")
-    finally:
-        s.logout()
+    if cmd in ("login", "counts"):
+        s = Session()
+        s.login()
+        try:
+            if cmd == "counts":
+                counts(s)
+        finally:
+            s.logout()
+        return
+    jobs = ["services"] if cmd in ("services", "all") else []
+    if cmd in ("full", "delta", "all"):
+        jobs += names or list(ENTITIES)
+    run_parallel(jobs, since=cmd == "delta")
 
 
 if __name__ == "__main__":
