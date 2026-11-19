@@ -12,20 +12,23 @@ cdk.out
 CLAUDE.*
 
 tmp/
+raw_data/*
+
+# # Zip archives anywhere under raw_data
+# raw_data/**/*.zip
+
+# # Postman environment (credentials)
+# raw_data/sevenrooms/SevenRooms_AKIC.local.postman_environment (1).json
+
+# # SevenRooms data with guest PII (names, phones, emails) or payout/bank details
+# raw_data/sevenrooms/sevenrooms_data/reservations/
+# raw_data/sevenrooms/sevenrooms_data/reservations_export/
+# raw_data/sevenrooms/sevenrooms_data/clients/
+# raw_data/sevenrooms/sevenrooms_data/clients_export/
+# raw_data/sevenrooms/sevenrooms_data/feedback/
+# raw_data/sevenrooms/sevenrooms_data/reservation_requests/
+# raw_data/sevenrooms/sevenrooms_data/payout_profiles/
+# raw_data/sevenrooms/sevenrooms_data/*
 
 
-# Zip archives anywhere under raw_data
-raw_data/**/*.zip
 
-# Postman environment (credentials)
-raw_data/sevenrooms/SevenRooms_AKIC.local.postman_environment (1).json
-
-# SevenRooms data with guest PII (names, phones, emails) or payout/bank details
-raw_data/sevenrooms/sevenrooms_data/reservations/
-raw_data/sevenrooms/sevenrooms_data/reservations_export/
-raw_data/sevenrooms/sevenrooms_data/clients/
-raw_data/sevenrooms/sevenrooms_data/clients_export/
-raw_data/sevenrooms/sevenrooms_data/feedback/
-raw_data/sevenrooms/sevenrooms_data/reservation_requests/
-raw_data/sevenrooms/sevenrooms_data/payout_profiles/
-raw_data/sevenrooms/sevenrooms_data/*
